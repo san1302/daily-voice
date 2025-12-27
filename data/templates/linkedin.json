@@ -1,0 +1,173 @@
+{
+  "templates": [
+    {
+      "id": "technical_breakdown",
+      "name": "Technical Project Breakdown",
+      "type": "long-form",
+      "description": "Deep dive into a technical project or solution",
+      "useCase": "Project retrospectives, technical deep dives, problem-solving stories",
+      "structure": {
+        "hook": "🔍 I spent {TIMEFRAME} {DOING_WHAT}",
+        "sections": [
+          "Hook: What you did + timeframe (first 2 lines critical)",
+          "**The Problem:** Describe the challenge",
+          "**The Solution:** How you approached it",
+          "**Key Insights:** Bulleted learnings",
+          "**Results:** Measurable outcomes",
+          "CTA: Engagement question"
+        ],
+        "formatting": {
+          "paragraphBreak": "2-3 lines max",
+          "useBold": true,
+          "useEmojis": "1-2 max (in hook)",
+          "structure": "Problem → Solution → Insights → Results"
+        }
+      },
+      "hooks": [
+        "🔍 I spent {TIMEFRAME} {DOING_WHAT}. Here's what I learned:",
+        "📊 {PROBLEM} was costing us {COST}. Here's how we solved it:",
+        "🚀 How we {ACHIEVED_RESULT} in {TIMEFRAME}:",
+        "💡 The {PROJECT} that taught me {LESSON}:"
+      ],
+      "examples": [
+        "🔍 I spent 3 months rebuilding our authentication system. Here's what I learned:",
+        "📊 Slow database queries were killing user experience. Here's how we fixed it:"
+      ]
+    },
+    {
+      "id": "opinion_piece",
+      "name": "Opinion/Hot Take",
+      "type": "medium-form",
+      "description": "Share your opinion on industry trends or practices",
+      "useCase": "Industry commentary, challenging norms, thought leadership",
+      "structure": {
+        "hook": "Unpopular opinion in tech:",
+        "sections": [
+          "Hook: Your contrarian take (first 2 lines)",
+          "Context: Why this matters",
+          "Your argument: 3-4 supporting points (short paragraphs)",
+          "Nuance: Acknowledge counterarguments",
+          "Conclusion: Your final stance",
+          "CTA: Ask for their perspective"
+        ],
+        "formatting": {
+          "paragraphBreak": "2-3 lines max",
+          "useBold": "For key terms",
+          "tone": "Professional but authentic",
+          "length": "300-600 words"
+        }
+      },
+      "hooks": [
+        "Unpopular opinion in tech:",
+        "Everyone's doing {TOPIC} wrong. Here's why:",
+        "The truth about {TOPIC}:",
+        "Why {TREND} is overrated:"
+      ],
+      "examples": [
+        "Unpopular opinion in tech: Most startups don't need microservices.",
+        "Everyone's doing code reviews wrong. Here's why:"
+      ]
+    },
+    {
+      "id": "learning_post",
+      "name": "Learning/Insight Share",
+      "type": "short-form",
+      "description": "Share a recent learning or insight",
+      "useCase": "Quick insights, recent learnings, tips",
+      "structure": {
+        "hook": "Today I learned:",
+        "sections": [
+          "Hook: What you learned",
+          "Context: Why you were exploring this",
+          "The insight: The key takeaway",
+          "Application: How to use it",
+          "CTA: Ask if they knew this"
+        ],
+        "formatting": {
+          "paragraphBreak": "2-3 lines max",
+          "length": "200-400 words",
+          "tone": "Conversational, enthusiastic"
+        }
+      },
+      "hooks": [
+        "Today I learned:",
+        "TIL: {INSIGHT}",
+        "Just discovered:",
+        "Mind blown by {TOPIC}:"
+      ],
+      "examples": [
+        "Today I learned: JavaScript's event loop works differently than I thought.",
+        "Just discovered: This one-liner makes debugging 10x easier."
+      ]
+    },
+    {
+      "id": "career_story",
+      "name": "Career Story/Journey",
+      "type": "long-form",
+      "description": "Share career journey, lessons, or pivotal moments",
+      "useCase": "Career advice, retrospectives, inspiration",
+      "structure": {
+        "hook": "{TIMEFRAME} ago, I {WHAT_HAPPENED}",
+        "sections": [
+          "Hook: Setup the story",
+          "**The Journey:** What led to this",
+          "**The Challenge:** What was hard",
+          "**The Turning Point:** Key moment",
+          "**Lessons Learned:** Bulleted insights",
+          "**What I'd Tell My Past Self:** Advice",
+          "CTA: Ask about their journey"
+        ],
+        "formatting": {
+          "paragraphBreak": "2-3 lines max",
+          "useBold": true,
+          "personalTouch": "Be vulnerable and authentic",
+          "length": "400-700 words"
+        }
+      },
+      "hooks": [
+        "{TIMEFRAME} ago, I {WHAT_HAPPENED}. Here's what changed:",
+        "The decision that changed my career:",
+        "From {BEFORE} to {AFTER}: My journey:",
+        "What {TIMEFRAME} as a {ROLE} taught me:"
+      ],
+      "examples": [
+        "3 years ago, I left FAANG to join a startup. Here's what changed:",
+        "From junior dev to tech lead in 2 years: What I learned:"
+      ]
+    },
+    {
+      "id": "build_in_public",
+      "name": "Build in Public Update",
+      "type": "medium-form",
+      "description": "Share progress on a project you're building",
+      "useCase": "Project updates, learning in public, transparency",
+      "structure": {
+        "hook": "Building {PROJECT}: Week {NUMBER} update",
+        "sections": [
+          "Hook: What you're building",
+          "**Progress:** What you shipped this week",
+          "**Challenges:** What was hard",
+          "**Learnings:** Key insights",
+          "**Next Steps:** What's coming",
+          "CTA: Ask for feedback"
+        ],
+        "formatting": {
+          "paragraphBreak": "2-3 lines max",
+          "useBold": true,
+          "includeMetics": "Users, features, growth",
+          "length": "300-500 words"
+        }
+      },
+      "hooks": [
+        "Building {PROJECT}: {MILESTONE} update",
+        "Week {NUMBER} of building {PROJECT}:",
+        "{PROJECT} progress: {METRIC} → {NEW_METRIC}",
+        "What I learned building {FEATURE} this week:"
+      ],
+      "examples": [
+        "Building an AI code reviewer: Week 4 update",
+        "100 users → 1000 users: What changed in our architecture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+/**
+ * generator.js - AI Post Generation using Claude API
+ *
+ * Core engine that transforms thoughts into platform-specific,
+ * human-feeling social media posts.
+ *
+ * Uses:
+ * - Claude API for generation
+ * - Templates as inspiration (not rigid rules)
+ * - Humanization rules to avoid AI detection
+ * - User's past posts to learn their voice
+ */
+
+import Anthropic from '@anthropic-ai/sdk';
+import { getTemplatesAsInspiration, getPlatformGuidelines } from './templates.js';
+import { getHumanizationPrompt, validateHumanFeel } from './humanize.js';
+import { getHistory } from './storage.js';
+
+// Initialize Claude API client
+let anthropic;
+
+/**
+ * Initialize the Anthropic client
+ * @throws {Error} if ANTHROPIC_API_KEY is not set
+ */
+function initializeClient() {
+  if (!anthropic) {
+    const apiKey = process.env.ANTHROPIC_API_KEY;
+    if (!apiKey) {
+      throw new Error('ANTHROPIC_API_KEY environment variable is not set');
+    }
+    anthropic = new Anthropic({ apiKey });
+  }
+  return anthropic;
+}
+
+/**
+ * Load user's voice from past approved posts
+ * Analyzes recent published posts to understand writing style
+ * @param {number} limit - Number of recent posts to analyze (default: 5)
+ * @returns {Promise<string>} - Formatted voice examples
+ */
+async function getUserVoice(limit = 5) {
+  try {
+    const history = await getHistory(limit);
+    const publishedPosts = history.filter(item => item.status === 'published');
+
+    if (publishedPosts.length === 0) {
+      return 'No past posts available yet. Generate in a professional but authentic voice.';
+    }
+
+    let voiceExamples = `Here are ${publishedPosts.length} examples of the user's past posts to match their voice:\n\n`;
+
+    publishedPosts.forEach((post, index) => {
+      voiceExamples += `Example ${index + 1}:\n`;
+
+      // Include Twitter version if available
+      if (post.content?.twitter) {
+        voiceExamples += `Twitter: ${post.content.twitter}\n`;
+      }
+
+      // Include LinkedIn version if available
+      if (post.content?.linkedin) {
+        voiceExamples += `LinkedIn: ${post.content.linkedin.substring(0, 300)}...\n`;
+      }
+
+      voiceExamples += '\n';
+    });
+
+    voiceExamples += 'IMPORTANT: Match this user\'s voice, tone, and style. Notice:\n';
+    voiceExamples += '- How they structure their thoughts\n';
+    voiceExamples += '- Their level of formality/casualness\n';
+    voiceExamples += '- How they use examples and specifics\n';
+    voiceExamples += '- Their natural rhythm and pacing\n';
+
+    return voiceExamples;
+  } catch (error) {
+    // Silently fall back - first-time users won't have voice history yet
+    return 'No past posts available. Generate in a professional but authentic voice.';
+  }
+}
+
+/**
+ * Build the system prompt for Claude
+ * @param {string} platform - 'twitter' or 'linkedin'
+ * @returns {Promise<string>} - Complete system prompt
+ */
+async function buildSystemPrompt(platform) {
+  const templateInspiration = await getTemplatesAsInspiration(platform);
+  const platformGuidelines = getPlatformGuidelines(platform);
+  const humanizationRules = getHumanizationPrompt(platform);
+
+  return `You are an expert social media content creator specializing in ${platform.toUpperCase()} posts.
+
+Your job is to transform the user's thought into an engaging ${platform} post that:
+1. Feels genuinely HUMAN (not AI-generated)
+2. Matches the user's authentic voice
+3. Is optimized for ${platform}'s format and audience
+4. Drives engagement
+
+${humanizationRules}
+
+PLATFORM GUIDELINES (${platform.toUpperCase()}):
+${JSON.stringify(platformGuidelines, null, 2)}
+
+${templateInspiration}
+
+Remember: Your goal is to create content that sounds like it came from a real person sharing authentic thoughts, not a marketing bot or AI assistant.`;
+}
+
+/**
+ * Build the user prompt for a specific thought
+ * @param {string} thought - The user's thought/idea
+ * @param {string} userVoice - Examples of user's past posts
+ * @returns {string} - User prompt for Claude
+ */
+function buildUserPrompt(thought, userVoice) {
+  return `${userVoice}
+
+USER'S THOUGHT:
+"${thought}"
+
+Generate a ${thought.length > 100 ? 'thread or long-form post' : 'post'} based on this thought. Make it:
+- Engaging and authentic
+- True to the user's voice (see examples above)
+- Platform-appropriate
+- Human-feeling (no AI tells)
+
+Return ONLY the post content, no explanations or meta-commentary.`;
+}
+
+/**
+ * Generate a post for a specific platform
+ * @param {string} thought - The user's thought/idea
+ * @param {string} platform - 'twitter' or 'linkedin'
+ * @param {object} options - Additional options
+ * @returns {Promise<object>} - { content: string, validation: object }
+ */
+async function generateForPlatform(thought, platform, options = {}) {
+  const client = initializeClient();
+
+  // Load user's voice from past posts
+  const userVoice = await getUserVoice(options.voiceLimit || 5);
+
+  // Build prompts
+  const systemPrompt = await buildSystemPrompt(platform);
+  const userPrompt = buildUserPrompt(thought, userVoice);
+
+  try {
+    // Call Claude API
+    const response = await client.messages.create({
+      model: options.model || 'claude-opus-4-5-20251101',
+      max_tokens: platform === 'twitter' ? 1000 : 2000,
+      temperature: 0.7, // Some creativity, but not too wild
+      system: systemPrompt,
+      messages: [
+        {
+          role: 'user',
+          content: userPrompt
+        }
+      ]
+    });
+
+    // Extract content
+    const content = response.content[0].text.trim();
+
+    // Validate human feel
+    const validation = validateHumanFeel(content, platform);
+
+    return {
+      content,
+      validation,
+      metadata: {
+        model: response.model,
+        usage: response.usage
+      }
+    };
+  } catch (error) {
+    throw new Error(`Failed to generate ${platform} post: ${error.message}`);
+  }
+}
+
+/**
+ * Generate posts for multiple platforms
+ * Main function for post generation
+ *
+ * @param {string} thought - The user's thought/idea
+ * @param {object} options - Generation options
+ * @param {string[]} options.platforms - Platforms to generate for (default: ['twitter', 'linkedin'])
+ * @param {string} options.model - Claude model to use (default: opus-4-5)
+ * @param {number} options.voiceLimit - Number of past posts to analyze (default: 5)
+ * @returns {Promise<object>} - { twitter?: {...}, linkedin?: {...} }
+ */
+export async function generatePost(thought, options = {}) {
+  if (!thought || typeof thought !== 'string' || thought.trim().length === 0) {
+    throw new Error('Thought is required and must be a non-empty string');
+  }
+
+  const platforms = options.platforms || ['twitter', 'linkedin'];
+  const results = {};
+
+  // Generate for each platform in parallel
+  const generations = platforms.map(async (platform) => {
+    try {
+      const result = await generateForPlatform(thought, platform, options);
+      return { platform, result };
+    } catch (error) {
+      console.error(`Error generating for ${platform}:`, error);
+      return {
+        platform,
+        result: {
+          content: null,
+          error: error.message,
+          validation: { passes: false, score: 0, feedback: [error.message] }
+        }
+      };
+    }
+  });
+
+  const generatedPosts = await Promise.all(generations);
+
+  // Organize results by platform
+  generatedPosts.forEach(({ platform, result }) => {
+    results[platform] = result;
+  });
+
+  return results;
+}
+
+/**
+ * Refine an existing draft based on user feedback
+ *
+ * @param {string} draft - The current draft
+ * @param {string} feedback - User's feedback (e.g., "make it shorter", "more technical")
+ * @param {string} platform - 'twitter' or 'linkedin'
+ * @param {object} options - Additional options
+ * @returns {Promise<object>} - { content: string, validation: object }
+ */
+export async function refinePost(draft, feedback, platform, options = {}) {
+  if (!draft || !feedback || !platform) {
+    throw new Error('Draft, feedback, and platform are required');
+  }
+
+  const client = initializeClient();
+  const systemPrompt = await buildSystemPrompt(platform);
+  const humanizationRules = getHumanizationPrompt(platform);
+
+  const userPrompt = `Here is the current draft:
+
+"${draft}"
+
+USER FEEDBACK: ${feedback}
+
+Revise the post based on this feedback while:
+1. Maintaining the human feel (no AI tells)
+2. Keeping the core message
+3. Following platform guidelines
+4. Staying true to the user's voice
+
+${humanizationRules}
+
+Return ONLY the revised post, no explanations.`;
+
+  try {
+    const response = await client.messages.create({
+      model: options.model || 'claude-opus-4-5-20251101',
+      max_tokens: platform === 'twitter' ? 1000 : 2000,
+      temperature: 0.7,
+      system: systemPrompt,
+      messages: [
+        {
+          role: 'user',
+          content: userPrompt
+        }
+      ]
+    });
+
+    const content = response.content[0].text.trim();
+    const validation = validateHumanFeel(content, platform);
+
+    return {
+      content,
+      validation,
+      metadata: {
+        model: response.model,
+        usage: response.usage,
+        refinedFrom: draft
+      }
+    };
+  } catch (error) {
+    throw new Error(`Failed to refine ${platform} post: ${error.message}`);
+  }
+}
+
+/**
+ * Quick refinement shortcuts for common feedback
+ * @param {string} draft - The current draft
+ * @param {string} action - 'shorter', 'longer', 'more_technical', 'less_technical', 'more_casual', 'more_professional'
+ * @param {string} platform - 'twitter' or 'linkedin'
+ * @returns {Promise<object>} - Refined post
+ */
+export async function quickRefine(draft, action, platform) {
+  const feedbackMap = {
+    shorter: 'Make this significantly shorter while keeping the core message. Cut at least 30%.',
+    longer: 'Expand this with more details, examples, or context.',
+    more_technical: 'Add more technical depth and specific implementation details.',
+    less_technical: 'Simplify the technical aspects, make it accessible to non-technical readers.',
+    more_casual: 'Make the tone more casual and conversational, like talking to a friend.',
+    more_professional: 'Make the tone more professional while staying authentic.',
+    spicier: 'Make this more bold and controversial. Add a stronger opinion or hot take.',
+    safer: 'Tone down any controversial elements, make it more balanced and diplomatic.'
+  };
+
+  const feedback = feedbackMap[action];
+  if (!feedback) {
+    throw new Error(`Unknown action: ${action}. Available: ${Object.keys(feedbackMap).join(', ')}`);
+  }
+
+  return refinePost(draft, feedback, platform);
+}
+
+/**
+ * Batch generate variations of a post
+ * Useful for giving user multiple options to choose from
+ *
+ * @param {string} thought - The user's thought
+ * @param {string} platform - 'twitter' or 'linkedin'
+ * @param {number} count - Number of variations (default: 3, max: 5)
+ * @returns {Promise<Array>} - Array of generated variations
+ */
+export async function generateVariations(thought, platform, count = 3) {
+  if (count > 5) {
+    throw new Error('Maximum 5 variations allowed');
+  }
+
+  const variations = [];
+
+  for (let i = 0; i < count; i++) {
+    try {
+      const result = await generateForPlatform(thought, platform, {
+        temperature: 0.7 + (i * 0.1) // Slight temperature variation for diversity
+      });
+      variations.push({
+        version: i + 1,
+        ...result
+      });
+    } catch (error) {
+      console.error(`Failed to generate variation ${i + 1}:`, error);
+    }
+  }
+
+  return variations;
+}
+
+/**
+ * Parse user instruction to determine which platform(s) to modify
+ *
+ * Uses Claude to intelligently detect which platform(s) the user wants to modify
+ * and cleans up the instruction by removing platform-specific preambles.
+ *
+ * @param {string} instruction - User's custom instruction
+ * @param {Array<string>} availablePlatforms - Platforms to choose from (e.g., ['twitter', 'linkedin'])
+ * @returns {Promise<object>} - { platforms: string[], cleanedInstruction: string }
+ */
+export async function parsePlatformIntent(instruction, availablePlatforms) {
+  if (!instruction || !availablePlatforms || availablePlatforms.length === 0) {
+    return {
+      platforms: availablePlatforms || [],
+      cleanedInstruction: instruction || ''
+    };
+  }
+
+  const client = initializeClient();
+
+  const prompt = `Parse this user instruction to determine which platform(s) they want to modify.
+
+Available platforms: ${availablePlatforms.join(', ')}
+
+User instruction: "${instruction}"
+
+Determine:
+1. Which platform(s) should be modified? Look for mentions of platform names, or if no specific platform is mentioned, assume ALL platforms.
+2. Remove platform-specific preambles from the instruction (like "LinkedIn post seems fine" or "Twitter is good")
+
+Examples:
+- "LinkedIn post seems fine. Make Twitter post shorter" → platforms: ["twitter"], instruction: "Make it shorter"
+- "Make both posts more technical" → platforms: ["twitter", "linkedin"], instruction: "Make it more technical"
+- "Add this link: https://..." → platforms: ["twitter", "linkedin"], instruction: "Add this link: https://..." (no platform mentioned = all)
+- "Only the X post should be spicier" → platforms: ["twitter"], instruction: "Make it spicier"
+- "Just update LinkedIn to mention React" → platforms: ["linkedin"], instruction: "Mention React"
+
+Platform name variations:
+- "Twitter" or "X" or "Twitter/X" → twitter
+- "LinkedIn" or "LI" → linkedin
+
+Respond ONLY with valid JSON:
+{
+  "platforms": ["twitter"],
+  "cleanedInstruction": "Make it shorter"
+}`;
+
+  try {
+    const response = await client.messages.create({
+      model: 'claude-sonnet-4-5-20250929',
+      max_tokens: 200,
+      temperature: 0, // Deterministic for parsing
+      messages: [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ]
+    });
+
+    const content = response.content[0].text.trim();
+
+    // Extract JSON from response
+    const jsonMatch = content.match(/\{[\s\S]*\}/);
+    if (!jsonMatch) {
+      throw new Error('Could not parse JSON from platform intent response');
+    }
+
+    const result = JSON.parse(jsonMatch[0]);
+
+    // Validate and normalize platform names
+    const normalizedPlatforms = (result.platforms || availablePlatforms)
+      .map(p => p.toLowerCase())
+      .filter(p => availablePlatforms.includes(p));
+
+    // If no valid platforms found, default to all
+    const finalPlatforms = normalizedPlatforms.length > 0
+      ? normalizedPlatforms
+      : availablePlatforms;
+
+    return {
+      platforms: finalPlatforms,
+      cleanedInstruction: result.cleanedInstruction || instruction
+    };
+
+  } catch (error) {
+    console.error('Error parsing platform intent:', error.message);
+
+    // Fallback: apply to all platforms
+    return {
+      platforms: availablePlatforms,
+      cleanedInstruction: instruction
+    };
+  }
+}
