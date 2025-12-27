@@ -215,7 +215,53 @@ export function getPlatformGuidelines(platform) {
       structure: 'Short sentences, thread if needed (1/, 2/, 3/)',
       hooks: 'Start strong - hook in first tweet',
       formatting: 'Line breaks for readability, minimal formatting',
-      engagement: 'End with question or call to action'
+      engagement: 'End with question or call to action',
+
+      // Advanced thread structure guidelines
+      threadGuidelines: {
+        optimalLength: '4-7 tweets (fewer is better if content is dense)',
+        pacing: 'Vary tweet lengths (short punchy + longer detailed) for rhythm',
+        contentDensity: {
+          principle: 'Maximize content per tweet. Fewer, meatier tweets > many short tweets',
+          targetLength: '200-280 chars per tweet (use the full limit when possible)',
+          minimumLength: 'Avoid tweets under 100 chars unless it\'s a punch line or final CTA',
+          breakRules: [
+            'Only create new tweet when approaching 280 chars',
+            'OR at natural narrative climax/cliffhanger',
+            'OR major topic shift',
+            'Do NOT break just to hit a target tweet count'
+          ]
+        },
+        hooks: {
+          firstTweet: 'Strong hook in first 80-150 chars. Create curiosity or promise value.',
+          patterns: [
+            'Shock + Stat: "99% of people miss this..."',
+            'Bold statement: "I spent 10 years learning X..."',
+            'Story setup: "In 2019, I made a mistake that..."'
+          ]
+        },
+        cliffhangers: {
+          frequency: 'Every 2-3 tweets to maintain momentum',
+          techniques: [
+            'End mid-revelation: "Then something unexpected happened..."',
+            'Tease next insight: "But here\'s where it gets interesting..."',
+            'Question hook: "Want to know what changed everything?"',
+            'Incomplete thought: "The solution? It wasn\'t what I expected..."'
+          ]
+        },
+        structure: {
+          narrative: 'Hook → Problem → Mini-cliffhanger → Process → Unexpected turn → Resolution → Lesson',
+          pacing: 'Don\'t front-load insights. Save "aha" moments for middle tweets',
+          rhythm: 'Vary between dense informational tweets and short punchy statements',
+          ending: 'Soft CTA or engaging question (can be short if impactful)',
+          density: 'Combine related ideas in single tweets. Don\'t artificially split content.'
+        },
+        formatting: {
+          lineBreaks: 'Use sparingly within tweets. Each tweet should be focused.',
+          emphasis: 'Avoid ALL CAPS. Use strong verbs instead.',
+          numbers: 'List markers only if doing a listicle thread'
+        }
+      }
     },
     linkedin: {
       maxLength: 3000,

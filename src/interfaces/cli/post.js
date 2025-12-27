@@ -28,13 +28,25 @@ console.log(chalk.bold.cyan('\n📝 Daily Voice - Transform Thoughts into Posts\
 /**
  * Display a generated post with formatting
  */
-function displayPost(platform, content, validation) {
+function displayPost(platform, content, validation, isThread = false) {
   const platformName = platform === 'twitter' ? 'Twitter' : 'LinkedIn';
   const emoji = platform === 'twitter' ? '🐦' : '💼';
 
-  console.log(chalk.bold.blue(`\n${emoji} ${platformName.toUpperCase()} POST:`));
+  console.log(chalk.bold.blue(`\n${emoji} ${platformName.toUpperCase()} ${isThread ? 'THREAD' : 'POST'}:`));
   console.log(chalk.gray('─'.repeat(70)));
-  console.log(content);
+
+  // Handle both array (thread) and string (single tweet) formats
+  if (Array.isArray(content)) {
+    content.forEach((tweet, index) => {
+      console.log(chalk.white(`${index + 1}. ${tweet}`));
+      if (index < content.length - 1) {
+        console.log(); // Add spacing between tweets
+      }
+    });
+  } else {
+    console.log(content);
+  }
+
   console.log(chalk.gray('─'.repeat(70)));
 
   // Show validation score
@@ -177,7 +189,12 @@ async function publishPost(postId, platformsToPublish) {
           spinner.warn('Partial publish (thread failed mid-way)');
           console.log(chalk.yellow(`\n⚠️  Published ${result.data.tweets.length} of ${result.totalTweets} tweets`));
           console.log(chalk.yellow(`   Failed at tweet ${result.failedAt}`));
-          console.log(chalk.blue(`\n🐦 View published tweets: ${result.data.threadUrl}`));
+          console.log(chalk.red(`\n❌ Error: ${result.error}`));
+
+          if (result.data.threadUrl) {
+            console.log(chalk.blue(`\n🐦 View published tweets: ${result.data.threadUrl}`));
+          }
+
           console.log(chalk.gray(`\nThe draft remains in data/drafts/ for retry or manual handling.`));
 
           // Mark as partial publish (stays in drafts)
@@ -460,7 +477,7 @@ async function main() {
     // Step 4: Display generated posts
     for (const platform of platforms) {
       if (results[platform] && results[platform].content) {
-        displayPost(platform, results[platform].content, results[platform].validation);
+        displayPost(platform, results[platform].content, results[platform].validation, results[platform].isThread);
       }
     }
 
@@ -556,7 +573,7 @@ async function main() {
           // Display edited posts
           for (const platform of platforms) {
             if (currentResults[platform]?.content) {
-              displayPost(platform, currentResults[platform].content, currentResults[platform].validation);
+              displayPost(platform, currentResults[platform].content, currentResults[platform].validation, currentResults[platform].isThread);
             }
           }
 
@@ -605,7 +622,7 @@ async function main() {
           // Display refined posts
           for (const platform of platforms) {
             if (currentResults[platform]?.content) {
-              displayPost(platform, currentResults[platform].content, currentResults[platform].validation);
+              displayPost(platform, currentResults[platform].content, currentResults[platform].validation, currentResults[platform].isThread);
             }
           }
 
@@ -657,7 +674,7 @@ async function main() {
           // Display refined posts
           for (const platform of platforms) {
             if (currentResults[platform]?.content) {
-              displayPost(platform, currentResults[platform].content, currentResults[platform].validation);
+              displayPost(platform, currentResults[platform].content, currentResults[platform].validation, currentResults[platform].isThread);
             }
           }
 
@@ -677,7 +694,7 @@ async function main() {
           // Display new posts
           for (const platform of platforms) {
             if (currentResults[platform]?.content) {
-              displayPost(platform, currentResults[platform].content, currentResults[platform].validation);
+              displayPost(platform, currentResults[platform].content, currentResults[platform].validation, currentResults[platform].isThread);
             }
           }
 

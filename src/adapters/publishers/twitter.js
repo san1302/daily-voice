@@ -160,6 +160,11 @@ async function postThread(tweets) {
         postedTweets.push(tweetData);
         lastTweetId = tweet.data.id;
 
+        // Add 1.5 second delay between tweets to avoid rate limits (429 errors)
+        if (i < tweets.length - 1) { // Don't delay after the last tweet
+          await new Promise(resolve => setTimeout(resolve, 1500));
+        }
+
       } catch (error) {
         // Thread failed mid-way - DON'T rollback (as per user requirement)
         const partialError = new Error(
@@ -305,9 +310,10 @@ export async function publishToTwitter(content) {
       throw new Error('Content must be a string (single tweet) or array (thread)');
     }
 
-    // Auto-split long strings into threads
+    // Auto-split long strings into threads (FALLBACK for edge cases)
     let processedContent = content;
     if (isSingleTweet && content.length > 280) {
+      console.warn('[Publisher] Received long string instead of array. Auto-splitting as fallback.');
       processedContent = autoSplitIntoTweets(content);
     }
 

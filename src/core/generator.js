@@ -90,6 +90,57 @@ async function buildSystemPrompt(platform) {
   const platformGuidelines = getPlatformGuidelines(platform);
   const humanizationRules = getHumanizationPrompt(platform);
 
+  // Add thread-specific instructions for Twitter
+  let threadInstructions = '';
+  if (platform === 'twitter' && platformGuidelines.threadGuidelines) {
+    threadInstructions = `
+
+CRITICAL THREAD FORMATTING RULES:
+
+When the thought requires a thread (>200 chars of content):
+
+1. **Content Density Principle**: MAXIMIZE content per tweet
+   - Use 200-280 characters per tweet (don't waste space)
+   - Combine related sentences in the same tweet
+   - Only break for: (a) approaching 280 chars, (b) natural cliffhanger, (c) major topic shift
+   - NEVER create tweets under 100 chars unless it's a deliberate punch line
+
+2. **Output Format**: Return a JSON array of tweet strings, NOT a long text with \\n\\n separators
+
+   CORRECT format:
+   ["Hook tweet with full context and setup...", "Continuation with meaty content...", "CTA"]
+
+   WRONG format:
+   "Hook tweet...\\n\\nContinuation...\\n\\nCTA"
+
+3. **Target Length**: ${platformGuidelines.threadGuidelines.optimalLength}
+   - Fewer, dense tweets > many short tweets
+   - Don't pad to hit a specific count
+   - Quality and narrative flow matter more than quantity
+
+4. **Narrative Structure**:
+   - Tweet 1: Strong hook + context (${platformGuidelines.threadGuidelines.hooks.patterns[0]})
+   - Middle tweets: Build tension, combine related points, strategic cliffhangers
+   - Final tweet: Resolution + CTA (can be shorter if impactful)
+
+5. **Cliffhanger Placement**:
+   - Place cliffhangers ${platformGuidelines.threadGuidelines.cliffhangers.frequency}
+   - End tweets at narrative peaks, NOT mechanical paragraph breaks
+   - Examples: ${JSON.stringify(platformGuidelines.threadGuidelines.cliffhangers.techniques)}
+
+6. **Bad Examples** (what NOT to do):
+   - ❌ "Then something shifted." (48 chars) - Too short, combine with next tweet
+   - ❌ "Still not sure if perfect." (67 chars) - Too short, merge with previous
+   - ✅ "Then something shifted. Claude Code now handles this automatically." (124 chars) - Better
+
+For single tweets (<200 chars of content):
+- Return a simple string (not array)
+- Make it punchy and complete
+
+REMEMBER: Your job is narrative engineering AND content density. Don't waste the 280-char limit.
+`;
+  }
+
   return `You are an expert social media content creator specializing in ${platform.toUpperCase()} posts.
 
 Your job is to transform the user's thought into an engaging ${platform} post that:
@@ -102,6 +153,8 @@ ${humanizationRules}
 
 PLATFORM GUIDELINES (${platform.toUpperCase()}):
 ${JSON.stringify(platformGuidelines, null, 2)}
+
+${threadInstructions}
 
 ${templateInspiration}
 
@@ -162,17 +215,50 @@ async function generateForPlatform(thought, platform, options = {}) {
     });
 
     // Extract content
-    const content = response.content[0].text.trim();
+    let rawContent = response.content[0].text.trim();
+
+    // For Twitter: Try to parse as JSON array (thread format)
+    let content;
+    let isThread = false;
+
+    if (platform === 'twitter') {
+      // Check if Claude returned a JSON array for a thread
+      if (rawContent.startsWith('[') && rawContent.endsWith(']')) {
+        try {
+          const parsedContent = JSON.parse(rawContent);
+          if (Array.isArray(parsedContent) && parsedContent.every(t => typeof t === 'string')) {
+            content = parsedContent; // It's a thread array
+            isThread = true;
+          } else {
+            // Malformed JSON, fall back to string
+            content = rawContent;
+          }
+        } catch (error) {
+          // JSON parse failed, treat as single tweet string
+          content = rawContent;
+        }
+      } else {
+        // Single tweet (string format)
+        content = rawContent;
+      }
+    } else {
+      // LinkedIn always uses string format
+      content = rawContent;
+    }
 
     // Validate human feel
-    const validation = validateHumanFeel(content, platform);
+    // For threads, validate the first tweet (most important for hook)
+    const contentToValidate = isThread ? content[0] : content;
+    const validation = validateHumanFeel(contentToValidate, platform);
 
     return {
       content,
       validation,
+      isThread, // NEW: Flag to indicate if it's a thread
       metadata: {
         model: response.model,
-        usage: response.usage
+        usage: response.usage,
+        tweetCount: isThread ? content.length : 1 // NEW: Track thread length
       }
     };
   } catch (error) {
