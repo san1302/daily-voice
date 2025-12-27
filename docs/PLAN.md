@@ -250,7 +250,7 @@ data/
   - Added manual edit option (opens in VS Code/Cursor/nano)
   - Added custom instructions option
   - Fixed "Could not load user voice" error
-- [x] **NEW Feature: Fact-Checking** ✅
+- [x] **Feature: Fact-Checking** ✅
   - Created `fact-check.js` module
   - Uses Claude to detect fact-check requests
   - Extracts claims and verifies using Claude's knowledge
@@ -261,19 +261,28 @@ data/
   - Claude now intelligently detects which platform(s) to modify
   - Cleans up instructions (removes "LinkedIn seems fine" preambles)
   - Only modifies specified platforms
+- [x] **Step 5: Twitter Publishing** ✅
+  - Created `adapters/publishers/twitter.js` (Twitter API v2 with OAuth 1.0a)
+  - Intelligent thread generation with narrative engineering
+  - Content density optimization (4-7 dense tweets vs 8+ thin tweets)
+  - Two publishing flows (immediate and later)
+  - Rate limiting (1.5s delays between tweets)
+  - Partial publish handling (keeps successful tweets)
+  - Updated CLI with publish existing draft feature
+  - See "Twitter Publishing Implementation" section below for details
 
 ### 🚧 In Progress
 - [ ] None currently
 
 ### 📝 TODO
-- [ ] Step 5: Publishing adapters (Twitter & LinkedIn APIs)
+- [ ] Step 5: LinkedIn publishing adapter (complete Step 5)
 - [ ] Step 6: Integration (end-to-end flow)
 
 ### 🐛 Known Issues
 - None currently
 
 ### 🎯 Current Session
-**Status**: Testing fact-checking feature end-to-end
+**Status**: Updating documentation to reflect Twitter publishing completion
 
 ---
 
@@ -321,6 +330,37 @@ LINKEDIN_ACCESS_TOKEN=your_token
 LINKEDIN_PERSON_URN=your_urn
 ```
 
+### Twitter API Setup
+**Get credentials at**: https://developer.twitter.com/en/portal/dashboard
+
+**Steps:**
+1. Create a Twitter Developer account
+2. Create a new app (or use existing)
+3. Generate OAuth 1.0a credentials:
+   - API Key (Consumer Key)
+   - API Secret (Consumer Secret)
+   - Access Token
+   - Access Secret
+4. Ensure app has "Read and Write" permissions (not just Read)
+5. Add credentials to `.env` file
+
+**Rate Limits (Free Tier):**
+- 1,500 tweets per month
+- ~50 tweets per day
+- Rate limit resets: Wait 15-30 minutes between high-volume posting sessions
+- Within-thread delays: 1.5 seconds (handled automatically by publisher)
+
+**Common Errors:**
+- **401/403**: Authentication failed - check credentials and app permissions
+- **429**: Rate limit exceeded - wait 15-30 minutes before retrying
+- **Tweet too long (>280 chars)**: Generator should output JSON array for threads
+
+**Partial Publish Recovery:**
+If a thread fails mid-way (e.g., rate limit hit at tweet 3 of 5):
+- Successfully posted tweets (1-2) remain on Twitter
+- Error shows: "Thread failed at tweet 3 of 5. Successfully posted: 2 tweet(s)"
+- Options: (1) Wait and retry full thread, or (2) Manually delete partial thread on Twitter
+
 ### Fact-Checking Feature
 **Module**: `src/core/fact-check.js`
 
@@ -342,6 +382,79 @@ LINKEDIN_PERSON_URN=your_urn
 User: "React 19 released in December. Can you validate this?"
 System: Detects request → Extracts claim → Verifies → "INCORRECT: Released in October 2024" → Offers correction
 ```
+
+---
+
+### Twitter Publishing Implementation
+**Module**: `src/adapters/publishers/twitter.js`
+
+**Architecture:**
+```
+User Thought
+    ↓
+Generator (Claude API)
+  - Outputs JSON array for threads: ["tweet 1", "tweet 2", ...]
+  - Uses narrative engineering (hooks, cliffhangers, pacing)
+  - Optimizes content density (200-280 chars/tweet)
+    ↓
+Twitter Publisher Adapter
+  - OAuth 1.0a authentication
+  - Single tweet or thread posting
+  - Rate limiting (1.5s delays)
+  - Partial publish handling
+    ↓
+Twitter API v2
+```
+
+**Key Features:**
+
+1. **Intelligent Thread Generation**
+   - Claude outputs threads as JSON arrays with strategic narrative structure
+   - Content density optimization: 4-7 dense tweets (200-280 chars each) instead of 8+ thin tweets
+   - Strategic cliffhangers placed at narrative peaks, not mechanical paragraph breaks
+   - Narrative engineering: hooks in first tweet, tension building, resolution + CTA
+
+2. **Thread Generation Principles** (implemented in `templates.js` and `generator.js`)
+   - **Content density**: Maximize content per tweet (200-280 chars target)
+   - **Quality over quantity**: Fewer, meatier tweets > many short tweets
+   - **Strategic breaks**: Only break at (a) approaching 280 chars, (b) natural cliffhanger, (c) major topic shift
+   - **JSON array format**: Generator outputs `["tweet 1", "tweet 2", ...]` not long strings with `\n\n`
+
+3. **Two Publishing Flows**
+   - **Flow A (Immediate)**: Publish right after creating post
+     - User creates post → Approve → Prompt: "Publish to Twitter now?" → Publish immediately
+   - **Flow B (Later)**: Publish existing draft from main menu
+     - User selects "Publish existing draft" → Pick draft → Publish
+
+4. **Rate Limiting**
+   - 1.5-second delays between tweets within a thread to avoid 429 errors
+   - Twitter free tier: 1,500 tweets/month
+   - Note: Multiple thread posts in quick succession can still hit rate limits (wait 15-30 min)
+
+5. **Partial Publish Handling**
+   - If thread fails mid-way (e.g., rate limit), successfully posted tweets remain on Twitter
+   - Error message shows: "Thread failed at tweet X of Y. Successfully posted: Z tweet(s)"
+   - User can manually delete or continue thread later
+
+**Files Modified:**
+- `src/adapters/publishers/twitter.js` - Twitter API integration (OAuth 1.0a, posting logic)
+- `src/core/generator.js` - Thread-specific prompt instructions with narrative engineering rules
+- `src/core/templates.js` - Thread guidelines (`contentDensity`, `cliffhangers`, `hooks` in `threadGuidelines`)
+- `src/interfaces/cli/post.js` - Publishing flows (immediate and later), updated display for thread arrays
+- `src/core/storage.js` - Added `loadAllDrafts()` and `markAsPublished()` functions
+
+**Example Thread Output:**
+```javascript
+[
+  "Context window management was my biggest pain point with Claude Code. I'd hit the limit mid-task and watch my AI forget everything we'd discussed. Frustrating as hell.", // 173 chars - Hook + problem
+  "My workaround? I built a whole system of sub-agents. Delegated chunks of work to separate contexts, then stitched results together manually. It worked, but felt like I was fighting the tool instead of using it.", // 221 chars - Solution
+  "Then something shifted. Recent Claude Code updates seem to handle this automatically now. The tool creates its own sub-agents, manages context internally, delegates without me micromanaging every token.", // 227 chars - The shift
+  "Sessions feel longer. More coherent. Less \"wait, what were we building again?\" moments. Still not sure if it's perfect, but the improvement is noticeable.", // 170 chars - Results
+  "Anyone else notice this? Or am I just imagining things because I stopped overloading single sessions?" // 107 chars - CTA
+]
+```
+
+**Implementation Commit**: `[main 1bc97aa] Implement intelligent Twitter thread generation and publishing`
 
 ---
 
