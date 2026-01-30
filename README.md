@@ -1,5 +1,9 @@
 # Daily Voice
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://img.shields.io/github/stars/san1302/daily-voice.svg?style=social&label=Star)](https://github.com/san1302/daily-voice)
+[![GitHub issues](https://img.shields.io/github/issues/san1302/daily-voice.svg)](https://github.com/san1302/daily-voice/issues)
+
 ## Think it. Post it. That's it.
 
 You learn things every day. You have opinions. You want to share them on Twitter.
