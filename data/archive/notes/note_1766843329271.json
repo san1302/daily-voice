@@ -1,0 +1,10 @@
+{
+  "id": "note_1766843329271",
+  "timestamp": "2025-12-27T13:48:49.271Z",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest releases , they have improved a lot. TO manage the  the  window better, i had to  create multiple  sub agents and delegate task to them whihc i  think no w    claude  code is doing by iteself . that has ma help ed in managing the context window better in the sessions ,.",
+  "category": "tech",
+  "tags": [
+    "post"
+  ],
+  "linkedPostId": null
+}

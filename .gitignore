@@ -38,3 +38,6 @@ build/
 # Testing
 coverage/
 .nyc_output/
+tests/**/*.log
+tests/**/output/
+tests/fixtures/generated/

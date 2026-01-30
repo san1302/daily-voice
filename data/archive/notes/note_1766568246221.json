@@ -1,0 +1,10 @@
+{
+  "id": "note_1766568246221",
+  "timestamp": "2025-12-24T09:24:06.221Z",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest releases , they have improved a lot. TO manage the  the  window better, i had to  create multiple  sub agents and delegate task to them whihc i  think no w    claude  code is doing by iteself . that has ma help ed in managing the context window better in the sessions ,.    OK I also want you to little bit like you know just see if what I'm saying is correct on Internet or not the rest. One thing I want also to add is with cloud Op. 4.5 coming I think that also takes a lot of tokens, so the context window was filling very quickly, so I think that also helped with the latest releases to manage the context window better",
+  "category": "tech",
+  "tags": [
+    "post"
+  ],
+  "linkedPostId": null
+}

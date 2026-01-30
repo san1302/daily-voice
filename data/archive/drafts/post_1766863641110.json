@@ -1,0 +1,35 @@
+{
+  "noteId": "note_1766863624725",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest releases , they have improved a lot. TO manage the  the  window better, i had to  create multiple  sub agents and delegate task to them whihc i  think no w    claude  code is doing by iteself . that has ma help ed in managing the context window better in the sessions ,.",
+  "content": {
+    "twitter": [
+      "Context window management in Claude Code used to drive me insane. Spent hours building custom sub-agents just to delegate tasks and keep things from blowing up mid-session.",
+      "The workaround worked, but it felt like duct tape on a leaky pipe. Every complex project meant spinning up 3-4 agents, manually routing tasks, tracking what each one knew. Exhausting.",
+      "Then the recent updates dropped. And here's what surprised me—Claude Code now handles this delegation automatically. The thing I was manually engineering? Built-in.",
+      "Still testing it on larger projects, but sessions feel noticeably smoother. Less context overflow, fewer \"I've lost track of what we were doing\" moments.",
+      "Anyone else notice this shift? Or still running custom agent setups?"
+    ]
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1766863641110",
+  "timestamp": "2025-12-27T19:27:21.110Z",
+  "status": "draft",
+  "updatedAt": "2025-12-27T19:27:26.535Z",
+  "partialPublish": {
+    "twitter": {
+      "success": false,
+      "partial": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": []
+      },
+      "error": "Thread failed at tweet 1 of 5.\nSuccessfully posted: 0 tweet(s).\nError: Request failed with code 429\n\nThe 0 published tweet(s) will remain on Twitter. You can manually delete them or continue the thread.",
+      "failedAt": 1,
+      "totalTweets": 5,
+      "publishedAt": "2025-12-27T19:27:26.535Z"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "noteId": "note_1766843329271",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest releases , they have improved a lot. TO manage the  the  window better, i had to  create multiple  sub agents and delegate task to them whihc i  think no w    claude  code is doing by iteself . that has ma help ed in managing the context window better in the sessions ,.",
+  "content": {
+    "twitter": "Claude Code's context window used to drive me crazy.\n\nI'd be deep in a debugging session, hit the limit, and watch it forget everything we'd just figured out together.\n\nMy workaround? I built a whole system of sub-agents. Delegated tasks to them. Kept the main context clean.\n\nFelt clever at the time.\n\nThen the latest releases dropped and... Claude Code just does this automatically now.\n\nIt manages its own context. Delegates internally. Keeps track of what matters.\n\n3 weeks of my architecture work, obsolete in one update.\n\nHonestly? Not even mad. Sessions run smoother. Less babysitting. More actual coding.\n\nAnyone else notice the context handling got way better recently, or was I just doing it wrong before?"
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1766843384522",
+  "timestamp": "2025-12-27T13:49:44.522Z",
+  "status": "draft",
+  "updatedAt": "2025-12-27T18:33:39.529Z",
+  "partialPublish": {
+    "twitter": {
+      "success": false,
+      "partial": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": [
+          {
+            "id": "2004984023324787073",
+            "url": "https://twitter.com/sanchit_verse/status/2004984023324787073",
+            "text": "Claude Code's context window used to drive me crazy.",
+            "position": 1
+          },
+          {
+            "id": "2004984025371582948",
+            "url": "https://twitter.com/sanchit_verse/status/2004984025371582948",
+            "text": "I'd be deep in a debugging session, hit the limit, and watch it forget everything we'd just figured out together.",
+            "position": 2
+          },
+          {
+            "id": "2004984027556766135",
+            "url": "https://twitter.com/sanchit_verse/status/2004984027556766135",
+            "text": "My workaround? I built a whole system of sub-agents. Delegated tasks to them. Kept the main context clean.",
+            "position": 3
+          },
+          {
+            "id": "2004984029754565012",
+            "url": "https://twitter.com/sanchit_verse/status/2004984029754565012",
+            "text": "Felt clever at the time.",
+            "position": 4
+          },
+          {
+            "id": "2004984031549817142",
+            "url": "https://twitter.com/sanchit_verse/status/2004984031549817142",
+            "text": "Then the latest releases dropped and... Claude Code just does this automatically now.",
+            "position": 5
+          },
+          {
+            "id": "2004984033399505057",
+            "url": "https://twitter.com/sanchit_verse/status/2004984033399505057",
+            "text": "It manages its own context. Delegates internally. Keeps track of what matters.",
+            "position": 6
+          }
+        ],
+        "threadUrl": "https://twitter.com/sanchit_verse/status/2004984023324787073"
+      },
+      "error": "Thread failed at tweet 7 of 9.\nSuccessfully posted: 6 tweet(s).\nError: Request failed with code 429\n\nThe 6 published tweet(s) will remain on Twitter. You can manually delete them or continue the thread.",
+      "failedAt": 7,
+      "totalTweets": 9,
+      "publishedAt": "2025-12-27T18:33:39.529Z"
+    }
+  }
+}

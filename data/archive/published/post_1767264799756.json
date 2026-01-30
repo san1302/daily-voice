@@ -1,0 +1,51 @@
+{
+  "noteId": "note_1767264650112",
+  "thought": "[\"Claude Code's auto-delegation is legit. Ask for something complex, it spins up research or plan sub-agents automatically. My custom sub-agents are collecting dust now.\", \"Context window management is what sells it. Claude decides when to delegate vs handle directly, keeps the main context clean. Opus 4.5 made this smoother—fewer tokens, longer sessions.\", \"One quirk: Claude started dumping plans into random .md files I never asked for. Now it reads those instead of my actual docs. Gotta type \\\"read from my docs\\\" every time 😅\", \"Still the best terminal coding experience I've had. Anyone else finding auto-delegation kills the need for custom setups?\"]",
+  "content": {
+    "twitter": "Spent weeks building custom sub-agents for Claude Code. They're collecting dust now.\n\nAuto-delegation just works—spins up research agents on its own, manages context automatically.\n\nOne weird quirk though: Claude started dumping plans into random .md files I never asked for. Now it reads THOSE instead of my actual docs. Gotta type \"read from my docs\" every single time 😅\n\nAnyone else have their custom setups go extinct overnight?"
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1767264799756",
+  "timestamp": "2026-01-01T10:53:19.756Z",
+  "status": "published",
+  "updatedAt": "2026-01-01T10:53:30.911Z",
+  "published": {
+    "twitter": {
+      "success": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": [
+          {
+            "id": "2006680150772195576",
+            "url": "https://twitter.com/sanchit_verse/status/2006680150772195576",
+            "text": "Spent weeks building custom sub-agents for Claude Code. They're collecting dust now.",
+            "position": 1
+          },
+          {
+            "id": "2006680158963716298",
+            "url": "https://twitter.com/sanchit_verse/status/2006680158963716298",
+            "text": "Auto-delegation just works—spins up research agents on its own, manages context automatically.",
+            "position": 2
+          },
+          {
+            "id": "2006680167264251905",
+            "url": "https://twitter.com/sanchit_verse/status/2006680167264251905",
+            "text": "One weird quirk though: Claude started dumping plans into random .md files I never asked for. Now it reads THOSE instead of my actual docs. Gotta type \"read from my docs\" every single time 😅",
+            "position": 3
+          },
+          {
+            "id": "2006680175489200265",
+            "url": "https://twitter.com/sanchit_verse/status/2006680175489200265",
+            "text": "Anyone else have their custom setups go extinct overnight?",
+            "position": 4
+          }
+        ],
+        "threadUrl": "https://twitter.com/sanchit_verse/status/2006680150772195576"
+      },
+      "publishedAt": "2026-01-01T10:53:30.911Z"
+    }
+  }
+}

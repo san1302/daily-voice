@@ -1,0 +1,4946 @@
+{
+  "date": "2025-12-04",
+  "totalItems": 146,
+  "educationalCount": 41,
+  "trendingCount": 105,
+  "items": [
+    {
+      "id": "hackernews_1764847427956_42_itj7zxudq",
+      "title": "Ghostty is now non-profit",
+      "url": "https://mitchellh.com/writing/ghostty-non-profit",
+      "source": "hackernews",
+      "score": 100,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "vrnvu",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Ghostty is now non-profit",
+        "url": "https://mitchellh.com/writing/ghostty-non-profit",
+        "score": 1136,
+        "author": "vrnvu",
+        "comments": 232,
+        "time": "2025-12-03T18:40:06.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46138238",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 232
+      }
+    },
+    {
+      "id": "hackernews_1764847427956_43_13nrvfbf5",
+      "title": "Valve reveals it’s the architect behind a push to bring Windows games to Arm",
+      "url": "https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais",
+      "source": "hackernews",
+      "score": 100,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "evolve2k",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Valve reveals it’s the architect behind a push to bring Windows games to Arm",
+        "url": "https://www.theverge.com/report/820656/valve-interview-arm-gaming-steamos-pierre-loup-griffais",
+        "score": 779,
+        "author": "evolve2k",
+        "comments": 673,
+        "time": "2025-12-02T20:33:10.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46126446",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 673
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_46_j5dnhtlhm",
+      "title": "Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files",
+      "url": "https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k",
+      "source": "hackernews",
+      "score": 100,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "bearsyankees",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Reverse engineering a $1B Legal AI tool exposed 100k+ confidential files",
+        "url": "https://alexschapiro.com/security/vulnerability/2025/12/02/filevine-api-100k",
+        "score": 698,
+        "author": "bearsyankees",
+        "comments": 232,
+        "time": "2025-12-03T17:44:33.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46137514",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 232
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_48_80dr9bztv",
+      "title": "Micron Announces Exit from Crucial Consumer Business",
+      "url": "https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business",
+      "source": "hackernews",
+      "score": 100,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "simlevesque",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Micron Announces Exit from Crucial Consumer Business",
+        "url": "https://investors.micron.com/news-releases/news-release-details/micron-announces-exit-crucial-consumer-business",
+        "score": 599,
+        "author": "simlevesque",
+        "comments": 293,
+        "time": "2025-12-03T18:04:32.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46137783",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 293
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_56_rfz42p4dg",
+      "title": "RCE Vulnerability in React and Next.js",
+      "url": "https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp",
+      "source": "hackernews",
+      "score": 100,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "rayhaanj",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "RCE Vulnerability in React and Next.js",
+        "url": "https://github.com/vercel/next.js/security/advisories/GHSA-9qr9-h5gf-34mp",
+        "score": 542,
+        "author": "rayhaanj",
+        "comments": 201,
+        "time": "2025-12-03T16:00:23.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46136026",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 201
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_75_zi42s759w",
+      "title": "Ghostty Is Now Non-Profit",
+      "url": "https://mitchellh.com/writing/ghostty-non-profit",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "release"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "rudis",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Ghostty Is Now Non-Profit",
+        "url": "https://mitchellh.com/writing/ghostty-non-profit",
+        "shortUrl": "https://lobste.rs/s/dxqyh4",
+        "score": 91,
+        "comments": 8,
+        "author": "rudis",
+        "tags": [
+          "release"
+        ],
+        "createdAt": "2025-12-03T14:59:16.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/dxqyh4/ghostty_is_now_non_profit",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 8
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_77_d17e1fi3t",
+      "title": "Teaching an LLM a Niche Diagraming Language",
+      "url": "https://huy.rocks/everyday/12-01-2025-ai-teaching-an-llm-a-niche-diagraming-language",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "vibecoding"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "huytd",
+      "description": "<p>I did an experiment to train Qwen2.5-Coder-7B on a niche diagraming language, and the model was able to generate syntactically correct code 86% of the time.</p>\n<p>This post outlined the process and decisions I took during the training process. I think it might be helpful to share it here to get feedback, since I know there is a lot I did wrong along the road and could learn from the feedback of many people here.</p>\n",
+      "isEducational": false,
+      "metadata": {
+        "title": "Teaching an LLM a Niche Diagraming Language",
+        "url": "https://huy.rocks/everyday/12-01-2025-ai-teaching-an-llm-a-niche-diagraming-language",
+        "shortUrl": "https://lobste.rs/s/lo8f8p",
+        "score": 25,
+        "comments": 13,
+        "author": "huytd",
+        "tags": [
+          "vibecoding"
+        ],
+        "createdAt": "2025-12-03T12:56:29.000-06:00",
+        "description": "<p>I did an experiment to train Qwen2.5-Coder-7B on a niche diagraming language, and the model was able to generate syntactically correct code 86% of the time.</p>\n<p>This post outlined the process and decisions I took during the training process. I think it might be helpful to share it here to get feedback, since I know there is a lot I did wrong along the road and could learn from the feedback of many people here.</p>\n",
+        "commentsUrl": "https://lobste.rs/s/lo8f8p/teaching_llm_niche_diagraming_language",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 13
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_79_mit11cpem",
+      "title": "Local-first is not offline-first",
+      "url": "https://shortdiv.com/posts/local-first-is-not-offline-first/",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "distributed",
+        "web"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "abnercoimbre",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Local-first is not offline-first",
+        "url": "https://shortdiv.com/posts/local-first-is-not-offline-first/",
+        "shortUrl": "https://lobste.rs/s/1fbv9j",
+        "score": 20,
+        "comments": 8,
+        "author": "abnercoimbre",
+        "tags": [
+          "distributed",
+          "web"
+        ],
+        "createdAt": "2025-12-03T12:18:39.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/1fbv9j/local_first_is_not_offline_first",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 8
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_80_mqfduzuuw",
+      "title": "Alpine Linux 3.23.0 Released: apk-tools v3, linux-stable replaces linux-edge",
+      "url": "https://alpinelinux.org/posts/Alpine-3.23.0-released.html",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "linux"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "achill",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Alpine Linux 3.23.0 Released: apk-tools v3, linux-stable replaces linux-edge",
+        "url": "https://alpinelinux.org/posts/Alpine-3.23.0-released.html",
+        "shortUrl": "https://lobste.rs/s/70rhjl",
+        "score": 20,
+        "comments": 1,
+        "author": "achill",
+        "tags": [
+          "linux"
+        ],
+        "createdAt": "2025-12-03T14:55:36.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/70rhjl/alpine_linux_3_23_0_released_apk_tools_v3",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 1
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_82_eolob8fbz",
+      "title": "Zig's new plan for asynchronous programs",
+      "url": "https://lwn.net/SubscriberLink/1046084/6cb9e4e1fd82a90d/",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "plt",
+        "zig"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "val",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Zig's new plan for asynchronous programs",
+        "url": "https://lwn.net/SubscriberLink/1046084/6cb9e4e1fd82a90d/",
+        "shortUrl": "https://lobste.rs/s/uzfrya",
+        "score": 47,
+        "comments": 22,
+        "author": "val",
+        "tags": [
+          "plt",
+          "zig"
+        ],
+        "createdAt": "2025-12-03T02:05:57.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/uzfrya/zig_s_new_plan_for_asynchronous_programs",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 22
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_83_97rqq0rm8",
+      "title": "Critical Security Vulnerability in React Server Components",
+      "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "javascript",
+        "security"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "dbushell",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Critical Security Vulnerability in React Server Components",
+        "url": "https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components",
+        "shortUrl": "https://lobste.rs/s/6w7mnm",
+        "score": 20,
+        "comments": 7,
+        "author": "dbushell",
+        "tags": [
+          "javascript",
+          "security"
+        ],
+        "createdAt": "2025-12-03T11:54:44.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/6w7mnm/critical_security_vulnerability_react",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 7
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_84_jkpzft16g",
+      "title": "How should we peer review software?",
+      "url": "https://mirawelner.com/posts/peer_review.html",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "practices",
+        "science"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "MiraWelner",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "How should we peer review software?",
+        "url": "https://mirawelner.com/posts/peer_review.html",
+        "shortUrl": "https://lobste.rs/s/1ullif",
+        "score": 35,
+        "comments": 17,
+        "author": "MiraWelner",
+        "tags": [
+          "practices",
+          "science"
+        ],
+        "createdAt": "2025-12-02T20:03:39.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/1ullif/how_should_we_peer_review_software",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 17
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_85_pqefn66xz",
+      "title": "Ferrocene 25.11.0 now available",
+      "url": "https://ferrous-systems.com/blog/ferrocene-25-11-0/",
+      "source": "lobsters",
+      "score": 100,
+      "tags": [
+        "release",
+        "rust"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "lonami",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Ferrocene 25.11.0 now available",
+        "url": "https://ferrous-systems.com/blog/ferrocene-25-11-0/",
+        "shortUrl": "https://lobste.rs/s/eseckq",
+        "score": 22,
+        "comments": 0,
+        "author": "lonami",
+        "tags": [
+          "release",
+          "rust"
+        ],
+        "createdAt": "2025-12-03T12:09:45.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/eseckq/ferrocene_25_11_0_now_available",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    },
+    {
+      "id": "github_1764847427957_61_qivg2oy36",
+      "title": "bobeff / open-source-games",
+      "url": "https://github.com/bobeff/open-source-games",
+      "source": "github",
+      "score": 94,
+      "tags": [
+        "unknown"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "bobeff",
+      "description": "A list of open source games.",
+      "isEducational": false,
+      "metadata": {
+        "name": "bobeff / open-source-games",
+        "url": "https://github.com/bobeff/open-source-games",
+        "description": "A list of open source games.",
+        "language": "Unknown",
+        "starsToday": 282,
+        "totalStars": "Star\n\n\n    \n\n        10170\n        \n    \n\n        282 stars today",
+        "author": "bobeff",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "github_1764847427957_73_3nrhxqkph",
+      "title": "n8n-io / n8n",
+      "url": "https://github.com/n8n-io/n8n",
+      "source": "github",
+      "score": 93,
+      "tags": [
+        "typescript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "n8n-io",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "isEducational": false,
+      "metadata": {
+        "name": "n8n-io / n8n",
+        "url": "https://github.com/n8n-io/n8n",
+        "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+        "language": "TypeScript",
+        "starsToday": 278,
+        "totalStars": "Star\n\n\n    \n\n        160547\n        \n    \n\n        278 stars today",
+        "author": "n8n-io",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_52_6ny25uta0",
+      "title": "1D Conway's Life glider found, 3.7B cells long",
+      "url": "https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136",
+      "source": "hackernews",
+      "score": 92,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "nooks",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "1D Conway's Life glider found, 3.7B cells long",
+        "url": "https://conwaylife.com/forums/viewtopic.php?&p=222136#p222136",
+        "score": 458,
+        "author": "nooks",
+        "comments": 156,
+        "time": "2025-12-03T17:24:49.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46137253",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 156
+      }
+    },
+    {
+      "id": "github_1764847427957_74_9d8umeqmy",
+      "title": "sindresorhus / awesome",
+      "url": "https://github.com/sindresorhus/awesome",
+      "source": "github",
+      "score": 90,
+      "tags": [
+        "unknown"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "sindresorhus",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "isEducational": false,
+      "metadata": {
+        "name": "sindresorhus / awesome",
+        "url": "https://github.com/sindresorhus/awesome",
+        "description": "😎 Awesome lists about all kinds of interesting topics",
+        "language": "Unknown",
+        "starsToday": 270,
+        "totalStars": "Star\n\n\n    \n\n        419968\n        \n    \n\n        270 stars today",
+        "author": "sindresorhus",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_78_puvuugacv",
+      "title": "Super-flat ASTs",
+      "url": "https://jhwlr.io/super-flat-ast/",
+      "source": "lobsters",
+      "score": 85,
+      "tags": [
+        "compilers",
+        "performance"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "asb",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Super-flat ASTs",
+        "url": "https://jhwlr.io/super-flat-ast/",
+        "shortUrl": "https://lobste.rs/s/0ujeoo",
+        "score": 17,
+        "comments": 1,
+        "author": "asb",
+        "tags": [
+          "compilers",
+          "performance"
+        ],
+        "createdAt": "2025-12-04T00:44:38.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/0ujeoo/super_flat_asts",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 1
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_125_khswupix2",
+      "title": "How to Build an AI-Powered RAG Chatbot with Amazon Lex, Bedrock, and S3",
+      "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-powered-rag-chatbot/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Build an AI-Powered RAG Chatbot with Amazon Lex, Bedrock, and S3",
+        "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-powered-rag-chatbot/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_126_kkd1zn1qp",
+      "title": "How to Set Up CUDA and WSL2 for Windows 11 (including PyTorch and TensorFlow GPU)",
+      "url": "https://www.freecodecamp.org/news/how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Set Up CUDA and WSL2 for Windows 11 (including PyTorch and TensorFlow GPU)",
+        "url": "https://www.freecodecamp.org/news/how-to-set-up-cuda-and-wsl2-for-windows-11-including-pytorch-and-tensorflow-gpu/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_127_w575zip06",
+      "title": "How Bluetooth Low Energy Devices Work: GATT Services and Characteristics Explained",
+      "url": "https://www.freecodecamp.org/news/how-bluetooth-low-energy-devices-work-gatt-services-and-characteristics-explained/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How Bluetooth Low Energy Devices Work: GATT Services and Characteristics Explained",
+        "url": "https://www.freecodecamp.org/news/how-bluetooth-low-energy-devices-work-gatt-services-and-characteristics-explained/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_128_jaibmcutt",
+      "title": "How to Build Your First MCP Server using FastMCP",
+      "url": "https://www.freecodecamp.org/news/how-to-build-your-first-mcp-server-using-fastmcp/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Build Your First MCP Server using FastMCP",
+        "url": "https://www.freecodecamp.org/news/how-to-build-your-first-mcp-server-using-fastmcp/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_129_ze58667k4",
+      "title": "Learn NestJS for Beginners",
+      "url": "https://www.freecodecamp.org/news/learn-nestjs-for-beginners/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "Learn NestJS for Beginners",
+        "url": "https://www.freecodecamp.org/news/learn-nestjs-for-beginners/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_130_xu307ipb5",
+      "title": "Learn R Programming from Harvard University",
+      "url": "https://www.freecodecamp.org/news/learn-r-programming-from-harvard-university/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "Learn R Programming from Harvard University",
+        "url": "https://www.freecodecamp.org/news/learn-r-programming-from-harvard-university/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_131_x5pr2a4dx",
+      "title": "freeCodeCamp's New Responsive Web Design Certification is Now Live",
+      "url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "freeCodeCamp's New Responsive Web Design Certification is Now Live",
+        "url": "https://www.freecodecamp.org/news/freecodecamps-new-responsive-web-design-certification-is-now-live/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_132_7ab3gdp9d",
+      "title": "Tips from a Serial Career Changer with GitHub's Andrea Griffiths [Podcast #199]",
+      "url": "https://www.freecodecamp.org/news/tips-from-serial-career-changer-github-andrea-griffiths-podcast-199/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "Tips from a Serial Career Changer with GitHub's Andrea Griffiths [Podcast #199]",
+        "url": "https://www.freecodecamp.org/news/tips-from-serial-career-changer-github-andrea-griffiths-podcast-199/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_133_jgue3wc89",
+      "title": "How to Build an AI-Driven Search Experience using Meilisearch",
+      "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-driven-search-experience-using-meilisearch/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Build an AI-Driven Search Experience using Meilisearch",
+        "url": "https://www.freecodecamp.org/news/how-to-build-an-ai-driven-search-experience-using-meilisearch/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_134_r4ocbvrrq",
+      "title": "Theming and Customization in Flutter: A Handbook for Developers",
+      "url": "https://www.freecodecamp.org/news/theming-and-customization-in-flutter-a-handbook-for-developers/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "Theming and Customization in Flutter: A Handbook for Developers",
+        "url": "https://www.freecodecamp.org/news/theming-and-customization-in-flutter-a-handbook-for-developers/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_135_cmp1uum3b",
+      "title": "freeCodeCamp's Top Open Source Contributors of 2025",
+      "url": "https://www.freecodecamp.org/news/freecodecamp-top-open-source-contributors-2025/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "freeCodeCamp's Top Open Source Contributors of 2025",
+        "url": "https://www.freecodecamp.org/news/freecodecamp-top-open-source-contributors-2025/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_136_l15grd9ll",
+      "title": "How to Build a Secure Authentication System with JWT and Refresh Tokens",
+      "url": "https://www.freecodecamp.org/news/how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Build a Secure Authentication System with JWT and Refresh Tokens",
+        "url": "https://www.freecodecamp.org/news/how-to-build-a-secure-authentication-system-with-jwt-and-refresh-tokens/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_137_k1dewhmk8",
+      "title": "Learn CSS Flexbox for Beginners [Free 2-hour course]",
+      "url": "https://www.freecodecamp.org/news/learn-css-flexbox-for-beginners-free-2-hour-course/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "Learn CSS Flexbox for Beginners [Free 2-hour course]",
+        "url": "https://www.freecodecamp.org/news/learn-css-flexbox-for-beginners-free-2-hour-course/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_138_r3daanmzd",
+      "title": "How to Deploy Your Own Cockroach DB  Instance on Kubernetes [Full Book for Devs]",
+      "url": "https://www.freecodecamp.org/news/deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Deploy Your Own Cockroach DB  Instance on Kubernetes [Full Book for Devs]",
+        "url": "https://www.freecodecamp.org/news/deploy-your-own-cockroach-db-instance-on-kubernetes-full-book-for-devs/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "freecodecamp_1764847427957_139_ll6gld6ze",
+      "title": "How to Use Vibe Coding Effectively as a Dev",
+      "url": "https://www.freecodecamp.org/news/how-to-use-vibe-coding-effectively-as-a-dev/",
+      "source": "freecodecamp",
+      "score": 75,
+      "tags": [
+        "tutorial",
+        "learning",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "FreeCodeCamp",
+      "description": "",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Use Vibe Coding Effectively as a Dev",
+        "url": "https://www.freecodecamp.org/news/how-to-use-vibe-coding-effectively-as-a-dev/",
+        "description": "",
+        "author": "FreeCodeCamp",
+        "readTime": 10,
+        "tags": [
+          "tutorial",
+          "learning",
+          "programming"
+        ],
+        "source": "freecodecamp",
+        "isEducational": true,
+        "sourceName": "freecodecamp"
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_76_bnfa2hls2",
+      "title": "SWI-Prolog 10.0.0 released",
+      "url": "https://swi-prolog.discourse.group/t/ann-swi-prolog-10-0-0-stable/9412",
+      "source": "lobsters",
+      "score": 70,
+      "tags": [
+        "release"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "aarroyoc",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "SWI-Prolog 10.0.0 released",
+        "url": "https://swi-prolog.discourse.group/t/ann-swi-prolog-10-0-0-stable/9412",
+        "shortUrl": "https://lobste.rs/s/kiouhn",
+        "score": 14,
+        "comments": 2,
+        "author": "aarroyoc",
+        "tags": [
+          "release"
+        ],
+        "createdAt": "2025-12-04T01:52:53.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/kiouhn/swi_prolog_10_0_0_released",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 2
+      }
+    },
+    {
+      "id": "dailydev_1764847427957_140_vl8vw2nh6",
+      "title": "System Design Interview Guide",
+      "url": "https://github.com/donnemartin/system-design-primer",
+      "source": "dailydev",
+      "score": 70,
+      "tags": [
+        "systemdesign",
+        "architecture",
+        "learning"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Unknown",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.",
+      "isEducational": true,
+      "metadata": {
+        "title": "System Design Interview Guide",
+        "url": "https://github.com/donnemartin/system-design-primer",
+        "description": "Learn how to design large-scale systems. Prep for the system design interview.",
+        "tags": [
+          "systemdesign",
+          "architecture",
+          "learning"
+        ],
+        "source": "dailydev",
+        "isEducational": true,
+        "sourceName": "dailydev"
+      }
+    },
+    {
+      "id": "dailydev_1764847427957_141_1ubk187hl",
+      "title": "Patterns.dev - Modern Web App Patterns",
+      "url": "https://www.patterns.dev/",
+      "source": "dailydev",
+      "score": 70,
+      "tags": [
+        "patterns",
+        "javascript",
+        "react",
+        "learning"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Unknown",
+      "description": "A free book on design patterns and component patterns for building modern web applications.",
+      "isEducational": true,
+      "metadata": {
+        "title": "Patterns.dev - Modern Web App Patterns",
+        "url": "https://www.patterns.dev/",
+        "description": "A free book on design patterns and component patterns for building modern web applications.",
+        "tags": [
+          "patterns",
+          "javascript",
+          "react",
+          "learning"
+        ],
+        "source": "dailydev",
+        "isEducational": true,
+        "sourceName": "dailydev"
+      }
+    },
+    {
+      "id": "dailydev_1764847427957_142_cjznff8v1",
+      "title": "The Twelve-Factor App",
+      "url": "https://12factor.net/",
+      "source": "dailydev",
+      "score": 70,
+      "tags": [
+        "architecture",
+        "devops",
+        "bestpractices"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Unknown",
+      "description": "Methodology for building software-as-a-service apps",
+      "isEducational": true,
+      "metadata": {
+        "title": "The Twelve-Factor App",
+        "url": "https://12factor.net/",
+        "description": "Methodology for building software-as-a-service apps",
+        "tags": [
+          "architecture",
+          "devops",
+          "bestpractices"
+        ],
+        "source": "dailydev",
+        "isEducational": true,
+        "sourceName": "dailydev"
+      }
+    },
+    {
+      "id": "dailydev_1764847427957_143_12580u4vx",
+      "title": "Understanding MCP (Model Context Protocol)",
+      "url": "https://modelcontextprotocol.io/docs",
+      "source": "dailydev",
+      "score": 70,
+      "tags": [
+        "ai",
+        "mcp",
+        "llm",
+        "learning"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Unknown",
+      "description": "Learn about the new protocol for connecting AI models to external data sources",
+      "isEducational": true,
+      "metadata": {
+        "title": "Understanding MCP (Model Context Protocol)",
+        "url": "https://modelcontextprotocol.io/docs",
+        "description": "Learn about the new protocol for connecting AI models to external data sources",
+        "tags": [
+          "ai",
+          "mcp",
+          "llm",
+          "learning"
+        ],
+        "source": "dailydev",
+        "isEducational": true,
+        "sourceName": "dailydev"
+      }
+    },
+    {
+      "id": "dailydev_1764847427957_144_r3165mr19",
+      "title": "Web.dev - Learn Web Development",
+      "url": "https://web.dev/learn",
+      "source": "dailydev",
+      "score": 70,
+      "tags": [
+        "web",
+        "javascript",
+        "performance",
+        "learning"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Unknown",
+      "description": "Google's guide to modern web development best practices",
+      "isEducational": true,
+      "metadata": {
+        "title": "Web.dev - Learn Web Development",
+        "url": "https://web.dev/learn",
+        "description": "Google's guide to modern web development best practices",
+        "tags": [
+          "web",
+          "javascript",
+          "performance",
+          "learning"
+        ],
+        "source": "dailydev",
+        "isEducational": true,
+        "sourceName": "dailydev"
+      }
+    },
+    {
+      "id": "dailydev_1764847427957_145_h17zpnivx",
+      "title": "Refactoring.Guru - Design Patterns",
+      "url": "https://refactoring.guru/design-patterns",
+      "source": "dailydev",
+      "score": 70,
+      "tags": [
+        "patterns",
+        "architecture",
+        "oop",
+        "learning"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Unknown",
+      "description": "Interactive learning about design patterns with examples in multiple languages",
+      "isEducational": true,
+      "metadata": {
+        "title": "Refactoring.Guru - Design Patterns",
+        "url": "https://refactoring.guru/design-patterns",
+        "description": "Interactive learning about design patterns with examples in multiple languages",
+        "tags": [
+          "patterns",
+          "architecture",
+          "oop",
+          "learning"
+        ],
+        "source": "dailydev",
+        "isEducational": true,
+        "sourceName": "dailydev"
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_47_6eoygs6g5",
+      "title": "Average DRAM price in USD over last 18 months",
+      "url": "https://pcpartpicker.com/trends/price/memory/",
+      "source": "hackernews",
+      "score": 68,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "zekrioca",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Average DRAM price in USD over last 18 months",
+        "url": "https://pcpartpicker.com/trends/price/memory/",
+        "score": 339,
+        "author": "zekrioca",
+        "comments": 225,
+        "time": "2025-12-04T00:08:26.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46142100",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 225
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_55_dlrxuerxc",
+      "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
+      "url": "https://finfam.app/blog/credit-union-mortgages",
+      "source": "hackernews",
+      "score": 53,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "mhashemi",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Show HN: I built a dashboard to compare mortgage rates across 120 credit unions",
+        "url": "https://finfam.app/blog/credit-union-mortgages",
+        "score": 263,
+        "author": "mhashemi",
+        "comments": 85,
+        "time": "2025-12-03T20:35:27.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46139761",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 85
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_0_gqnbo2ktt",
+      "title": "DEV's Worldwide Show and Tell Challenge Presented by Mux: Pitch Your Projects! $3,000 in Prizes. 🎥",
+      "url": "https://dev.to/devteam/devs-worldwide-show-and-tell-challenge-presented-by-mux-pitch-your-projects-3000-in-prizes-40g7",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "jess",
+      "description": "We are so thrilled to introduce DEV's Worldwide Show and Tell Challenge presented by Mux!   Running...",
+      "isEducational": false,
+      "metadata": {
+        "title": "DEV's Worldwide Show and Tell Challenge Presented by Mux: Pitch Your Projects! $3,000 in Prizes. 🎥",
+        "url": "https://dev.to/devteam/devs-worldwide-show-and-tell-challenge-presented-by-mux-pitch-your-projects-3000-in-prizes-40g7",
+        "description": "We are so thrilled to introduce DEV's Worldwide Show and Tell Challenge presented by Mux!   Running...",
+        "tags": [
+          "showdev",
+          "devchallenge",
+          "muxchallenge",
+          "webdev"
+        ],
+        "readingTime": 4,
+        "reactions": 134,
+        "comments": 9,
+        "author": "jess",
+        "publishedAt": "2025-12-03T17:59:50Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgyatop380f60atjup6ah.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 9,
+        "reactions": 134
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_1_c01hxnh4i",
+      "title": "Anthropic just acquired Bun.js. Here's why.",
+      "url": "https://dev.to/meteroid/anthropic-just-bought-bunjs-heres-why-6bh",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "gaspardb",
+      "description": "Anthropic just acquired Bun. First acquisition ever for the company behind Claude and Claude...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Anthropic just acquired Bun.js. Here's why.",
+        "url": "https://dev.to/meteroid/anthropic-just-bought-bunjs-heres-why-6bh",
+        "description": "Anthropic just acquired Bun. First acquisition ever for the company behind Claude and Claude...",
+        "tags": [
+          "ai",
+          "programming",
+          "javascript",
+          "opensource"
+        ],
+        "readingTime": 4,
+        "reactions": 29,
+        "comments": 2,
+        "author": "gaspardb",
+        "publishedAt": "2025-12-03T13:49:49Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzcidyf5ttudm3wjgv2d7.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 29
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_2_hn9y2q4mv",
+      "title": "You can now use YouTube videos as your cover video on DEV Posts (Also Mux and Twitch videos)",
+      "url": "https://dev.to/devteam/you-can-now-use-youtube-videos-as-your-cover-video-on-dev-posts-also-mux-and-twitch-videos-360b",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "ben",
+      "description": "You can now use a YouTube video as the cover for your post—meaning it will appear above the title and...",
+      "isEducational": false,
+      "metadata": {
+        "title": "You can now use YouTube videos as your cover video on DEV Posts (Also Mux and Twitch videos)",
+        "url": "https://dev.to/devteam/you-can-now-use-youtube-videos-as-your-cover-video-on-dev-posts-also-mux-and-twitch-videos-360b",
+        "description": "You can now use a YouTube video as the cover for your post—meaning it will appear above the title and...",
+        "tags": [
+          "community",
+          "devto",
+          "news",
+          "forem"
+        ],
+        "readingTime": 1,
+        "reactions": 46,
+        "comments": 7,
+        "author": "ben",
+        "publishedAt": "2025-12-03T20:49:42Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 7,
+        "reactions": 46
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_3_8m1o0pvph",
+      "title": "Anthropic Bought Bun: Here's What It Really Means for Us",
+      "url": "https://dev.to/arjuncodess/anthropic-bought-bun-heres-what-it-really-means-for-us-kj2",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "arjuncodess",
+      "description": "Anthropic didn't just buy a fast JavaScript runtime.  They bought the one missing piece that turns...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Anthropic Bought Bun: Here's What It Really Means for Us",
+        "url": "https://dev.to/arjuncodess/anthropic-bought-bun-heres-what-it-really-means-for-us-kj2",
+        "description": "Anthropic didn't just buy a fast JavaScript runtime.  They bought the one missing piece that turns...",
+        "tags": [
+          "news",
+          "performance",
+          "architecture",
+          "discuss"
+        ],
+        "readingTime": 5,
+        "reactions": 14,
+        "comments": 0,
+        "author": "arjuncodess",
+        "publishedAt": "2025-12-03T20:30:00Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmxsayma9v1nl7v0xv0eh.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 14
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_4_c10kd9fp0",
+      "title": "How to Query a Railway SQLite Database from GitHub Actions",
+      "url": "https://dev.to/blackgirlbytes/how-to-query-a-railway-sqlite-database-from-github-actions-376j",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "blackgirlbytes",
+      "description": "I have an app on Railway that uses SQLite, and for a while I was manually SSHing into my project to...",
+      "isEducational": false,
+      "metadata": {
+        "title": "How to Query a Railway SQLite Database from GitHub Actions",
+        "url": "https://dev.to/blackgirlbytes/how-to-query-a-railway-sqlite-database-from-github-actions-376j",
+        "description": "I have an app on Railway that uses SQLite, and for a while I was manually SSHing into my project to...",
+        "tags": [
+          "devops",
+          "githubactions",
+          "automation"
+        ],
+        "readingTime": 4,
+        "reactions": 5,
+        "comments": 0,
+        "author": "blackgirlbytes",
+        "publishedAt": "2025-12-03T20:44:25Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fbxscgjyzix8k1leplr2o.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_5_l6hbjee5q",
+      "title": "No Vibe No Code: Bootstrapping Ideas",
+      "url": "https://dev.to/kirodotdev/no-vibe-no-code-bootstrapping-ideas-o88",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "llamojha",
+      "description": "1. The Core Problem: Too Many Ideas, Not Enough Finished Things   I always have loads of...",
+      "isEducational": false,
+      "metadata": {
+        "title": "No Vibe No Code: Bootstrapping Ideas",
+        "url": "https://dev.to/kirodotdev/no-vibe-no-code-bootstrapping-ideas-o88",
+        "description": "1. The Core Problem: Too Many Ideas, Not Enough Finished Things   I always have loads of...",
+        "tags": [
+          "kiro",
+          "kiroween",
+          "hackathon",
+          "kirodotdev"
+        ],
+        "readingTime": 6,
+        "reactions": 6,
+        "comments": 2,
+        "author": "llamojha",
+        "publishedAt": "2025-12-03T18:34:20Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ff4nasd2w9ptim8au0qod.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_6_dnvx4qdr8",
+      "title": "When the Spark is Done: The ADHD Energy Cycle No One Talks About ✨",
+      "url": "https://dev.to/anchildress1/when-the-spark-is-done-the-adhd-energy-cycle-no-one-talks-about-43fo",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "anchildress1",
+      "description": "When ADHD energy drops into “done mode,” it’s not burnout—it’s a reset. Here’s what the spark cycle really feels like.",
+      "isEducational": false,
+      "metadata": {
+        "title": "When the Spark is Done: The ADHD Energy Cycle No One Talks About ✨",
+        "url": "https://dev.to/anchildress1/when-the-spark-is-done-the-adhd-energy-cycle-no-one-talks-about-43fo",
+        "description": "When ADHD energy drops into “done mode,” it’s not burnout—it’s a reset. Here’s what the spark cycle really feels like.",
+        "tags": [
+          "mentalhealth",
+          "productivity",
+          "discuss",
+          "adhd"
+        ],
+        "readingTime": 5,
+        "reactions": 6,
+        "comments": 0,
+        "author": "anchildress1",
+        "publishedAt": "2025-12-04T06:38:12Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fw8gkltemv3mza4n16755.png%3Fv%3D2025",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_7_lm0m4vu3h",
+      "title": "Respiration",
+      "url": "https://dev.to/pascal_cescato_692b7a8a20/respiration-1l86",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "pascal_cescato_692b7a8a20",
+      "description": "A slow retrospective on a season of writing, and the quiet transition now opening between fatigue,...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Respiration",
+        "url": "https://dev.to/pascal_cescato_692b7a8a20/respiration-1l86",
+        "description": "A slow retrospective on a season of writing, and the quiet transition now opening between fatigue,...",
+        "tags": [
+          "devjournal",
+          "writing",
+          "watercooler",
+          "mentalhealth"
+        ],
+        "readingTime": 6,
+        "reactions": 18,
+        "comments": 6,
+        "author": "pascal_cescato_692b7a8a20",
+        "publishedAt": "2025-12-03T17:04:46Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwbh8c36amb9cf6b4l2ul.jpg",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 6,
+        "reactions": 18
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_8_ybbw4kvir",
+      "title": "How to get Python/Cloud/Java/DevOps/Admin job in this crazy market?",
+      "url": "https://dev.to/aws-builders/how-to-get-pythoncloudjavadevopsadmin-job-in-this-crazy-market-1ldj",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "ppabis",
+      "description": "In advance I want to say: I won't sell you a bootcamp, I won't send you to a Udemy course and I don't...",
+      "isEducational": false,
+      "metadata": {
+        "title": "How to get Python/Cloud/Java/DevOps/Admin job in this crazy market?",
+        "url": "https://dev.to/aws-builders/how-to-get-pythoncloudjavadevopsadmin-job-in-this-crazy-market-1ldj",
+        "description": "In advance I want to say: I won't sell you a bootcamp, I won't send you to a Udemy course and I don't...",
+        "tags": [
+          "career",
+          "developer",
+          "devops"
+        ],
+        "readingTime": 7,
+        "reactions": 6,
+        "comments": 2,
+        "author": "ppabis",
+        "publishedAt": "2025-12-03T16:38:37Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Faq2q2t0inl5b1m4my0gb.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_9_yfgj2m1oa",
+      "title": "How I Finally Fixed My .gitignore (and Ended Up Writing an Extension)",
+      "url": "https://dev.to/jasong/how-i-finally-fixed-my-gitignore-and-ended-up-writing-an-extension-34ne",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "jasong",
+      "description": "I thought my .gitignore files were fine. Most of us probably do. You drop in a template, add a couple...",
+      "isEducational": false,
+      "metadata": {
+        "title": "How I Finally Fixed My .gitignore (and Ended Up Writing an Extension)",
+        "url": "https://dev.to/jasong/how-i-finally-fixed-my-gitignore-and-ended-up-writing-an-extension-34ne",
+        "description": "I thought my .gitignore files were fine. Most of us probably do. You drop in a template, add a couple...",
+        "tags": [
+          "vscode",
+          "git",
+          "productivity",
+          "security"
+        ],
+        "readingTime": 1,
+        "reactions": 5,
+        "comments": 1,
+        "author": "jasong",
+        "publishedAt": "2025-12-03T14:40:15Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Foq6qyw5rmny3vsmzksui.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_10_im4lg4upa",
+      "title": "I Built a Game That Reads Your Mind (Using 100% AI)",
+      "url": "https://dev.to/simiyu-samuel/i-built-a-game-that-reads-your-mind-using-100-ai-njk",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "simiyu-samuel",
+      "description": "How Kiro, Agent Hooks, and Biofeedback created NeuroLabyrinth.   It started with a...",
+      "isEducational": false,
+      "metadata": {
+        "title": "I Built a Game That Reads Your Mind (Using 100% AI)",
+        "url": "https://dev.to/simiyu-samuel/i-built-a-game-that-reads-your-mind-using-100-ai-njk",
+        "description": "How Kiro, Agent Hooks, and Biofeedback created NeuroLabyrinth.   It started with a...",
+        "tags": [
+          "kiro",
+          "gamedev",
+          "react",
+          "typescript"
+        ],
+        "readingTime": 2,
+        "reactions": 1,
+        "comments": 0,
+        "author": "simiyu-samuel",
+        "publishedAt": "2025-12-03T13:40:43Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fq0gskhj96ngom8nd72sr.JPG",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_11_538wiv3jw",
+      "title": "Advent of AI 2025 - Day 3: Building Data Visualizations with Goose",
+      "url": "https://dev.to/nickytonline/advent-of-ai-2025-day-1-building-data-visualizations-with-goose-g7f",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "nickytonline",
+      "description": "I've edited this post, but AI helped. These are meant to be quick posts related to the Advent of AI....",
+      "isEducational": false,
+      "metadata": {
+        "title": "Advent of AI 2025 - Day 3: Building Data Visualizations with Goose",
+        "url": "https://dev.to/nickytonline/advent-of-ai-2025-day-1-building-data-visualizations-with-goose-g7f",
+        "description": "I've edited this post, but AI helped. These are meant to be quick posts related to the Advent of AI....",
+        "tags": [
+          "goose",
+          "adventofai",
+          "dataviz",
+          "ai"
+        ],
+        "readingTime": 4,
+        "reactions": 4,
+        "comments": 0,
+        "author": "nickytonline",
+        "publishedAt": "2025-12-04T02:36:01Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fncqhhxwcpzzny4944438.jpg",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 4
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_12_58k6xfytg",
+      "title": "Vibecoding: How to get from 0 to SaaS in hours.",
+      "url": "https://dev.to/js402/antigravity-how-to-get-from-0-to-saas-in-hours-27bg",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "js402",
+      "description": "How-to: Vibecoding a full-stack SaaS using Google's Antigravity IDE.",
+      "isEducational": false,
+      "metadata": {
+        "title": "Vibecoding: How to get from 0 to SaaS in hours.",
+        "url": "https://dev.to/js402/antigravity-how-to-get-from-0-to-saas-in-hours-27bg",
+        "description": "How-to: Vibecoding a full-stack SaaS using Google's Antigravity IDE.",
+        "tags": [
+          "webdev",
+          "ai",
+          "saas",
+          "javascript"
+        ],
+        "readingTime": 7,
+        "reactions": 4,
+        "comments": 0,
+        "author": "js402",
+        "publishedAt": "2025-12-03T17:20:42Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 4
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_13_6zvfeotqh",
+      "title": "I Got Tired of Tab-Switching for Simple Calculations, So I Built This",
+      "url": "https://dev.to/dev_owls/i-got-tired-of-tab-switching-for-simple-calculations-so-i-built-this-5984",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "dev_owls",
+      "description": "As developers, we spend our days solving complex problems. But somehow, the simplest tasks still...",
+      "isEducational": false,
+      "metadata": {
+        "title": "I Got Tired of Tab-Switching for Simple Calculations, So I Built This",
+        "url": "https://dev.to/dev_owls/i-got-tired-of-tab-switching-for-simple-calculations-so-i-built-this-5984",
+        "description": "As developers, we spend our days solving complex problems. But somehow, the simplest tasks still...",
+        "tags": [
+          "productivity",
+          "showdev",
+          "tooling"
+        ],
+        "readingTime": 3,
+        "reactions": 6,
+        "comments": 3,
+        "author": "dev_owls",
+        "publishedAt": "2025-12-03T17:11:02Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqd5vdmj6thb830e1aa40.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 3,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_14_dv2gsmhrp",
+      "title": "Making My React Native App Work Offline [MyNextHome]",
+      "url": "https://dev.to/cathylai/building-offline-first-sync-in-react-native-a-practical-approach-mynexthome-4im6",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "cathylai",
+      "description": "The Problem We're Solving   Let's be honest - mobile apps need to work offline. House...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Making My React Native App Work Offline [MyNextHome]",
+        "url": "https://dev.to/cathylai/building-offline-first-sync-in-react-native-a-practical-approach-mynexthome-4im6",
+        "description": "The Problem We're Solving   Let's be honest - mobile apps need to work offline. House...",
+        "tags": [
+          "mobile",
+          "reactnative",
+          "buildinpublic",
+          "localfirstapp"
+        ],
+        "readingTime": 4,
+        "reactions": 2,
+        "comments": 1,
+        "author": "cathylai",
+        "publishedAt": "2025-12-03T20:10:05Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_15_wkkpbsiol",
+      "title": "Building a \"Fortress\" Kubernetes Cluster: Talos Linux, Proxmox, and Network Isolation",
+      "url": "https://dev.to/jorisvilardell/building-a-fortress-kubernetes-cluster-talos-linux-proxmox-and-network-isolation-1p4g",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "jorisvilardell",
+      "description": "How to deploy a fully HA (High Availability) cluster completely isolated from the public...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Building a \"Fortress\" Kubernetes Cluster: Talos Linux, Proxmox, and Network Isolation",
+        "url": "https://dev.to/jorisvilardell/building-a-fortress-kubernetes-cluster-talos-linux-proxmox-and-network-isolation-1p4g",
+        "description": "How to deploy a fully HA (High Availability) cluster completely isolated from the public...",
+        "tags": [
+          "architecture",
+          "devops",
+          "security",
+          "kubernetes"
+        ],
+        "readingTime": 4,
+        "reactions": 3,
+        "comments": 1,
+        "author": "jorisvilardell",
+        "publishedAt": "2025-12-03T16:03:39Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 3
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_16_ew33zx7e9",
+      "title": "TOON vs JSON: A Reality Check — When It Saves Tokens and When It Doesn't",
+      "url": "https://dev.to/prodbld/toon-vs-json-a-reality-check-when-it-saves-tokens-and-when-it-doesnt-1b6m",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "prodbld",
+      "description": "There's been a wave of articles lately about TOON (Token-Oriented Object Notation), many proclaiming...",
+      "isEducational": false,
+      "metadata": {
+        "title": "TOON vs JSON: A Reality Check — When It Saves Tokens and When It Doesn't",
+        "url": "https://dev.to/prodbld/toon-vs-json-a-reality-check-when-it-saves-tokens-and-when-it-doesnt-1b6m",
+        "description": "There's been a wave of articles lately about TOON (Token-Oriented Object Notation), many proclaiming...",
+        "tags": [
+          "data",
+          "llm",
+          "ai",
+          "performance"
+        ],
+        "readingTime": 5,
+        "reactions": 5,
+        "comments": 2,
+        "author": "prodbld",
+        "publishedAt": "2025-12-03T14:37:17Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frynnbsikcy0pnuccyk6w.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_17_s2cs4elz9",
+      "title": "My 30 Favorite Tools as a Fractional CTO for 2026",
+      "url": "https://dev.to/willbarrett/my-30-favorite-tools-as-a-fractional-cto-for-2026-29pl",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "willbarrett",
+      "description": "I’m always fascinated by the daily rituals and tools that others use to thrive in this world. Here’s...",
+      "isEducational": false,
+      "metadata": {
+        "title": "My 30 Favorite Tools as a Fractional CTO for 2026",
+        "url": "https://dev.to/willbarrett/my-30-favorite-tools-as-a-fractional-cto-for-2026-29pl",
+        "description": "I’m always fascinated by the daily rituals and tools that others use to thrive in this world. Here’s...",
+        "tags": [
+          "productivity",
+          "resources",
+          "tooling"
+        ],
+        "readingTime": 10,
+        "reactions": 2,
+        "comments": 1,
+        "author": "willbarrett",
+        "publishedAt": "2025-12-03T16:25:16Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_18_z4cc6zrqu",
+      "title": "FestiFlow AI: Building a Global Festival & Cultural Insights API with Xano and AI",
+      "url": "https://dev.to/extinctsion/festiflow-ai-building-a-global-festival-cultural-insights-api-with-xano-and-ai-1coa",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "extinctsion",
+      "description": "Introduction   Imagine you're building a travel app, a cultural education platform, or a...",
+      "isEducational": false,
+      "metadata": {
+        "title": "FestiFlow AI: Building a Global Festival & Cultural Insights API with Xano and AI",
+        "url": "https://dev.to/extinctsion/festiflow-ai-building-a-global-festival-cultural-insights-api-with-xano-and-ai-1coa",
+        "description": "Introduction   Imagine you're building a travel app, a cultural education platform, or a...",
+        "tags": [
+          "devchallenge",
+          "xanochallenge",
+          "api",
+          "backend"
+        ],
+        "readingTime": 9,
+        "reactions": 11,
+        "comments": 2,
+        "author": "extinctsion",
+        "publishedAt": "2025-12-03T19:23:08Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fadgzr5jm7kz15lv4tgcv.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 11
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_19_9pbahxaxr",
+      "title": "Python by Structure: Return Value Transformations with Decorators",
+      "url": "https://dev.to/aaron_rose_0787cc8b4775a0/python-by-structure-return-value-transformations-with-decorators-2cg2",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "aaron_rose_0787cc8b4775a0",
+      "description": "Timothy was working on a text processing module when he noticed something odd. \"Margaret, I have five...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Python by Structure: Return Value Transformations with Decorators",
+        "url": "https://dev.to/aaron_rose_0787cc8b4775a0/python-by-structure-return-value-transformations-with-decorators-2cg2",
+        "description": "Timothy was working on a text processing module when he noticed something odd. \"Margaret, I have five...",
+        "tags": [
+          "python",
+          "coding",
+          "programming",
+          "softwaredevelopment"
+        ],
+        "readingTime": 4,
+        "reactions": 1,
+        "comments": 0,
+        "author": "aaron_rose_0787cc8b4775a0",
+        "publishedAt": "2025-12-04T04:44:09Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F4vtmtu1pxy7m60t7yapk.jpeg",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_20_7vsu568bn",
+      "title": "The Pitfall of Increasing Read Capacity by Reading From Secondary Nodes in a MongoDB Replica Set",
+      "url": "https://dev.to/arturgc/the-pitfall-of-increasing-read-capacity-by-reading-from-secondary-nodes-in-a-mongodb-replica-set-49cn",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "arturgc",
+      "description": "This article was reviewed and approved by MongoDB and was originally published in foojay.io and...",
+      "isEducational": false,
+      "metadata": {
+        "title": "The Pitfall of Increasing Read Capacity by Reading From Secondary Nodes in a MongoDB Replica Set",
+        "url": "https://dev.to/arturgc/the-pitfall-of-increasing-read-capacity-by-reading-from-secondary-nodes-in-a-mongodb-replica-set-49cn",
+        "description": "This article was reviewed and approved by MongoDB and was originally published in foojay.io and...",
+        "tags": [
+          "mongodb",
+          "performance",
+          "replicaset",
+          "availability"
+        ],
+        "readingTime": 8,
+        "reactions": 4,
+        "comments": 1,
+        "author": "arturgc",
+        "publishedAt": "2025-12-03T18:43:37Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 4
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_21_zvsdcf3h2",
+      "title": "Technical Debt vs Structural Debt: A Complete Guide for Engineering Teams",
+      "url": "https://dev.to/adamthedeveloper/technical-debt-vs-structural-debt-a-complete-guide-for-engineering-teams-10i0",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "adamthedeveloper",
+      "description": "We've all been there. Sprint planning rolls around, and someone raises their hand: \"We need to pay...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Technical Debt vs Structural Debt: A Complete Guide for Engineering Teams",
+        "url": "https://dev.to/adamthedeveloper/technical-debt-vs-structural-debt-a-complete-guide-for-engineering-teams-10i0",
+        "description": "We've all been there. Sprint planning rolls around, and someone raises their hand: \"We need to pay...",
+        "tags": [
+          "architecture",
+          "design",
+          "webdev",
+          "software"
+        ],
+        "readingTime": 8,
+        "reactions": 2,
+        "comments": 0,
+        "author": "adamthedeveloper",
+        "publishedAt": "2025-12-04T04:34:19Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F53ltkek6o27shmj6x0u2.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_22_j7605rsq5",
+      "title": "Mastering AWS Cross-Account Secrets with Terraform & KMS",
+      "url": "https://dev.to/khaldoun488/mastering-aws-cross-account-secrets-with-terraform-kms-c70",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "khaldoun488",
+      "description": "Why your cross-account Lambda can't read that secret, and the crucial role of Customer Managed Keys in multi-account architectures.",
+      "isEducational": false,
+      "metadata": {
+        "title": "Mastering AWS Cross-Account Secrets with Terraform & KMS",
+        "url": "https://dev.to/khaldoun488/mastering-aws-cross-account-secrets-with-terraform-kms-c70",
+        "description": "Why your cross-account Lambda can't read that secret, and the crucial role of Customer Managed Keys in multi-account architectures.",
+        "tags": [
+          "aws",
+          "terraform",
+          "devops",
+          "serverless"
+        ],
+        "readingTime": 3,
+        "reactions": 3,
+        "comments": 1,
+        "author": "khaldoun488",
+        "publishedAt": "2025-12-03T14:05:31Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 3
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_23_peylrzbag",
+      "title": "Concorrência, paralelismo e IA em produção: como reduzir a latência de endpoints de 40s para 8s",
+      "url": "https://dev.to/vinidev/concorrencia-paralelismo-e-ia-em-producao-como-reduzir-a-latencia-de-endpoints-de-40s-para-8s-2ge2",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "vinidev",
+      "description": "Como fundamentos de sistemas operacionais e programação concorrente podem reduzir a latência de endpoints com IA externa — com exemplos em Node.js/TypeScript.",
+      "isEducational": false,
+      "metadata": {
+        "title": "Concorrência, paralelismo e IA em produção: como reduzir a latência de endpoints de 40s para 8s",
+        "url": "https://dev.to/vinidev/concorrencia-paralelismo-e-ia-em-producao-como-reduzir-a-latencia-de-endpoints-de-40s-para-8s-2ge2",
+        "description": "Como fundamentos de sistemas operacionais e programação concorrente podem reduzir a latência de endpoints com IA externa — com exemplos em Node.js/TypeScript.",
+        "tags": [
+          "node",
+          "typescript",
+          "backend",
+          "ai"
+        ],
+        "readingTime": 10,
+        "reactions": 1,
+        "comments": 0,
+        "author": "vinidev",
+        "publishedAt": "2025-12-03T23:05:33Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fuovidmnbkb6z876b3f5a.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_24_52el8up5z",
+      "title": "The Night Kubernetes Almost Made Me Quit DevOps Forever",
+      "url": "https://dev.to/arbythecoder/the-night-kubernetes-almost-made-me-quit-devops-forever-4248",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "arbythecoder",
+      "description": "You remember that story I told you about avoiding Kubernetes for 2 years? The one where I said I was...",
+      "isEducational": false,
+      "metadata": {
+        "title": "The Night Kubernetes Almost Made Me Quit DevOps Forever",
+        "url": "https://dev.to/arbythecoder/the-night-kubernetes-almost-made-me-quit-devops-forever-4248",
+        "description": "You remember that story I told you about avoiding Kubernetes for 2 years? The one where I said I was...",
+        "tags": [
+          "devops",
+          "kubernetes",
+          "beginners",
+          "webdev"
+        ],
+        "readingTime": 9,
+        "reactions": 1,
+        "comments": 0,
+        "author": "arbythecoder",
+        "publishedAt": "2025-12-03T22:08:22Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fb6g10gmg6laf8m0pu2wr.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_25_kkbl5gao2",
+      "title": "Deep Dive React Native #4: The Architect Inside — Understanding Reconciliation",
+      "url": "https://dev.to/trng_trnhc_cd88085f/deep-dive-react-native-4-the-architect-inside-understanding-reconciliation-52m7",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "trng_trnhc_cd88085f",
+      "description": "If you ask a React Native developer: \"Does React Native use a Virtual DOM?\", the answer is usually a...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Deep Dive React Native #4: The Architect Inside — Understanding Reconciliation",
+        "url": "https://dev.to/trng_trnhc_cd88085f/deep-dive-react-native-4-the-architect-inside-understanding-reconciliation-52m7",
+        "description": "If you ask a React Native developer: \"Does React Native use a Virtual DOM?\", the answer is usually a...",
+        "tags": [
+          "architecture",
+          "performance",
+          "reactnative"
+        ],
+        "readingTime": 4,
+        "reactions": 2,
+        "comments": 1,
+        "author": "trng_trnhc_cd88085f",
+        "publishedAt": "2025-12-03T15:43:33Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fenfb073o512wq491g0kh.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_26_minkrvutj",
+      "title": "AWS DevOps Agent — The Future of Autonomous Cloud Operations",
+      "url": "https://dev.to/aws-builders/aws-devops-agent-the-future-of-autonomous-cloud-operations-3360",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "sumsuzzaman",
+      "description": "Imagine an always-on, AI-powered teammate that wakes up the moment your monitoring alert fires, dives...",
+      "isEducational": false,
+      "metadata": {
+        "title": "AWS DevOps Agent — The Future of Autonomous Cloud Operations",
+        "url": "https://dev.to/aws-builders/aws-devops-agent-the-future-of-autonomous-cloud-operations-3360",
+        "description": "Imagine an always-on, AI-powered teammate that wakes up the moment your monitoring alert fires, dives...",
+        "tags": [
+          "aws",
+          "ai",
+          "devops",
+          "agents"
+        ],
+        "readingTime": 24,
+        "reactions": 1,
+        "comments": 0,
+        "author": "sumsuzzaman",
+        "publishedAt": "2025-12-03T17:52:53Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fh0jv9vk2stt5yrr3kypg.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_27_shkli2pq6",
+      "title": "Why I Built GymDose: A Simple Supplement Tracker for Real Fitness Journeys",
+      "url": "https://dev.to/baransel/why-i-built-gymdose-a-simple-supplement-tracker-for-real-fitness-journeys-59i5",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "baransel",
+      "description": "Over the last couple of years, fitness has become a huge part of my life. I lost 45 kilograms through...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Why I Built GymDose: A Simple Supplement Tracker for Real Fitness Journeys",
+        "url": "https://dev.to/baransel/why-i-built-gymdose-a-simple-supplement-tracker-for-real-fitness-journeys-59i5",
+        "description": "Over the last couple of years, fitness has become a huge part of my life. I lost 45 kilograms through...",
+        "tags": [
+          "discuss",
+          "community",
+          "showdev",
+          "coding"
+        ],
+        "readingTime": 3,
+        "reactions": 5,
+        "comments": 0,
+        "author": "baransel",
+        "publishedAt": "2025-12-03T21:42:51Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgyzqnu5d1eh6oi9wwfmp.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_28_2o30cbdl8",
+      "title": "# Deploying Twilio Apps on the Cloud (Python + Flask/FastAPI)",
+      "url": "https://dev.to/moni121189/-deploying-twilio-apps-on-the-cloud-python-flaskfastapi-25bi",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "moni121189",
+      "description": "Twilio applications need public HTTPS webhook URLs for SMS, WhatsApp, and Voice interactions. This...",
+      "isEducational": false,
+      "metadata": {
+        "title": "# Deploying Twilio Apps on the Cloud (Python + Flask/FastAPI)",
+        "url": "https://dev.to/moni121189/-deploying-twilio-apps-on-the-cloud-python-flaskfastapi-25bi",
+        "description": "Twilio applications need public HTTPS webhook URLs for SMS, WhatsApp, and Voice interactions. This...",
+        "tags": [
+          "python",
+          "aws",
+          "twilio",
+          "ai"
+        ],
+        "readingTime": 2,
+        "reactions": 2,
+        "comments": 0,
+        "author": "moni121189",
+        "publishedAt": "2025-12-03T17:30:42Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_29_nrg1x15fp",
+      "title": "C# Performance Optimization: Using Span<T> and stackalloc to Eliminate Allocations",
+      "url": "https://dev.to/danqzq/c-performance-optimization-using-span-and-stackalloc-to-eliminate-allocations-ikc",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "danqzq",
+      "description": "Runtime memory handling is a crucial part of writing software, which heavily impacts the performance...",
+      "isEducational": false,
+      "metadata": {
+        "title": "C# Performance Optimization: Using Span<T> and stackalloc to Eliminate Allocations",
+        "url": "https://dev.to/danqzq/c-performance-optimization-using-span-and-stackalloc-to-eliminate-allocations-ikc",
+        "description": "Runtime memory handling is a crucial part of writing software, which heavily impacts the performance...",
+        "tags": [
+          "csharp",
+          "performance",
+          "dotnet",
+          "unity3d"
+        ],
+        "readingTime": 15,
+        "reactions": 2,
+        "comments": 1,
+        "author": "danqzq",
+        "publishedAt": "2025-12-04T05:04:46Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_30_8frailg6n",
+      "title": "Hunting Coyote: A Full Analysis of the 0LIONW0 AutoIt3 RAT",
+      "url": "https://dev.to/malisipi/hunting-coyote-a-full-analysis-of-the-0lionw0-autoit3-rat-13l4",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "malisipi",
+      "description": "0. Origin of the Story   I found a USB at home. And I have no clue about it contains what. I...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Hunting Coyote: A Full Analysis of the 0LIONW0 AutoIt3 RAT",
+        "url": "https://dev.to/malisipi/hunting-coyote-a-full-analysis-of-the-0lionw0-autoit3-rat-13l4",
+        "description": "0. Origin of the Story   I found a USB at home. And I have no clue about it contains what. I...",
+        "tags": [
+          "security",
+          "reverse",
+          "malware",
+          "analysis"
+        ],
+        "readingTime": 17,
+        "reactions": 2,
+        "comments": 0,
+        "author": "malisipi",
+        "publishedAt": "2025-12-03T17:30:00Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_31_vf4zh59vd",
+      "title": "The Architecture of Agentic AI: What Powers the Next Era of Intelligent Automation",
+      "url": "https://dev.to/yeahiasarker/the-architecture-of-agentic-ai-what-powers-the-next-era-of-intelligent-automation-1eh1",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "yeahiasarker",
+      "description": "As AI evolves beyond single turn prompts and chat based interactions, a new question is becoming...",
+      "isEducational": false,
+      "metadata": {
+        "title": "The Architecture of Agentic AI: What Powers the Next Era of Intelligent Automation",
+        "url": "https://dev.to/yeahiasarker/the-architecture-of-agentic-ai-what-powers-the-next-era-of-intelligent-automation-1eh1",
+        "description": "As AI evolves beyond single turn prompts and chat based interactions, a new question is becoming...",
+        "tags": [
+          "automation",
+          "architecture",
+          "ai"
+        ],
+        "readingTime": 3,
+        "reactions": 1,
+        "comments": 0,
+        "author": "yeahiasarker",
+        "publishedAt": "2025-12-03T13:47:04Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_32_tobn1b4uo",
+      "title": "I Used to Be a Toxic Code Reviewer. Here's How AI Fixed My Feedback Loop.",
+      "url": "https://dev.to/huizhudev/i-used-to-be-a-toxic-code-reviewer-heres-how-ai-fixed-my-feedback-loop-33c4",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "huizhudev",
+      "description": "I have a confession to make: early in my career, I was a terrible code reviewer.  I thought my job...",
+      "isEducational": false,
+      "metadata": {
+        "title": "I Used to Be a Toxic Code Reviewer. Here's How AI Fixed My Feedback Loop.",
+        "url": "https://dev.to/huizhudev/i-used-to-be-a-toxic-code-reviewer-heres-how-ai-fixed-my-feedback-loop-33c4",
+        "description": "I have a confession to make: early in my career, I was a terrible code reviewer.  I thought my job...",
+        "tags": [
+          "codereview",
+          "productivity",
+          "ai",
+          "career"
+        ],
+        "readingTime": 5,
+        "reactions": 2,
+        "comments": 0,
+        "author": "huizhudev",
+        "publishedAt": "2025-12-03T15:38:51Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fa8yunjs6o8mnkh9fxsi0.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_33_u3pn2agxi",
+      "title": "Azure APIM MCP Audit Logging Without Breaking Everything",
+      "url": "https://dev.to/itsrene/azure-apim-mcp-audit-logging-without-breaking-everything-5h7l",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "itsrene",
+      "description": "Audit logging, distributed tracing, and monitoring for Azure APIM MCP servers.",
+      "isEducational": false,
+      "metadata": {
+        "title": "Azure APIM MCP Audit Logging Without Breaking Everything",
+        "url": "https://dev.to/itsrene/azure-apim-mcp-audit-logging-without-breaking-everything-5h7l",
+        "description": "Audit logging, distributed tracing, and monitoring for Azure APIM MCP servers.",
+        "tags": [
+          "azure",
+          "observability",
+          "mcp",
+          "apim"
+        ],
+        "readingTime": 11,
+        "reactions": 0,
+        "comments": 0,
+        "author": "itsrene",
+        "publishedAt": "2025-12-03T17:19:36Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_34_qubhfxuur",
+      "title": "5 Essential Go Utility Functions: Filter, Map, and More (With Examples)",
+      "url": "https://dev.to/dentedlogic/5-essential-go-utility-functions-filter-map-and-more-with-examples-2ild",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "dentedlogic",
+      "description": "Did you know Go only has 25 keywords (e.g., if, for, return)? Python has 38, and Java has 67. This...",
+      "isEducational": false,
+      "metadata": {
+        "title": "5 Essential Go Utility Functions: Filter, Map, and More (With Examples)",
+        "url": "https://dev.to/dentedlogic/5-essential-go-utility-functions-filter-map-and-more-with-examples-2ild",
+        "description": "Did you know Go only has 25 keywords (e.g., if, for, return)? Python has 38, and Java has 67. This...",
+        "tags": [
+          "go",
+          "programming",
+          "learning",
+          "tutorial"
+        ],
+        "readingTime": 10,
+        "reactions": 4,
+        "comments": 0,
+        "author": "dentedlogic",
+        "publishedAt": "2025-12-04T03:24:57Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fp42oanqwabcxny64i1gb.jpg",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 4
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_35_l3youy03s",
+      "title": "How can you make website feel like a native app?",
+      "url": "https://dev.to/it-influencer/how-can-you-make-website-feel-like-a-native-app-21hj",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "it-influencer",
+      "description": "Users have grown accustomed to the smooth, responsive feel of native mobile applications. They expect...",
+      "isEducational": false,
+      "metadata": {
+        "title": "How can you make website feel like a native app?",
+        "url": "https://dev.to/it-influencer/how-can-you-make-website-feel-like-a-native-app-21hj",
+        "description": "Users have grown accustomed to the smooth, responsive feel of native mobile applications. They expect...",
+        "tags": [
+          "nativeapp",
+          "staticwebapps",
+          "javascript",
+          "database"
+        ],
+        "readingTime": 5,
+        "reactions": 7,
+        "comments": 0,
+        "author": "it-influencer",
+        "publishedAt": "2025-12-03T17:45:12Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3nkcbb4cpelqkn5n4fi5.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 7
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_36_w9bjan7sw",
+      "title": "Modern C++ vs. The World: How Would Your Language Parse a Word Document?",
+      "url": "https://dev.to/novitzmann/modern-c-vs-the-world-how-would-your-language-parse-a-word-document-h88",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "novitzmann",
+      "description": "Modern C++ isn’t dying. It’s eating file formats for breakfast. Here’s what MS Word document parsing...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Modern C++ vs. The World: How Would Your Language Parse a Word Document?",
+        "url": "https://dev.to/novitzmann/modern-c-vs-the-world-how-would-your-language-parse-a-word-document-h88",
+        "description": "Modern C++ isn’t dying. It’s eating file formats for breakfast. Here’s what MS Word document parsing...",
+        "tags": [
+          "cpp",
+          "programming",
+          "showdev",
+          "beginners"
+        ],
+        "readingTime": 1,
+        "reactions": 1,
+        "comments": 1,
+        "author": "novitzmann",
+        "publishedAt": "2025-12-03T17:07:27Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_37_hfg1rfkm8",
+      "title": "Speeding Laravel Response Times with Nginx FastCGI Cache",
+      "url": "https://dev.to/devops-make-it-run/speeding-laravel-response-times-with-nginx-fastcgi-cache-2029",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "devops-make-it-run",
+      "description": "MDX Content: # Achieving Fast Response Times with Laravel and Nginx  Achieving very fast response...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Speeding Laravel Response Times with Nginx FastCGI Cache",
+        "url": "https://dev.to/devops-make-it-run/speeding-laravel-response-times-with-nginx-fastcgi-cache-2029",
+        "description": "MDX Content: # Achieving Fast Response Times with Laravel and Nginx  Achieving very fast response...",
+        "tags": [
+          "devops"
+        ],
+        "readingTime": 5,
+        "reactions": 5,
+        "comments": 0,
+        "author": "devops-make-it-run",
+        "publishedAt": "2025-12-03T12:36:21Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fcdn.sanity.io%2Fimages%2Ftl0falow%2Fproduction%2F159dffe4663e2454172da320161f0a65585e001f-1536x1024.png%3Fw%3D1000",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_38_iek4ax5de",
+      "title": "Prompt Engineering Best Practices to Turn LLMs into Reliable Pair Programmer",
+      "url": "https://dev.to/kodus/prompt-engineering-best-practices-to-turn-llms-into-reliable-pair-programmer-1kb7",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "ed_dfreitas",
+      "description": "Let’s be honest, coding with an LLM often feels like working with a junior developer, but with wild...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Prompt Engineering Best Practices to Turn LLMs into Reliable Pair Programmer",
+        "url": "https://dev.to/kodus/prompt-engineering-best-practices-to-turn-llms-into-reliable-pair-programmer-1kb7",
+        "description": "Let’s be honest, coding with an LLM often feels like working with a junior developer, but with wild...",
+        "tags": [
+          "promptengineering",
+          "prompt",
+          "llm"
+        ],
+        "readingTime": 10,
+        "reactions": 1,
+        "comments": 0,
+        "author": "ed_dfreitas",
+        "publishedAt": "2025-12-03T11:48:16Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fy5gdqeb1bpm0hzk4xjzx.png",
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "dev.to_1764847427956_39_gh04ipcrp",
+      "title": "The Linux kernel is just a program",
+      "url": "https://dev.to/zsoltkacsandi/the-linux-kernel-is-just-a-program-5ddi",
+      "source": "dev.to",
+      "score": 50,
+      "tags": [],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "zsoltkacsandi",
+      "description": "Most books and courses introduce Linux through shell commands, leaving the kernel as a mysterious...",
+      "isEducational": false,
+      "metadata": {
+        "title": "The Linux kernel is just a program",
+        "url": "https://dev.to/zsoltkacsandi/the-linux-kernel-is-just-a-program-5ddi",
+        "description": "Most books and courses introduce Linux through shell commands, leaving the kernel as a mysterious...",
+        "tags": [
+          "linux",
+          "go",
+          "tutorial",
+          "architecture"
+        ],
+        "readingTime": 7,
+        "reactions": 0,
+        "comments": 0,
+        "author": "zsoltkacsandi",
+        "publishedAt": "2025-12-03T19:25:24Z",
+        "coverImage": null,
+        "sourceName": "dev.to"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_88_m83u186qv",
+      "title": "No room for error - A case study of Gleam in production at Uncover",
+      "url": "https://gleam.run/case-studies/uncover/",
+      "source": "lobsters",
+      "score": 50,
+      "tags": [
+        "gleam"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "kamila",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "No room for error - A case study of Gleam in production at Uncover",
+        "url": "https://gleam.run/case-studies/uncover/",
+        "shortUrl": "https://lobste.rs/s/tzdr8h",
+        "score": 10,
+        "comments": 3,
+        "author": "kamila",
+        "tags": [
+          "gleam"
+        ],
+        "createdAt": "2025-12-03T13:39:53.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/tzdr8h/no_room_for_error_case_study_gleam",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 3
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_81_zdxic3tbx",
+      "title": "foreign-dlopen: call dlopen from static programs",
+      "url": "https://github.com/pfalcon/foreign-dlopen/",
+      "source": "lobsters",
+      "score": 45,
+      "tags": [
+        "c"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "confusedcyborg",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "foreign-dlopen: call dlopen from static programs",
+        "url": "https://github.com/pfalcon/foreign-dlopen/",
+        "shortUrl": "https://lobste.rs/s/feeb0w",
+        "score": 9,
+        "comments": 0,
+        "author": "confusedcyborg",
+        "tags": [
+          "c"
+        ],
+        "createdAt": "2025-12-03T23:32:10.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/feeb0w/foreign_dlopen_call_dlopen_from_static",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_89_egqzcfqel",
+      "title": "Trees - J Wiki",
+      "url": "https://code.jsoftware.com/wiki/User:Devon_McCormick/Trees",
+      "source": "lobsters",
+      "score": 45,
+      "tags": [
+        "apl",
+        "compsci"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "veqq",
+      "description": "<blockquote>\n<p>an exposition on the great utility of using the parent-index method of representing trees in J.</p>\n</blockquote>\n<p>This is similar, but with K and less comprehensive: <a href=\"https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Trees.md\" rel=\"ugc\">https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Trees.md</a></p>\n",
+      "isEducational": false,
+      "metadata": {
+        "title": "Trees - J Wiki",
+        "url": "https://code.jsoftware.com/wiki/User:Devon_McCormick/Trees",
+        "shortUrl": "https://lobste.rs/s/l0l4xq",
+        "score": 9,
+        "comments": 0,
+        "author": "veqq",
+        "tags": [
+          "apl",
+          "compsci"
+        ],
+        "createdAt": "2025-12-03T18:23:30.000-06:00",
+        "description": "<blockquote>\n<p>an exposition on the great utility of using the parent-index method of representing trees in J.</p>\n</blockquote>\n<p>This is similar, but with K and less comprehensive: <a href=\"https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Trees.md\" rel=\"ugc\">https://github.com/JohnEarnest/ok/blob/gh-pages/docs/Trees.md</a></p>\n",
+        "commentsUrl": "https://lobste.rs/s/l0l4xq/trees_j_wiki",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    },
+    {
+      "id": "github_1764847427957_62_e9w97p7qk",
+      "title": "milvus-io / milvus",
+      "url": "https://github.com/milvus-io/milvus",
+      "source": "github",
+      "score": 37,
+      "tags": [
+        "go"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "milvus-io",
+      "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+      "isEducational": false,
+      "metadata": {
+        "name": "milvus-io / milvus",
+        "url": "https://github.com/milvus-io/milvus",
+        "description": "Milvus is a high-performance, cloud-native vector database built for scalable vector ANN search",
+        "language": "Go",
+        "starsToday": 112,
+        "totalStars": "Star\n\n\n    \n\n        41412\n        \n    \n\n        112 stars today",
+        "author": "milvus-io",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "github_1764847427957_60_ws09b5xky",
+      "title": "traefik / traefik",
+      "url": "https://github.com/traefik/traefik",
+      "source": "github",
+      "score": 36,
+      "tags": [
+        "go"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "traefik",
+      "description": "The Cloud Native Application Proxy",
+      "isEducational": false,
+      "metadata": {
+        "name": "traefik / traefik",
+        "url": "https://github.com/traefik/traefik",
+        "description": "The Cloud Native Application Proxy",
+        "language": "Go",
+        "starsToday": 108,
+        "totalStars": "Star\n\n\n    \n\n        60151\n        \n    \n\n        108 stars today",
+        "author": "traefik",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hackernews_1764847427956_44_elhxpqxqi",
+      "title": "Elites Could Shape Mass Preferences as AI Reduces Persuasion Costs",
+      "url": "https://arxiv.org/abs/2512.04047",
+      "source": "hackernews",
+      "score": 35,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "50kIters",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Elites Could Shape Mass Preferences as AI Reduces Persuasion Costs",
+        "url": "https://arxiv.org/abs/2512.04047",
+        "score": 176,
+        "author": "50kIters",
+        "comments": 188,
+        "time": "2025-12-04T08:38:17.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46145180",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 188
+      }
+    },
+    {
+      "id": "github_1764847427957_69_9ircxg0dg",
+      "title": "freeCodeCamp / freeCodeCamp",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+      "source": "github",
+      "score": 33,
+      "tags": [
+        "typescript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "freeCodeCamp",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "isEducational": false,
+      "metadata": {
+        "name": "freeCodeCamp / freeCodeCamp",
+        "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+        "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+        "language": "TypeScript",
+        "starsToday": 99,
+        "totalStars": "Star\n\n\n    \n\n        434067\n        \n    \n\n        99 stars today",
+        "author": "freeCodeCamp",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_45_vzlmtw9md",
+      "title": "Uncloud - Tool for deploying containerised apps across servers without k8s",
+      "url": "https://uncloud.run/",
+      "source": "hackernews",
+      "score": 30,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "rgun",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Uncloud - Tool for deploying containerised apps across servers without k8s",
+        "url": "https://uncloud.run/",
+        "score": 151,
+        "author": "rgun",
+        "comments": 61,
+        "time": "2025-12-04T06:02:23.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46144275",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 61
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_87_8406wag68",
+      "title": "What I learned building an opinionated and minimal coding agent",
+      "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+      "source": "lobsters",
+      "score": 30,
+      "tags": [
+        "vibecoding"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "jefftriplett",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "What I learned building an opinionated and minimal coding agent",
+        "url": "https://mariozechner.at/posts/2025-11-30-pi-coding-agent/",
+        "shortUrl": "https://lobste.rs/s/ihdozl",
+        "score": 6,
+        "comments": 0,
+        "author": "jefftriplett",
+        "tags": [
+          "vibecoding"
+        ],
+        "createdAt": "2025-12-03T22:11:16.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/ihdozl/what_i_learned_building_opinionated",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    },
+    {
+      "id": "github_1764847427957_65_d96p42oja",
+      "title": "jaywcjlove / awesome-mac",
+      "url": "https://github.com/jaywcjlove/awesome-mac",
+      "source": "github",
+      "score": 28,
+      "tags": [
+        "javascript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "jaywcjlove",
+      "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
+      "isEducational": false,
+      "metadata": {
+        "name": "jaywcjlove / awesome-mac",
+        "url": "https://github.com/jaywcjlove/awesome-mac",
+        "description": " Now we have become very big, Different from the original idea. Collect premium software in various categories.",
+        "language": "JavaScript",
+        "starsToday": 84,
+        "totalStars": "Star\n\n\n    \n\n        94751\n        \n    \n\n        84 stars today",
+        "author": "jaywcjlove",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_90_hdugipc9z",
+      "title": "From Failure to Flow: How I Used Polars to Conquer Memory Issues in Our Data Pipelines",
+      "url": "https://importidea.dev/from-failure-to-flow-how-i-used-polars-to-conquer-memory-issues-in-our-data-pipelines",
+      "source": "hashnode",
+      "score": 20,
+      "tags": [
+        "Lazyframe",
+        "Python",
+        "Polars",
+        "numpy",
+        "data-engineering",
+        "memory-management"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Akash Desarda",
+      "description": "Ever been bogged down by data pipelines crashing due to memory issues? It's a frustratingly common problem in data engineering projects. This post chronicles my experience of identifying and resolving memory bottlenecks in our data processing using t...",
+      "isEducational": false,
+      "metadata": {
+        "title": "From Failure to Flow: How I Used Polars to Conquer Memory Issues in Our Data Pipelines",
+        "url": "https://importidea.dev/from-failure-to-flow-how-i-used-polars-to-conquer-memory-issues-in-our-data-pipelines",
+        "brief": "Ever been bogged down by data pipelines crashing due to memory issues? It's a frustratingly common problem in data engineering projects. This post chronicles my experience of identifying and resolving memory bottlenecks in our data processing using t...",
+        "author": "Akash Desarda",
+        "tags": [
+          "Lazyframe",
+          "Python",
+          "Polars",
+          "numpy",
+          "data-engineering",
+          "memory-management"
+        ],
+        "reactions": 101,
+        "comments": 15,
+        "readTime": 8,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1745692097833/90a2cc26-2b37-441f-af5d-8721d17e9c95.png",
+        "publishedAt": "2025-04-26T18:34:35.892Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 15,
+        "reactions": 101
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_59_v8bav6m1r",
+      "title": "Why WinQuake exists and how it works",
+      "url": "https://fabiensanglard.net/winquake/index.html",
+      "source": "hackernews",
+      "score": 19,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "wicket",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Why WinQuake exists and how it works",
+        "url": "https://fabiensanglard.net/winquake/index.html",
+        "score": 93,
+        "author": "wicket",
+        "comments": 5,
+        "time": "2025-12-04T01:58:15.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46142866",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 5
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_110_1pbrs1ot7",
+      "title": "The Developer's Safety Net - Introduction to TypeScript",
+      "url": "https://dev.to/cristea_theodora_6200140b/the-developers-safety-net-introduction-to-typescript-2jof",
+      "source": "devto-edu",
+      "score": 19,
+      "tags": [
+        "typescript",
+        "development",
+        "backend",
+        "beginners"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "cristea_theodora_6200140b",
+      "description": "Hey everyone!👋 When developers hear about TypeScript for the first time, the same doubts, questions...",
+      "isEducational": true,
+      "metadata": {
+        "title": "The Developer's Safety Net - Introduction to TypeScript",
+        "url": "https://dev.to/cristea_theodora_6200140b/the-developers-safety-net-introduction-to-typescript-2jof",
+        "description": "Hey everyone!👋 When developers hear about TypeScript for the first time, the same doubts, questions...",
+        "tags": [
+          "typescript",
+          "development",
+          "backend",
+          "beginners"
+        ],
+        "educationalTag": "beginners",
+        "readingTime": 5,
+        "reactions": 35,
+        "comments": 6,
+        "author": "cristea_theodora_6200140b",
+        "publishedAt": "2025-12-01T12:58:31Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffrn8ybpsx7l2fpo3s91w.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 6,
+        "reactions": 35
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_91_z7tbdpjj2",
+      "title": "Building a Knowledge Graph Locally with Neo4j & Ollama",
+      "url": "https://greenflux.hashnode.dev/building-a-knowledge-graph-locally-with-neo4j-and-ollama",
+      "source": "hashnode",
+      "score": 18,
+      "tags": [
+        "Neo4j",
+        "graph database",
+        "knowledge graph",
+        "Python",
+        "Python 3",
+        "huggingface",
+        "llm",
+        "cypher",
+        "macOS",
+        "obsidian",
+        "ollama",
+        "ontology"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "GreenFlux",
+      "description": "Knowledge graphs, also known as semantic networks, are a specialized application of graph databases used to store information about entities (person, location, organization, etc) and their relationships. They allow you to explore your data with an in...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Building a Knowledge Graph Locally with Neo4j & Ollama",
+        "url": "https://greenflux.hashnode.dev/building-a-knowledge-graph-locally-with-neo4j-and-ollama",
+        "brief": "Knowledge graphs, also known as semantic networks, are a specialized application of graph databases used to store information about entities (person, location, organization, etc) and their relationships. They allow you to explore your data with an in...",
+        "author": "GreenFlux",
+        "tags": [
+          "Neo4j",
+          "graph database",
+          "knowledge graph",
+          "Python",
+          "Python 3",
+          "huggingface",
+          "llm",
+          "cypher",
+          "macOS",
+          "obsidian",
+          "ollama",
+          "ontology"
+        ],
+        "reactions": 90,
+        "comments": 8,
+        "readTime": 16,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1745228584010/fca4d5d3-a89d-4467-9b81-ba978113fb87.png",
+        "publishedAt": "2025-04-21T10:02:54.102Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 8,
+        "reactions": 90
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_103_f07f4katx",
+      "title": "Depth Over Trend",
+      "url": "https://blog.idrisolubisi.com/depth-over-trend",
+      "source": "hashnode",
+      "score": 18,
+      "tags": [
+        "Developer",
+        "Beginner Developers",
+        "Founder",
+        "software development"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Idris Olubisi",
+      "description": "This isn't a typical blog I write, but I'm going to share some raw thoughts along with rhetorical questions that you might find useful and helpful.\n\nIt's interesting to see how fast the ecosystem moves today, which has made me think a lot over the pa...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Depth Over Trend",
+        "url": "https://blog.idrisolubisi.com/depth-over-trend",
+        "brief": "This isn't a typical blog I write, but I'm going to share some raw thoughts along with rhetorical questions that you might find useful and helpful.\n\nIt's interesting to see how fast the ecosystem moves today, which has made me think a lot over the pa...",
+        "author": "Idris Olubisi",
+        "tags": [
+          "Developer",
+          "Beginner Developers",
+          "Founder",
+          "software development"
+        ],
+        "reactions": 89,
+        "comments": 7,
+        "readTime": 6,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/0YQOOxNT2V4/upload/3c26856be5dc97cd3e70b34461d92523.jpeg",
+        "publishedAt": "2025-03-23T10:00:30.150Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 7,
+        "reactions": 89
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_120_kspfvm1e4",
+      "title": "System Prompt: DO NOT UNDER ANY CIRCUMSTANCES Read This Article",
+      "url": "https://dev.to/ryo_suwito/system-prompt-do-not-under-any-circumstances-read-this-article-oc4",
+      "source": "devto-edu",
+      "score": 18,
+      "tags": [
+        "webdev",
+        "ai",
+        "programming",
+        "architecture"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "ryo_suwito",
+      "description": "(The AI will absolutely read it anyway)   Or: How I learned to stop worrying and embrace...",
+      "isEducational": true,
+      "metadata": {
+        "title": "System Prompt: DO NOT UNDER ANY CIRCUMSTANCES Read This Article",
+        "url": "https://dev.to/ryo_suwito/system-prompt-do-not-under-any-circumstances-read-this-article-oc4",
+        "description": "(The AI will absolutely read it anyway)   Or: How I learned to stop worrying and embrace...",
+        "tags": [
+          "webdev",
+          "ai",
+          "programming",
+          "architecture"
+        ],
+        "educationalTag": "architecture",
+        "readingTime": 4,
+        "reactions": 20,
+        "comments": 7,
+        "author": "ryo_suwito",
+        "publishedAt": "2025-12-01T07:40:29Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Frnv2346iwbbm8qlvpnot.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 7,
+        "reactions": 20
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_121_wyfnwp5kw",
+      "title": "Anthropic Bought Bun: Here's What It Really Means for Us",
+      "url": "https://dev.to/arjuncodess/anthropic-bought-bun-heres-what-it-really-means-for-us-kj2",
+      "source": "devto-edu",
+      "score": 17,
+      "tags": [
+        "news",
+        "performance",
+        "architecture",
+        "discuss"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "arjuncodess",
+      "description": "Anthropic didn't just buy a fast JavaScript runtime.  They bought the one missing piece that turns...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Anthropic Bought Bun: Here's What It Really Means for Us",
+        "url": "https://dev.to/arjuncodess/anthropic-bought-bun-heres-what-it-really-means-for-us-kj2",
+        "description": "Anthropic didn't just buy a fast JavaScript runtime.  They bought the one missing piece that turns...",
+        "tags": [
+          "news",
+          "performance",
+          "architecture",
+          "discuss"
+        ],
+        "educationalTag": "architecture",
+        "readingTime": 5,
+        "reactions": 14,
+        "comments": 0,
+        "author": "arjuncodess",
+        "publishedAt": "2025-12-03T20:30:00Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmxsayma9v1nl7v0xv0eh.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 14
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_122_d685m9pup",
+      "title": "Scaling to 100K Users: Architecture Lessons from Building Nigeria's Social Commerce Platform",
+      "url": "https://dev.to/onoja5/scaling-to-100k-users-architecture-lessons-from-building-nigerias-social-commerce-platform-e1l",
+      "source": "devto-edu",
+      "score": 17,
+      "tags": [
+        "ai",
+        "programming",
+        "javascript",
+        "architecture"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "onoja5",
+      "description": "How We Scaled Nigeria's Social Commerce Platform to 100K Users (And The Architecture That Almost...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Scaling to 100K Users: Architecture Lessons from Building Nigeria's Social Commerce Platform",
+        "url": "https://dev.to/onoja5/scaling-to-100k-users-architecture-lessons-from-building-nigerias-social-commerce-platform-e1l",
+        "description": "How We Scaled Nigeria's Social Commerce Platform to 100K Users (And The Architecture That Almost...",
+        "tags": [
+          "ai",
+          "programming",
+          "javascript",
+          "architecture"
+        ],
+        "educationalTag": "architecture",
+        "readingTime": 15,
+        "reactions": 13,
+        "comments": 12,
+        "author": "onoja5",
+        "publishedAt": "2025-11-28T16:18:55Z",
+        "coverImage": null,
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 12,
+        "reactions": 13
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_108_2s44bd150",
+      "title": "Automatically Merge Dependabot Patch Updates with GitHub Actions",
+      "url": "https://dev.to/hidev1977/automatically-merge-dependabot-patch-updates-with-github-actions-316g",
+      "source": "devto-edu",
+      "score": 16,
+      "tags": [
+        "tutorial",
+        "github",
+        "automation",
+        "devops"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "hidev1977",
+      "description": "Introduction   Dependabot automatically detects dependency updates and creates pull...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Automatically Merge Dependabot Patch Updates with GitHub Actions",
+        "url": "https://dev.to/hidev1977/automatically-merge-dependabot-patch-updates-with-github-actions-316g",
+        "description": "Introduction   Dependabot automatically detects dependency updates and creates pull...",
+        "tags": [
+          "tutorial",
+          "github",
+          "automation",
+          "devops"
+        ],
+        "educationalTag": "tutorial",
+        "readingTime": 3,
+        "reactions": 4,
+        "comments": 1,
+        "author": "hidev1977",
+        "publishedAt": "2025-12-03T00:25:28Z",
+        "coverImage": null,
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 4
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_111_8pbe33u23",
+      "title": "From 1.2GB to 54MB: My Docker Image Went on a Diet",
+      "url": "https://dev.to/tusharsharma099/from-12gb-to-54mb-my-docker-image-went-on-a-diet-17nd",
+      "source": "devto-edu",
+      "score": 16,
+      "tags": [
+        "programming",
+        "beginners",
+        "career",
+        "devops"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "tusharsharma099",
+      "description": "When I first containerized a Node.js app, I felt pretty good about myself. I had a Dockerfile, I...",
+      "isEducational": true,
+      "metadata": {
+        "title": "From 1.2GB to 54MB: My Docker Image Went on a Diet",
+        "url": "https://dev.to/tusharsharma099/from-12gb-to-54mb-my-docker-image-went-on-a-diet-17nd",
+        "description": "When I first containerized a Node.js app, I felt pretty good about myself. I had a Dockerfile, I...",
+        "tags": [
+          "programming",
+          "beginners",
+          "career",
+          "devops"
+        ],
+        "educationalTag": "beginners",
+        "readingTime": 3,
+        "reactions": 8,
+        "comments": 2,
+        "author": "tusharsharma099",
+        "publishedAt": "2025-12-02T10:36:20Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F8g60khgmbnfvkjcj0yoo.webp",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 8
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_113_pxq892yj4",
+      "title": "Why Most Beginners Hate DevOps in the First 2 Months (And How I Almost Quit Too)",
+      "url": "https://dev.to/arbythecoder/why-most-beginners-hate-devops-in-the-first-2-months-and-how-i-almost-quit-too-43o9",
+      "source": "devto-edu",
+      "score": 16,
+      "tags": [
+        "webdev",
+        "beginners",
+        "devops",
+        "programming"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "arbythecoder",
+      "description": "You installed Docker for the third time this week. The tutorial said it would take 10 minutes. It's...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Why Most Beginners Hate DevOps in the First 2 Months (And How I Almost Quit Too)",
+        "url": "https://dev.to/arbythecoder/why-most-beginners-hate-devops-in-the-first-2-months-and-how-i-almost-quit-too-43o9",
+        "description": "You installed Docker for the third time this week. The tutorial said it would take 10 minutes. It's...",
+        "tags": [
+          "webdev",
+          "beginners",
+          "devops",
+          "programming"
+        ],
+        "educationalTag": "beginners",
+        "readingTime": 10,
+        "reactions": 5,
+        "comments": 1,
+        "author": "arbythecoder",
+        "publishedAt": "2025-12-01T07:46:09Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fzuufeciouit25kb7dd8t.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_114_m3nqb32x7",
+      "title": "Building My First RAG System in One Week with Kiro IDE 🎃",
+      "url": "https://dev.to/syed_shahnizam_4d470b6e21/building-my-first-rag-system-in-one-week-with-kiro-ide-19ee",
+      "source": "devto-edu",
+      "score": 16,
+      "tags": [
+        "beginners",
+        "rag",
+        "ai",
+        "kiro"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "syed_shahnizam_4d470b6e21",
+      "description": "Submitted for Kiroween Hackathon 2025 - Skeleton Crew Category           🎃 The Challenge   As a...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Building My First RAG System in One Week with Kiro IDE 🎃",
+        "url": "https://dev.to/syed_shahnizam_4d470b6e21/building-my-first-rag-system-in-one-week-with-kiro-ide-19ee",
+        "description": "Submitted for Kiroween Hackathon 2025 - Skeleton Crew Category           🎃 The Challenge   As a...",
+        "tags": [
+          "beginners",
+          "rag",
+          "ai",
+          "kiro"
+        ],
+        "educationalTag": "beginners",
+        "readingTime": 5,
+        "reactions": 6,
+        "comments": 0,
+        "author": "syed_shahnizam_4d470b6e21",
+        "publishedAt": "2025-12-02T18:26:05Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgwg2hkhypm04lnxmm0zt.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_116_u14akltkb",
+      "title": "How a Junior Developer Should Approach System Design (The Practical, Real-World Way)",
+      "url": "https://dev.to/msnmongare/how-a-junior-developer-should-approach-system-design-the-practical-real-world-way-3224",
+      "source": "devto-edu",
+      "score": 16,
+      "tags": [
+        "webdev",
+        "ai",
+        "systemdesign",
+        "distributedsystems"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "msnmongare",
+      "description": "Why “necessity is the mother of invention” is the ultimate guide to learning system design.  System...",
+      "isEducational": true,
+      "metadata": {
+        "title": "How a Junior Developer Should Approach System Design (The Practical, Real-World Way)",
+        "url": "https://dev.to/msnmongare/how-a-junior-developer-should-approach-system-design-the-practical-real-world-way-3224",
+        "description": "Why “necessity is the mother of invention” is the ultimate guide to learning system design.  System...",
+        "tags": [
+          "webdev",
+          "ai",
+          "systemdesign",
+          "distributedsystems"
+        ],
+        "educationalTag": "systemdesign",
+        "readingTime": 3,
+        "reactions": 6,
+        "comments": 0,
+        "author": "msnmongare",
+        "publishedAt": "2025-12-02T11:30:45Z",
+        "coverImage": null,
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "lobsters_1764847427957_86_v73w1xzw8",
+      "title": "On recreating the lost SDK for a 42-year-old operating system: VisiCorp Visi On",
+      "url": "https://git.sr.ht/~nkali/vision-sdk/tree/main/note/index.md",
+      "source": "lobsters",
+      "score": 15,
+      "tags": [
+        "osdev",
+        "retrocomputing"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "amoroso",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "On recreating the lost SDK for a 42-year-old operating system: VisiCorp Visi On",
+        "url": "https://git.sr.ht/~nkali/vision-sdk/tree/main/note/index.md",
+        "shortUrl": "https://lobste.rs/s/z8gyu7",
+        "score": 3,
+        "comments": 0,
+        "author": "amoroso",
+        "tags": [
+          "osdev",
+          "retrocomputing"
+        ],
+        "createdAt": "2025-12-04T04:42:13.000-06:00",
+        "description": "",
+        "commentsUrl": "https://lobste.rs/s/z8gyu7/on_recreating_lost_sdk_for_42_year_old",
+        "sourceName": "lobsters"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_105_hpzqk98jo",
+      "title": "Password Generator Challenge",
+      "url": "https://dev.to/fosres/password-generator-challenge-4kkl",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "python",
+        "appsec",
+        "tutorial",
+        "security"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "fosres",
+      "description": "Password Generator Challenge   ⚡ Skip to Exercise              A Bad Random Generator Causes...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Password Generator Challenge",
+        "url": "https://dev.to/fosres/password-generator-challenge-4kkl",
+        "description": "Password Generator Challenge   ⚡ Skip to Exercise              A Bad Random Generator Causes...",
+        "tags": [
+          "python",
+          "appsec",
+          "tutorial",
+          "security"
+        ],
+        "educationalTag": "tutorial",
+        "readingTime": 7,
+        "reactions": 2,
+        "comments": 0,
+        "author": "fosres",
+        "publishedAt": "2025-11-28T05:25:38Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fgbsauxt9mxeqzogxcrxc.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_106_56wdqsth6",
+      "title": "Building Forms with React Hook Form (Part 2)",
+      "url": "https://dev.to/rinidh/building-forms-with-react-hook-form-part-2-3005",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "javascript",
+        "tutorial",
+        "react",
+        "performance"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "rinidh",
+      "description": "Hey guys!  I kept exploring React Hook Form (RHF) over the past week, and something became very...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Building Forms with React Hook Form (Part 2)",
+        "url": "https://dev.to/rinidh/building-forms-with-react-hook-form-part-2-3005",
+        "description": "Hey guys!  I kept exploring React Hook Form (RHF) over the past week, and something became very...",
+        "tags": [
+          "javascript",
+          "tutorial",
+          "react",
+          "performance"
+        ],
+        "educationalTag": "tutorial",
+        "readingTime": 3,
+        "reactions": 1,
+        "comments": 0,
+        "author": "rinidh",
+        "publishedAt": "2025-11-29T19:03:15Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fwiclj2hj8ysxy2xbh64g.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_107_ub8k04kmk",
+      "title": "How to Upgrade to Prisma v7?",
+      "url": "https://dev.to/manujdixit/how-to-upgrade-to-prisma-v7-zero-confusion-guide-2ljd",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "webdev",
+        "programming",
+        "javascript",
+        "tutorial"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "manujdixit",
+      "description": "Prisma v7 brings real improvements — better performance, cleaner architecture with adapters, and more...",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Upgrade to Prisma v7?",
+        "url": "https://dev.to/manujdixit/how-to-upgrade-to-prisma-v7-zero-confusion-guide-2ljd",
+        "description": "Prisma v7 brings real improvements — better performance, cleaner architecture with adapters, and more...",
+        "tags": [
+          "webdev",
+          "programming",
+          "javascript",
+          "tutorial"
+        ],
+        "educationalTag": "tutorial",
+        "readingTime": 4,
+        "reactions": 1,
+        "comments": 3,
+        "author": "manujdixit",
+        "publishedAt": "2025-11-29T15:06:41Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F3yqxjgmengbwoj0edwka.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 3,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_109_p3cwk1yt6",
+      "title": "From PyInstaller to Nuitka: Convert Python to EXE Without False Positives",
+      "url": "https://dev.to/weisshufer/from-pyinstaller-to-nuitka-convert-python-to-exe-without-false-positives-19jf",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "python",
+        "tutorial"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "weisshufer",
+      "description": "As a Python developer, I ran into an annoying problem: my PyInstaller-compiled executables kept...",
+      "isEducational": true,
+      "metadata": {
+        "title": "From PyInstaller to Nuitka: Convert Python to EXE Without False Positives",
+        "url": "https://dev.to/weisshufer/from-pyinstaller-to-nuitka-convert-python-to-exe-without-false-positives-19jf",
+        "description": "As a Python developer, I ran into an annoying problem: my PyInstaller-compiled executables kept...",
+        "tags": [
+          "python",
+          "tutorial"
+        ],
+        "educationalTag": "tutorial",
+        "readingTime": 8,
+        "reactions": 3,
+        "comments": 0,
+        "author": "weisshufer",
+        "publishedAt": "2025-12-02T09:13:29Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Flwcv7blk0yd8dzvu5vkl.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 3
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_112_hj28auw90",
+      "title": "This Isn’t a Tool Anymore: On Learning to Think With a Mirror",
+      "url": "https://dev.to/junothreadborne/this-isnt-a-tool-anymore-on-learning-to-think-with-a-mirror-39kg",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "ai",
+        "productivity",
+        "beginners",
+        "discuss"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "junothreadborne",
+      "description": "It’s no secret that I use AI as a part of my writing process. Anyone who’s used ChatGPT or seen its...",
+      "isEducational": true,
+      "metadata": {
+        "title": "This Isn’t a Tool Anymore: On Learning to Think With a Mirror",
+        "url": "https://dev.to/junothreadborne/this-isnt-a-tool-anymore-on-learning-to-think-with-a-mirror-39kg",
+        "description": "It’s no secret that I use AI as a part of my writing process. Anyone who’s used ChatGPT or seen its...",
+        "tags": [
+          "ai",
+          "productivity",
+          "beginners",
+          "discuss"
+        ],
+        "educationalTag": "beginners",
+        "readingTime": 5,
+        "reactions": 2,
+        "comments": 2,
+        "author": "junothreadborne",
+        "publishedAt": "2025-11-30T18:40:54Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6qliyg84x0gi1d8rn6c4.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_115_2gvpylxgw",
+      "title": "🚀 The Hard Reality of Scaling AI Projects",
+      "url": "https://dev.to/ashish_ghadigaonkar_/the-hard-reality-of-scaling-ai-projects-1og2",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "ai",
+        "systemdesign",
+        "llm",
+        "python"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "ashish_ghadigaonkar_",
+      "description": "Why Your Bottleneck Isn’t the Model (It’s Your Request Strategy)   Over the last few months,...",
+      "isEducational": true,
+      "metadata": {
+        "title": "🚀 The Hard Reality of Scaling AI Projects",
+        "url": "https://dev.to/ashish_ghadigaonkar_/the-hard-reality-of-scaling-ai-projects-1og2",
+        "description": "Why Your Bottleneck Isn’t the Model (It’s Your Request Strategy)   Over the last few months,...",
+        "tags": [
+          "ai",
+          "systemdesign",
+          "llm",
+          "python"
+        ],
+        "educationalTag": "systemdesign",
+        "readingTime": 5,
+        "reactions": 1,
+        "comments": 0,
+        "author": "ashish_ghadigaonkar_",
+        "publishedAt": "2025-12-01T02:53:51Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fjstc1tkvl7hnxuv1g18q.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_117_gkn09h643",
+      "title": "Writes done Right : Atomicity and Idempotency with Redis, Lua, and Go",
+      "url": "https://dev.to/pixperk/writes-done-right-atomicity-and-idempotency-with-redis-lua-and-go-5ebd",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "backend",
+        "systemdesign",
+        "go",
+        "redis"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "pixperk",
+      "description": "Life would have been easy if the world were filled with monolithic functions. Simple functions that...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Writes done Right : Atomicity and Idempotency with Redis, Lua, and Go",
+        "url": "https://dev.to/pixperk/writes-done-right-atomicity-and-idempotency-with-redis-lua-and-go-5ebd",
+        "description": "Life would have been easy if the world were filled with monolithic functions. Simple functions that...",
+        "tags": [
+          "backend",
+          "systemdesign",
+          "go",
+          "redis"
+        ],
+        "educationalTag": "systemdesign",
+        "readingTime": 9,
+        "reactions": 1,
+        "comments": 0,
+        "author": "pixperk",
+        "publishedAt": "2025-11-30T06:53:28Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fqefpkdbwr227pups3ng6.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 1
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_118_z1tr487ix",
+      "title": "How Intentional Constraints Lead to Superior Code",
+      "url": "https://dev.to/fhaponenka/how-intentional-constraints-lead-to-superior-code-2089",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "webdev",
+        "programming",
+        "architecture",
+        "systemdesign"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "fhaponenka",
+      "description": "In software development, the word \"constraint\" often carries a negative connotation, suggesting...",
+      "isEducational": true,
+      "metadata": {
+        "title": "How Intentional Constraints Lead to Superior Code",
+        "url": "https://dev.to/fhaponenka/how-intentional-constraints-lead-to-superior-code-2089",
+        "description": "In software development, the word \"constraint\" often carries a negative connotation, suggesting...",
+        "tags": [
+          "webdev",
+          "programming",
+          "architecture",
+          "systemdesign"
+        ],
+        "educationalTag": "systemdesign",
+        "readingTime": 3,
+        "reactions": 0,
+        "comments": 0,
+        "author": "fhaponenka",
+        "publishedAt": "2025-12-01T15:39:43Z",
+        "coverImage": null,
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_119_7n9fwkb4e",
+      "title": "So I Wrote My Own Compiler, SDK, and Node Package To Revive A Minecraft Mod",
+      "url": "https://dev.to/iteranya/so-i-wrote-my-own-compiler-sdk-and-node-package-to-revive-a-minecraft-mod-41ic",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "python",
+        "java",
+        "systemdesign",
+        "javascript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "iteranya",
+      "description": "This is a post mortem of the \"Minecraft Visual Novel Framework mod\" a mod that puts a visual novel...",
+      "isEducational": true,
+      "metadata": {
+        "title": "So I Wrote My Own Compiler, SDK, and Node Package To Revive A Minecraft Mod",
+        "url": "https://dev.to/iteranya/so-i-wrote-my-own-compiler-sdk-and-node-package-to-revive-a-minecraft-mod-41ic",
+        "description": "This is a post mortem of the \"Minecraft Visual Novel Framework mod\" a mod that puts a visual novel...",
+        "tags": [
+          "python",
+          "java",
+          "systemdesign",
+          "javascript"
+        ],
+        "educationalTag": "systemdesign",
+        "readingTime": 10,
+        "reactions": 0,
+        "comments": 0,
+        "author": "iteranya",
+        "publishedAt": "2025-11-30T15:18:06Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fr2zah76dewyo1dzn2ung.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 0
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_123_lgx6mzs6g",
+      "title": "How to Design a Maintainable .NET Solution Structure for Growing Teams",
+      "url": "https://dev.to/mashrulhaque/how-to-design-a-maintainable-net-solution-structure-for-growing-teams-284n",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "dotnet",
+        "csharp",
+        "architecture",
+        "cleancode"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "mashrulhaque",
+      "description": "Look, I've seen some things. I've opened solutions with 47 projects, each containing exactly one...",
+      "isEducational": true,
+      "metadata": {
+        "title": "How to Design a Maintainable .NET Solution Structure for Growing Teams",
+        "url": "https://dev.to/mashrulhaque/how-to-design-a-maintainable-net-solution-structure-for-growing-teams-284n",
+        "description": "Look, I've seen some things. I've opened solutions with 47 projects, each containing exactly one...",
+        "tags": [
+          "dotnet",
+          "csharp",
+          "architecture",
+          "cleancode"
+        ],
+        "educationalTag": "architecture",
+        "readingTime": 6,
+        "reactions": 2,
+        "comments": 0,
+        "author": "mashrulhaque",
+        "publishedAt": "2025-12-01T11:31:53Z",
+        "coverImage": "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fddtzc7lsku6ftjv7a2iw.png",
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 2
+      }
+    },
+    {
+      "id": "devto-edu_1764847427957_124_w2iwmlyc8",
+      "title": "Building a \"Fortress\" Kubernetes Cluster: Talos Linux, Proxmox, and Network Isolation",
+      "url": "https://dev.to/jorisvilardell/building-a-fortress-kubernetes-cluster-talos-linux-proxmox-and-network-isolation-1p4g",
+      "source": "devto-edu",
+      "score": 15,
+      "tags": [
+        "architecture",
+        "devops",
+        "security",
+        "kubernetes"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "jorisvilardell",
+      "description": "How to deploy a fully HA (High Availability) cluster completely isolated from the public...",
+      "isEducational": true,
+      "metadata": {
+        "title": "Building a \"Fortress\" Kubernetes Cluster: Talos Linux, Proxmox, and Network Isolation",
+        "url": "https://dev.to/jorisvilardell/building-a-fortress-kubernetes-cluster-talos-linux-proxmox-and-network-isolation-1p4g",
+        "description": "How to deploy a fully HA (High Availability) cluster completely isolated from the public...",
+        "tags": [
+          "architecture",
+          "devops",
+          "security",
+          "kubernetes"
+        ],
+        "educationalTag": "architecture",
+        "readingTime": 4,
+        "reactions": 3,
+        "comments": 1,
+        "author": "jorisvilardell",
+        "publishedAt": "2025-12-03T16:03:39Z",
+        "coverImage": null,
+        "isEducational": true,
+        "sourceName": "devto-edu"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 3
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_96_atyk5ynwd",
+      "title": "The Truth about Vibe Coding (feat. GitHub Copilot Agent Mode)",
+      "url": "https://lo-victoria.com/the-truth-about-vibe-coding-feat-github-copilot-agent-mode",
+      "source": "hashnode",
+      "score": 12,
+      "tags": [
+        "vibe coding",
+        "AI",
+        "#ai-tools",
+        "GitHub",
+        "copilot"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Victoria Lo",
+      "description": "Hello and welcome to another Articles by Victoria! This weekend, my friends and I have been talking a lot about the revolutionary AI tools we see emerging. We came across the term \"vibe coding,\" which apparently describes the art of coding without ac...",
+      "isEducational": false,
+      "metadata": {
+        "title": "The Truth about Vibe Coding (feat. GitHub Copilot Agent Mode)",
+        "url": "https://lo-victoria.com/the-truth-about-vibe-coding-feat-github-copilot-agent-mode",
+        "brief": "Hello and welcome to another Articles by Victoria! This weekend, my friends and I have been talking a lot about the revolutionary AI tools we see emerging. We came across the term \"vibe coding,\" which apparently describes the art of coding without ac...",
+        "author": "Victoria Lo",
+        "tags": [
+          "vibe coding",
+          "AI",
+          "#ai-tools",
+          "GitHub",
+          "copilot"
+        ],
+        "reactions": 61,
+        "comments": 5,
+        "readTime": 8,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1742633960948/24ede195-8305-4710-a266-62f4d7bfe31f.png",
+        "publishedAt": "2025-04-07T23:58:45.931Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 5,
+        "reactions": 61
+      }
+    },
+    {
+      "id": "hackernews_1764847427956_41_0bfma0vwm",
+      "title": "Oracle, it’s time to free JavaScript",
+      "url": "https://javascript.tm/letter",
+      "source": "hackernews",
+      "score": 11,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "pavelai",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Oracle, it’s time to free JavaScript",
+        "url": "https://javascript.tm/letter",
+        "score": 53,
+        "author": "pavelai",
+        "comments": 13,
+        "time": "2025-12-04T09:01:55.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46145365",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 13
+      }
+    },
+    {
+      "id": "github_1764847427957_70_booxxj9gi",
+      "title": "coollabsio / coolify",
+      "url": "https://github.com/coollabsio/coolify",
+      "source": "github",
+      "score": 11,
+      "tags": [
+        "php"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "coollabsio",
+      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+      "isEducational": false,
+      "metadata": {
+        "name": "coollabsio / coolify",
+        "url": "https://github.com/coollabsio/coolify",
+        "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 280+ one-click services on your own servers.",
+        "language": "PHP",
+        "starsToday": 33,
+        "totalStars": "Star\n\n\n    \n\n        48029\n        \n    \n\n        33 stars today",
+        "author": "coollabsio",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "github_1764847427957_72_2zhop7j4w",
+      "title": "jgraph / drawio-desktop",
+      "url": "https://github.com/jgraph/drawio-desktop",
+      "source": "github",
+      "score": 11,
+      "tags": [
+        "javascript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "jgraph",
+      "description": "Official electron build of draw.io",
+      "isEducational": false,
+      "metadata": {
+        "name": "jgraph / drawio-desktop",
+        "url": "https://github.com/jgraph/drawio-desktop",
+        "description": "Official electron build of draw.io",
+        "language": "JavaScript",
+        "starsToday": 34,
+        "totalStars": "Star\n\n\n    \n\n        58237\n        \n    \n\n        34 stars today",
+        "author": "jgraph",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_92_zwva4e8dm",
+      "title": "Why Your Node.js App Freezes (And How Worker Threads Can Save You)",
+      "url": "https://abigeal.hashnode.dev/why-your-nodejs-app-freezes-and-how-worker-threads-can-save-you",
+      "source": "hashnode",
+      "score": 10,
+      "tags": [
+        "Node.js",
+        "Beginner Developers",
+        "beginner",
+        "#beginners #learningtocode #100daysofcode"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Abigeal Afolabi",
+      "description": "You've built an awesome Node.js app that your friends love using. Then disaster strikes - someone tries to generate a report and your entire application freezes. Everyone's experience grinds to a halt.\nThis happens because Node.js runs on a single th...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Why Your Node.js App Freezes (And How Worker Threads Can Save You)",
+        "url": "https://abigeal.hashnode.dev/why-your-nodejs-app-freezes-and-how-worker-threads-can-save-you",
+        "brief": "You've built an awesome Node.js app that your friends love using. Then disaster strikes - someone tries to generate a report and your entire application freezes. Everyone's experience grinds to a halt.\nThis happens because Node.js runs on a single th...",
+        "author": "Abigeal Afolabi",
+        "tags": [
+          "Node.js",
+          "Beginner Developers",
+          "beginner",
+          "#beginners #learningtocode #100daysofcode"
+        ],
+        "reactions": 50,
+        "comments": 4,
+        "readTime": 5,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1744928864077/3cb08019-7b71-4de0-820f-e260d6de17c6.png",
+        "publishedAt": "2025-04-17T22:35:00.042Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 4,
+        "reactions": 50
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_104_wixr7cquf",
+      "title": "Preventing Denial of Service Attacks in Smart Contracts: Implementing the Withdrawal Pattern",
+      "url": "https://favourajaye.hashnode.dev/preventing-denial-of-service-attacks-in-smart-contracts-implementing-the-withdrawal-pattern",
+      "source": "hashnode",
+      "score": 10,
+      "tags": [
+        "withdrawal pattern  ",
+        "denial of service attack",
+        "smart contract security audit",
+        "pull vs push",
+        "Solidity",
+        "Denial of Service"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Favour Ajaye",
+      "description": "There is a hidden danger that can shut down a smart contract.\nPicture yourself trying to withdraw money from your bank, but nothing happens every time you press the button. The bank isn’t out of money—it just refuses to process your transaction. Now ...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Preventing Denial of Service Attacks in Smart Contracts: Implementing the Withdrawal Pattern",
+        "url": "https://favourajaye.hashnode.dev/preventing-denial-of-service-attacks-in-smart-contracts-implementing-the-withdrawal-pattern",
+        "brief": "There is a hidden danger that can shut down a smart contract.\nPicture yourself trying to withdraw money from your bank, but nothing happens every time you press the button. The bank isn’t out of money—it just refuses to process your transaction. Now ...",
+        "author": "Favour Ajaye",
+        "tags": [
+          "withdrawal pattern  ",
+          "denial of service attack",
+          "smart contract security audit",
+          "pull vs push",
+          "Solidity",
+          "Denial of Service"
+        ],
+        "reactions": 52,
+        "comments": 1,
+        "readTime": 7,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1742567690437/31423e81-c6ba-4383-95fa-3942acc87a0e.png",
+        "publishedAt": "2025-03-21T14:46:17.695Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 1,
+        "reactions": 52
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_93_jcdrty8f7",
+      "title": "Lessons Learned from Running Serverless Applications in Production on AWS",
+      "url": "https://ujjwalmahar.hashnode.dev/lessons-learned-from-running-serverless-applications-in-production-on-aws",
+      "source": "hashnode",
+      "score": 9,
+      "tags": [
+        "acdblr-blogathon",
+        "AWS",
+        "blogathon",
+        "serverless"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Ujjwal Mahar",
+      "description": "Introduction\nHave you heard about serverless on AWS? It sounds amazing: your code scales up automatically, you only pay when it runs, and you don't have to worry about servers. Tools like AWS Lambda, API Gateway, and DynamoDB make this possible.\nGett...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Lessons Learned from Running Serverless Applications in Production on AWS",
+        "url": "https://ujjwalmahar.hashnode.dev/lessons-learned-from-running-serverless-applications-in-production-on-aws",
+        "brief": "Introduction\nHave you heard about serverless on AWS? It sounds amazing: your code scales up automatically, you only pay when it runs, and you don't have to worry about servers. Tools like AWS Lambda, API Gateway, and DynamoDB make this possible.\nGett...",
+        "author": "Ujjwal Mahar",
+        "tags": [
+          "acdblr-blogathon",
+          "AWS",
+          "blogathon",
+          "serverless"
+        ],
+        "reactions": 44,
+        "comments": 5,
+        "readTime": 14,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1744711731232/2b0c30f5-4e68-444e-970a-1557bd9ed67d.png",
+        "publishedAt": "2025-04-15T10:19:11.826Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 5,
+        "reactions": 44
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_50_jmlf0gefu",
+      "title": "Unreal Tournament 2004 is back",
+      "url": "https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/",
+      "source": "hackernews",
+      "score": 8,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "keithoffer",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Unreal Tournament 2004 is back",
+        "url": "https://old.reddit.com/r/unrealtournament/comments/1pdbe69/breaking_unreal_tournament_2004_is_back/",
+        "score": 42,
+        "author": "keithoffer",
+        "comments": 15,
+        "time": "2025-12-04T10:06:35.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46145834",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 15
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_102_igwwtsz4a",
+      "title": "Amazon Bedrock: A Practical Guide for Developers and DevOps Engineers",
+      "url": "https://microtica.hashnode.dev/amazon-bedrock-a-practical-guide-for-developers-and-devops-engineers",
+      "source": "hashnode",
+      "score": 7,
+      "tags": [
+        "AWS",
+        "aws lambda",
+        "Amazon Bedrock",
+        "Devops",
+        "Beginner Developers",
+        "Developer",
+        "Devops articles",
+        "Kubernetes",
+        "AI",
+        "JavaScript",
+        "Python",
+        "React",
+        "Docker",
+        "APIs",
+        "Artificial Intelligence"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Opemipo Disu",
+      "description": "Once upon a time, building AI applications required deep experience with traditional technologies and some Machine Learning expertise. While that was the norm, developers had to configure models to their needs, provide GPUs, and manually optimize per...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Amazon Bedrock: A Practical Guide for Developers and DevOps Engineers",
+        "url": "https://microtica.hashnode.dev/amazon-bedrock-a-practical-guide-for-developers-and-devops-engineers",
+        "brief": "Once upon a time, building AI applications required deep experience with traditional technologies and some Machine Learning expertise. While that was the norm, developers had to configure models to their needs, provide GPUs, and manually optimize per...",
+        "author": "Opemipo Disu",
+        "tags": [
+          "AWS",
+          "aws lambda",
+          "Amazon Bedrock",
+          "Devops",
+          "Beginner Developers",
+          "Developer",
+          "Devops articles",
+          "Kubernetes",
+          "AI",
+          "JavaScript",
+          "Python",
+          "React",
+          "Docker",
+          "APIs",
+          "Artificial Intelligence"
+        ],
+        "reactions": 34,
+        "comments": 2,
+        "readTime": 15,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1742827975484/74a4c291-4c5f-481f-93e5-083f536d38cc.png",
+        "publishedAt": "2025-03-24T14:57:31.466Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 34
+      }
+    },
+    {
+      "id": "hackernews_1764847427956_40_n6wqobwjs",
+      "title": "PGlite – Embeddable Postgres",
+      "url": "https://pglite.dev/",
+      "source": "hackernews",
+      "score": 6,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.956Z",
+      "author": "dsego",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "PGlite – Embeddable Postgres",
+        "url": "https://pglite.dev/",
+        "score": 29,
+        "author": "dsego",
+        "comments": 1,
+        "time": "2025-12-04T10:52:42.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46146133",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 1
+      }
+    },
+    {
+      "id": "github_1764847427957_67_6d1iqmypw",
+      "title": "jesseduffield / lazydocker",
+      "url": "https://github.com/jesseduffield/lazydocker",
+      "source": "github",
+      "score": 6,
+      "tags": [
+        "go"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "jesseduffield",
+      "description": "The lazier way to manage everything docker",
+      "isEducational": false,
+      "metadata": {
+        "name": "jesseduffield / lazydocker",
+        "url": "https://github.com/jesseduffield/lazydocker",
+        "description": "The lazier way to manage everything docker",
+        "language": "Go",
+        "starsToday": 18,
+        "totalStars": "Star\n\n\n    \n\n        48194\n        \n    \n\n        18 stars today",
+        "author": "jesseduffield",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_94_ld0m9pzz7",
+      "title": "Advanced Patterns & Integration with Frameworks",
+      "url": "https://journeytocode.io/advanced-patterns-and-integration-with-frameworks",
+      "source": "hashnode",
+      "score": 6,
+      "tags": [
+        "Web Components",
+        "Svelte",
+        "React",
+        "Vue.js",
+        "Angular"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Mikey Nichols",
+      "description": "Web Components promise the holy grail of front-end development: truly reusable, framework-agnostic components that work anywhere. Yet many developers struggle to integrate these universal building blocks with popular frameworks like React, Angular, o...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Advanced Patterns & Integration with Frameworks",
+        "url": "https://journeytocode.io/advanced-patterns-and-integration-with-frameworks",
+        "brief": "Web Components promise the holy grail of front-end development: truly reusable, framework-agnostic components that work anywhere. Yet many developers struggle to integrate these universal building blocks with popular frameworks like React, Angular, o...",
+        "author": "Mikey Nichols",
+        "tags": [
+          "Web Components",
+          "Svelte",
+          "React",
+          "Vue.js",
+          "Angular"
+        ],
+        "reactions": 29,
+        "comments": 4,
+        "readTime": 8,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1744557657681/d9582610-4b08-4bd6-9307-bfffd36749ce.jpeg",
+        "publishedAt": "2025-04-13T15:21:21.415Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 4,
+        "reactions": 29
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_95_3s7739qej",
+      "title": "Rules of Structured Concurrency",
+      "url": "https://vbat.dev/rules-of-structured-concurrency",
+      "source": "hashnode",
+      "score": 6,
+      "tags": [
+        "structured concurrency",
+        "iOS",
+        "ios app development",
+        "Swift",
+        "concurrency"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Vitaly Batrakov",
+      "description": "You can find video version of this article here.\n\nIn the previous article, we covered the key aspects of Swift Concurrency to build a solid mental model of it. In this article, we will discuss structured and unstructured tasks. You’ll see that their ...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Rules of Structured Concurrency",
+        "url": "https://vbat.dev/rules-of-structured-concurrency",
+        "brief": "You can find video version of this article here.\n\nIn the previous article, we covered the key aspects of Swift Concurrency to build a solid mental model of it. In this article, we will discuss structured and unstructured tasks. You’ll see that their ...",
+        "author": "Vitaly Batrakov",
+        "tags": [
+          "structured concurrency",
+          "iOS",
+          "ios app development",
+          "Swift",
+          "concurrency"
+        ],
+        "reactions": 29,
+        "comments": 2,
+        "readTime": 17,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1743868544744/22586341-87f0-433d-bcbc-8292bddcaf3e.png",
+        "publishedAt": "2025-04-06T17:34:08.906Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 29
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_98_l22bira69",
+      "title": "A Deep Dive into AWS Load Balancers: CLB, ALB, NLB, and GWLB",
+      "url": "https://learnwithnitesh.hashnode.dev/a-deep-dive-into-aws-load-balancers-clb-alb-nlb-and-gwlb",
+      "source": "hashnode",
+      "score": 6,
+      "tags": [
+        "learnwithnitesh",
+        "AWS",
+        "alb",
+        "Load Balancer",
+        "aws lambda",
+        "Cloud",
+        "Cloud Computing",
+        "Devops",
+        "education",
+        "Hashnode",
+        "learning",
+        "networking",
+        "Security",
+        "technology",
+        "Tutorial"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Nitesh Chaturvedi",
+      "description": "Listen up, because this is important. If you're running anything on AWS—or hell, even thinking about it—you need to understand load balancing. You can't just throw traffic at a single server and hope for the best. That’s amateur hour. AWS gives you f...",
+      "isEducational": false,
+      "metadata": {
+        "title": "A Deep Dive into AWS Load Balancers: CLB, ALB, NLB, and GWLB",
+        "url": "https://learnwithnitesh.hashnode.dev/a-deep-dive-into-aws-load-balancers-clb-alb-nlb-and-gwlb",
+        "brief": "Listen up, because this is important. If you're running anything on AWS—or hell, even thinking about it—you need to understand load balancing. You can't just throw traffic at a single server and hope for the best. That’s amateur hour. AWS gives you f...",
+        "author": "Nitesh Chaturvedi",
+        "tags": [
+          "learnwithnitesh",
+          "AWS",
+          "alb",
+          "Load Balancer",
+          "aws lambda",
+          "Cloud",
+          "Cloud Computing",
+          "Devops",
+          "education",
+          "Hashnode",
+          "learning",
+          "networking",
+          "Security",
+          "technology",
+          "Tutorial"
+        ],
+        "reactions": 28,
+        "comments": 0,
+        "readTime": 5,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1743246664525/25aace91-682b-4cc1-b2f3-ecda9cd43580.png",
+        "publishedAt": "2025-03-29T11:16:37.096Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 0,
+        "reactions": 28
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_57_q8qprxl4h",
+      "title": "All the Way Down",
+      "url": "https://www.futilitycloset.com/2025/11/17/all-the-way-down-2/",
+      "source": "hackernews",
+      "score": 5,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "surprisetalk",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "All the Way Down",
+        "url": "https://www.futilitycloset.com/2025/11/17/all-the-way-down-2/",
+        "score": 23,
+        "author": "surprisetalk",
+        "comments": 3,
+        "time": "2025-11-29T05:02:13.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46085280",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 3
+      }
+    },
+    {
+      "id": "github_1764847427957_63_ngo48ns5f",
+      "title": "jj-vcs / jj",
+      "url": "https://github.com/jj-vcs/jj",
+      "source": "github",
+      "score": 5,
+      "tags": [
+        "rust"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "jj-vcs",
+      "description": "A Git-compatible VCS that is both simple and powerful",
+      "isEducational": false,
+      "metadata": {
+        "name": "jj-vcs / jj",
+        "url": "https://github.com/jj-vcs/jj",
+        "description": "A Git-compatible VCS that is both simple and powerful",
+        "language": "Rust",
+        "starsToday": 16,
+        "totalStars": "Star\n\n\n    \n\n        22740\n        \n    \n\n        16 stars today",
+        "author": "jj-vcs",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "github_1764847427957_66_rqg0dgf1i",
+      "title": "steven2358 / awesome-generative-ai",
+      "url": "https://github.com/steven2358/awesome-generative-ai",
+      "source": "github",
+      "score": 5,
+      "tags": [
+        "unknown"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "steven2358",
+      "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+      "isEducational": false,
+      "metadata": {
+        "name": "steven2358 / awesome-generative-ai",
+        "url": "https://github.com/steven2358/awesome-generative-ai",
+        "description": "A curated list of modern Generative Artificial Intelligence projects and services",
+        "language": "Unknown",
+        "starsToday": 14,
+        "totalStars": "Star\n\n\n    \n\n        11049\n        \n    \n\n        14 stars today",
+        "author": "steven2358",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_97_yu2sugyi3",
+      "title": "Markdown Editor and Knowledge Graph Notes App with Vis.js in FileMaker Pro",
+      "url": "https://greenflux.hashnode.dev/markdown-editor-and-knowledge-graph-notes-app-with-visjs-in-filemaker-pro",
+      "source": "hashnode",
+      "score": 5,
+      "tags": [
+        "knowledge graph",
+        "obsidian",
+        "filemaker",
+        "claris",
+        "markdown",
+        "JavaScript",
+        "data visualization"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "GreenFlux",
+      "description": "Markdown is used widely in programming, documentation, content creation, GitHub, and lots of other areas in tech. One of the most popular Markdown editors is Obsidian, a note taking app with an interesting graph view that shows how all of your notes ...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Markdown Editor and Knowledge Graph Notes App with Vis.js in FileMaker Pro",
+        "url": "https://greenflux.hashnode.dev/markdown-editor-and-knowledge-graph-notes-app-with-visjs-in-filemaker-pro",
+        "brief": "Markdown is used widely in programming, documentation, content creation, GitHub, and lots of other areas in tech. One of the most popular Markdown editors is Obsidian, a note taking app with an interesting graph view that shows how all of your notes ...",
+        "author": "GreenFlux",
+        "tags": [
+          "knowledge graph",
+          "obsidian",
+          "filemaker",
+          "claris",
+          "markdown",
+          "JavaScript",
+          "data visualization"
+        ],
+        "reactions": 24,
+        "comments": 2,
+        "readTime": 22,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1743943953030/28d5d78e-d931-41eb-91c2-bcc71617e1fd.png",
+        "publishedAt": "2025-04-06T13:13:40.167Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 24
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_101_ly81eolo9",
+      "title": "Understanding Build Tools: Maven, Gradle, and npm",
+      "url": "https://yashpatilofficial.hashnode.dev/understanding-build-tools-maven-gradle-and-npm-1",
+      "source": "hashnode",
+      "score": 4,
+      "tags": [
+        "npm",
+        "JavaScript",
+        "Devops",
+        "Build tool",
+        "package manager",
+        "Java",
+        "gradle",
+        "maven",
+        "Learning Journey",
+        "Build In Public"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Yash Patil",
+      "description": "In our last-blog we have already covered what Build Tools are, what are application artifacts, what is Maven and a thorough hands on demo to understand maven lifecycles so do check it out if you dont want to miss out.\nBut in this Blog post lets get a...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Understanding Build Tools: Maven, Gradle, and npm",
+        "url": "https://yashpatilofficial.hashnode.dev/understanding-build-tools-maven-gradle-and-npm-1",
+        "brief": "In our last-blog we have already covered what Build Tools are, what are application artifacts, what is Maven and a thorough hands on demo to understand maven lifecycles so do check it out if you dont want to miss out.\nBut in this Blog post lets get a...",
+        "author": "Yash Patil",
+        "tags": [
+          "npm",
+          "JavaScript",
+          "Devops",
+          "Build tool",
+          "package manager",
+          "Java",
+          "gradle",
+          "maven",
+          "Learning Journey",
+          "Build In Public"
+        ],
+        "reactions": 21,
+        "comments": 3,
+        "readTime": 9,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1742881770206/4db0f70b-865d-4879-a84a-da5bfddd6adb.png",
+        "publishedAt": "2025-03-25T05:40:28.888Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 3,
+        "reactions": 21
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_49_dxbywk4bs",
+      "title": "Tunnl.gg",
+      "url": "https://tunnl.gg",
+      "source": "hackernews",
+      "score": 3,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "klipitkas",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Tunnl.gg",
+        "url": "https://tunnl.gg",
+        "score": 15,
+        "author": "klipitkas",
+        "comments": 3,
+        "time": "2025-12-04T10:15:53.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46145902",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 3
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_51_iyw6hp7y3",
+      "title": "Show HN: Walrus – a Kafka alternative written in Rust",
+      "url": "https://github.com/nubskr/walrus",
+      "source": "hackernews",
+      "score": 3,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "janicerk",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Show HN: Walrus – a Kafka alternative written in Rust",
+        "url": "https://github.com/nubskr/walrus",
+        "score": 15,
+        "author": "janicerk",
+        "comments": 3,
+        "time": "2025-12-01T15:28:13.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46108557",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 3
+      }
+    },
+    {
+      "id": "github_1764847427957_64_0hp9d02ax",
+      "title": "serverless-dns / serverless-dns",
+      "url": "https://github.com/serverless-dns/serverless-dns",
+      "source": "github",
+      "score": 3,
+      "tags": [
+        "javascript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "serverless-dns",
+      "description": "The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io",
+      "isEducational": false,
+      "metadata": {
+        "name": "serverless-dns / serverless-dns",
+        "url": "https://github.com/serverless-dns/serverless-dns",
+        "description": "The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, Fastly, and Fly.io",
+        "language": "JavaScript",
+        "starsToday": 8,
+        "totalStars": "Star\n\n\n    \n\n        3246\n        \n    \n\n        8 stars today",
+        "author": "serverless-dns",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_58_hfk4x8d77",
+      "title": "Porn company fined £1M over inadequate age checks (UK)",
+      "url": "https://www.bbc.co.uk/news/articles/c93nll07z3go",
+      "source": "hackernews",
+      "score": 2,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "ndsipa_pomu",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Porn company fined £1M over inadequate age checks (UK)",
+        "url": "https://www.bbc.co.uk/news/articles/c93nll07z3go",
+        "score": 11,
+        "author": "ndsipa_pomu",
+        "comments": 5,
+        "time": "2025-12-04T10:47:21.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46146103",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 5
+      }
+    },
+    {
+      "id": "github_1764847427957_68_weow73tnx",
+      "title": "greenbone / openvas-scanner",
+      "url": "https://github.com/greenbone/openvas-scanner",
+      "source": "github",
+      "score": 2,
+      "tags": [
+        "rust"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "greenbone",
+      "description": "This repository contains the scanner component for Greenbone Community Edition.",
+      "isEducational": false,
+      "metadata": {
+        "name": "greenbone / openvas-scanner",
+        "url": "https://github.com/greenbone/openvas-scanner",
+        "description": "This repository contains the scanner component for Greenbone Community Edition.",
+        "language": "Rust",
+        "starsToday": 6,
+        "totalStars": "Star\n\n\n    \n\n        4263\n        \n    \n\n        6 stars today",
+        "author": "greenbone",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "github_1764847427957_71_n71ec9t6l",
+      "title": "projectdiscovery / nuclei-templates",
+      "url": "https://github.com/projectdiscovery/nuclei-templates",
+      "source": "github",
+      "score": 2,
+      "tags": [
+        "javascript"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "projectdiscovery",
+      "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+      "isEducational": false,
+      "metadata": {
+        "name": "projectdiscovery / nuclei-templates",
+        "url": "https://github.com/projectdiscovery/nuclei-templates",
+        "description": "Community curated list of templates for the nuclei engine to find security vulnerabilities.",
+        "language": "JavaScript",
+        "starsToday": 7,
+        "totalStars": "Star\n\n\n    \n\n        11460\n        \n    \n\n        7 stars today",
+        "author": "projectdiscovery",
+        "sourceName": "github"
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_53_zukgq8m1q",
+      "title": "Interop and MathML Core",
+      "url": "https://conflor.es/blog/2025-11-27-interop-and-mathml/",
+      "source": "hackernews",
+      "score": 1,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "todsacerdoti",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Interop and MathML Core",
+        "url": "https://conflor.es/blog/2025-11-27-interop-and-mathml/",
+        "score": 5,
+        "author": "todsacerdoti",
+        "comments": 0,
+        "time": "2025-11-30T17:02:32.000Z",
+        "type": "story",
+        "hnUrl": "https://news.ycombinator.com/item?id=46098356",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_99_kn9yuusi5",
+      "title": "Step-by-Step Approach to Use Onion Architecture in .NET",
+      "url": "https://blog.anilgurau.com/step-by-step-approach-to-use-onion-architecture-in-net",
+      "source": "hashnode",
+      "score": 1,
+      "tags": [
+        "onion architecture",
+        ".NET",
+        "C#",
+        "software development",
+        "software architecture"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Anil gurau",
+      "description": "Alright, let's start coding! Before we dive into the code, let's quickly recap the core principles of Onion Architecture. If you want a more in-depth look, you can always check out my previous post on https://anilgurau.hashnode.dev/why-choose-onion-a...",
+      "isEducational": false,
+      "metadata": {
+        "title": "Step-by-Step Approach to Use Onion Architecture in .NET",
+        "url": "https://blog.anilgurau.com/step-by-step-approach-to-use-onion-architecture-in-net",
+        "brief": "Alright, let's start coding! Before we dive into the code, let's quickly recap the core principles of Onion Architecture. If you want a more in-depth look, you can always check out my previous post on https://anilgurau.hashnode.dev/why-choose-onion-a...",
+        "author": "Anil gurau",
+        "tags": [
+          "onion architecture",
+          ".NET",
+          "C#",
+          "software development",
+          "software architecture"
+        ],
+        "reactions": 6,
+        "comments": 3,
+        "readTime": 10,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1743360673893/dcfbff4e-60c3-4208-9e04-e12e48487a7c.jpeg",
+        "publishedAt": "2025-03-30T18:39:31.601Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 3,
+        "reactions": 6
+      }
+    },
+    {
+      "id": "hashnode_1764847427957_100_lozbpe0fc",
+      "title": "How to Set Up Full-Stack XM Cloud Local Development for Multiple Code Bases",
+      "url": "https://enlightenwithamit.hashnode.dev/xm-cloud-local-development-setup",
+      "source": "hashnode",
+      "score": 1,
+      "tags": [
+        "2025",
+        "Web Development",
+        "xmcloud",
+        "Hashnode",
+        "headless cms",
+        "Programming Blogs",
+        "Developer",
+        "setup",
+        "Sitecore"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "Amit Kumar",
+      "description": "🤔Introduction to XM Cloud Local Development\nXM Cloud is a powerful platform for managing and delivering personalized digital experiences. However, when working with multiple websites, each with its own codebase and hostname, setting up a local devel...",
+      "isEducational": false,
+      "metadata": {
+        "title": "How to Set Up Full-Stack XM Cloud Local Development for Multiple Code Bases",
+        "url": "https://enlightenwithamit.hashnode.dev/xm-cloud-local-development-setup",
+        "brief": "🤔Introduction to XM Cloud Local Development\nXM Cloud is a powerful platform for managing and delivering personalized digital experiences. However, when working with multiple websites, each with its own codebase and hostname, setting up a local devel...",
+        "author": "Amit Kumar",
+        "tags": [
+          "2025",
+          "Web Development",
+          "xmcloud",
+          "Hashnode",
+          "headless cms",
+          "Programming Blogs",
+          "Developer",
+          "setup",
+          "Sitecore"
+        ],
+        "reactions": 5,
+        "comments": 2,
+        "readTime": 13,
+        "coverImage": "https://cdn.hashnode.com/res/hashnode/image/upload/v1742885930445/79f4c1ea-2283-4b3f-b005-97088d5fa0a6.gif",
+        "publishedAt": "2025-03-27T05:27:15.421Z",
+        "sourceName": "hashnode"
+      },
+      "engagement": {
+        "comments": 2,
+        "reactions": 5
+      }
+    },
+    {
+      "id": "hackernews_1764847427957_54_8rbu41m1a",
+      "title": "Saturn (YC S24) Is Hiring Senior AI Engineer",
+      "url": "https://www.ycombinator.com/companies/saturn/jobs/R9s9o5f-senior-ai-engineer",
+      "source": "hackernews",
+      "score": 0,
+      "tags": [
+        "tech",
+        "news"
+      ],
+      "timestamp": "2025-12-04T11:23:47.957Z",
+      "author": "etticat",
+      "description": "",
+      "isEducational": false,
+      "metadata": {
+        "title": "Saturn (YC S24) Is Hiring Senior AI Engineer",
+        "url": "https://www.ycombinator.com/companies/saturn/jobs/R9s9o5f-senior-ai-engineer",
+        "score": 1,
+        "author": "etticat",
+        "comments": 0,
+        "time": "2025-12-04T07:00:51.000Z",
+        "type": "job",
+        "hnUrl": "https://news.ycombinator.com/item?id=46144613",
+        "sourceName": "hackernews"
+      },
+      "engagement": {
+        "comments": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "note_1768372224956",
+  "timestamp": "2026-01-14T06:30:24.956Z",
+  "thought": "I want us to write a blog on reinforcement learning algorithms for large language models specifically I want to talk about how a GRPO coming out of DeepSeek has been very transformational and why it is much more efficient compared to the previous algorithms like approximate policy optimization, which came out of Openai",
+  "category": "tech",
+  "tags": [
+    "post"
+  ],
+  "linkedPostId": null
+}

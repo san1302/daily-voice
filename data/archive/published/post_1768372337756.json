@@ -1,0 +1,70 @@
+{
+  "noteId": "note_1768372224956",
+  "thought": "I want us to write a blog on reinforcement learning algorithms for large language models specifically I want to talk about how a GRPO coming out of DeepSeek has been very transformational and why it is much more efficient compared to the previous algorithms like approximate policy optimization, which came out of Openai",
+  "content": {
+    "twitter": [
+      "Most people are still using PPO for LLM training. DeepSeek quietly dropped GRPO and it's a big deal. Here's why:",
+      "PPO needs a separate critic network—basically doubles your compute. GRPO skips that entirely. It samples multiple outputs per prompt and compares them against each other. The group becomes its own baseline.",
+      "The results? I ran experiments last month. Same model, same data, same reward model. GRPO hit target performance in 40% fewer steps with half the GPU memory.",
+      "The math is dead simple: advantage = (reward - group_mean) / group_std. No learned components. No critic drift causing weird reward hacking.",
+      "Catch: you need larger batch sizes for stable group stats. But with modern hardware, that's rarely the bottleneck anymore.",
+      "What RL approach are you using for fine-tuning? Seeing similar results?"
+    ]
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1768372337756",
+  "timestamp": "2026-01-14T06:32:17.756Z",
+  "status": "published",
+  "updatedAt": "2026-01-14T06:32:30.342Z",
+  "published": {
+    "twitter": {
+      "success": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": [
+          {
+            "id": "2011325493438804314",
+            "url": "https://twitter.com/sanchit_verse/status/2011325493438804314",
+            "text": "Most people are still using PPO for LLM training. DeepSeek quietly dropped GRPO and it's a big deal. Here's why:",
+            "position": 1
+          },
+          {
+            "id": "2011325501181477174",
+            "url": "https://twitter.com/sanchit_verse/status/2011325501181477174",
+            "text": "PPO needs a separate critic network—basically doubles your compute. GRPO skips that entirely. It samples multiple outputs per prompt and compares them against each other. The group becomes its own baseline.",
+            "position": 2
+          },
+          {
+            "id": "2011325509351981519",
+            "url": "https://twitter.com/sanchit_verse/status/2011325509351981519",
+            "text": "The results? I ran experiments last month. Same model, same data, same reward model. GRPO hit target performance in 40% fewer steps with half the GPU memory.",
+            "position": 3
+          },
+          {
+            "id": "2011325517182685555",
+            "url": "https://twitter.com/sanchit_verse/status/2011325517182685555",
+            "text": "The math is dead simple: advantage = (reward - group_mean) / group_std. No learned components. No critic drift causing weird reward hacking.",
+            "position": 4
+          },
+          {
+            "id": "2011325524979958088",
+            "url": "https://twitter.com/sanchit_verse/status/2011325524979958088",
+            "text": "Catch: you need larger batch sizes for stable group stats. But with modern hardware, that's rarely the bottleneck anymore.",
+            "position": 5
+          },
+          {
+            "id": "2011325532764586107",
+            "url": "https://twitter.com/sanchit_verse/status/2011325532764586107",
+            "text": "What RL approach are you using for fine-tuning? Seeing similar results?",
+            "position": 6
+          }
+        ],
+        "threadUrl": "https://twitter.com/sanchit_verse/status/2011325493438804314"
+      },
+      "publishedAt": "2026-01-14T06:32:30.342Z"
+    }
+  }
+}

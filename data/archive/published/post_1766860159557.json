@@ -1,0 +1,89 @@
+{
+  "noteId": "note_1766860070919",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest ",
+  "content": {
+    "twitter": "Been wrestling with Claude Code for a few weeks now. The biggest pain point? Context window management.\n\nYou're deep in a debugging session, everything's flowing, then suddenly Claude forgets the file structure you explained 10 minutes ago.\n\nIt's like pair programming with someone who has selective amnesia.\n\nA few things that helped me:\n\n1/ Keep a CLAUDE.md file in your project root with key architecture decisions. Claude reads this automatically.\n\n2/ Be aggressive about summarizing. After solving something, ask Claude to compress the conversation into key points.\n\n3/ Work in smaller, focused sessions. Marathon sessions = context soup.\n\n4/ Reference specific file paths instead of saying \"that file we discussed\"\n\nThe latest updates seem to be improving this, but it's still the main friction point for me.\n\nAnyone else found tricks that work? Or am I overcomplicating this?",
+    "linkedin": "I've been using Claude Code for a few months now.\n\nAnd honestly? The biggest challenge hasn't been the AI's capabilities.\n\nIt's been **managing the context window.**\n\nHere's what keeps happening:\n\nYou're deep into a debugging session. Claude understands your codebase, your patterns, your preferences. Everything is clicking.\n\nThen you hit the limit.\n\nFresh context. Back to square one. Re-explaining your architecture. Re-sharing the relevant files. Watching Claude make suggestions you already tried 20 minutes ago.\n\nIt's like having a brilliant pair programmer who gets amnesia every 45 minutes.\n\n**What's been working for me:**\n\n→ CLAUDE.md files with project context that persists across sessions\n→ Smaller, focused tasks instead of sprawling conversations\n→ Explicit summaries before I think I'm getting close to the limit\n→ Treating each session like onboarding a new developer\n\nThe latest updates seem to be improving this, but I'm curious what others are doing.\n\n**What's your strategy for managing context limits with AI coding tools?**"
+  },
+  "platforms": [
+    "twitter",
+    "linkedin"
+  ],
+  "id": "post_1766860159557",
+  "timestamp": "2025-12-27T18:29:19.557Z",
+  "status": "published",
+  "updatedAt": "2025-12-27T18:29:27.126Z",
+  "published": {
+    "twitter": {
+      "success": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": [
+          {
+            "id": "2004982958974001154",
+            "url": "https://twitter.com/sanchit_verse/status/2004982958974001154",
+            "text": "Been wrestling with Claude Code for a few weeks now. The biggest pain point? Context window management.",
+            "position": 1
+          },
+          {
+            "id": "2004982960819503257",
+            "url": "https://twitter.com/sanchit_verse/status/2004982960819503257",
+            "text": "You're deep in a debugging session, everything's flowing, then suddenly Claude forgets the file structure you explained 10 minutes ago.",
+            "position": 2
+          },
+          {
+            "id": "2004982962631381014",
+            "url": "https://twitter.com/sanchit_verse/status/2004982962631381014",
+            "text": "It's like pair programming with someone who has selective amnesia.",
+            "position": 3
+          },
+          {
+            "id": "2004982964439179476",
+            "url": "https://twitter.com/sanchit_verse/status/2004982964439179476",
+            "text": "A few things that helped me:",
+            "position": 4
+          },
+          {
+            "id": "2004982966267814164",
+            "url": "https://twitter.com/sanchit_verse/status/2004982966267814164",
+            "text": "1/ Keep a CLAUDE.md file in your project root with key architecture decisions. Claude reads this automatically.",
+            "position": 5
+          },
+          {
+            "id": "2004982968197296183",
+            "url": "https://twitter.com/sanchit_verse/status/2004982968197296183",
+            "text": "2/ Be aggressive about summarizing. After solving something, ask Claude to compress the conversation into key points.",
+            "position": 6
+          },
+          {
+            "id": "2004982970332184903",
+            "url": "https://twitter.com/sanchit_verse/status/2004982970332184903",
+            "text": "3/ Work in smaller, focused sessions. Marathon sessions = context soup.",
+            "position": 7
+          },
+          {
+            "id": "2004982972156706845",
+            "url": "https://twitter.com/sanchit_verse/status/2004982972156706845",
+            "text": "4/ Reference specific file paths instead of saying \"that file we discussed\"",
+            "position": 8
+          },
+          {
+            "id": "2004982974023111070",
+            "url": "https://twitter.com/sanchit_verse/status/2004982974023111070",
+            "text": "The latest updates seem to be improving this, but it's still the main friction point for me.",
+            "position": 9
+          },
+          {
+            "id": "2004982975889637555",
+            "url": "https://twitter.com/sanchit_verse/status/2004982975889637555",
+            "text": "Anyone else found tricks that work? Or am I overcomplicating this?",
+            "position": 10
+          }
+        ],
+        "threadUrl": "https://twitter.com/sanchit_verse/status/2004982958974001154"
+      },
+      "publishedAt": "2025-12-27T18:29:27.126Z"
+    }
+  }
+}

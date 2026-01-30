@@ -1,0 +1,14 @@
+{
+  "noteId": "note_1766843593524",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest releases , they have improved a lot. TO manage the  the  window better, i had to  create multiple  sub agents and delegate task to them whihc i  think no w    claude  code is doing by iteself . that has ma help ed in managing the context window better in the sessions ,.",
+  "content": {
+    "twitter": "My biggest struggle with Claude Code? Context window management.\n\nSpent weeks building workarounds - creating sub-agents, delegating tasks between them, basically architecting my own memory system just to keep sessions from falling apart.\n\nThen the latest releases dropped.\n\nTurns out Claude Code now does this automatically. The thing I spent hours engineering? Built-in.\n\n3 things I noticed after the update:\n\n1/ Sessions stay coherent way longer\n2/ It handles task delegation on its own\n3/ Less \"wait, what were we doing?\" moments mid-project\n\nNot saying it's perfect. But the difference is noticeable.\n\nAnyone else been fighting context window issues? What workarounds did you build that are now obsolete?"
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1766843616621",
+  "timestamp": "2025-12-27T13:53:36.621Z",
+  "status": "draft",
+  "updatedAt": "2025-12-27T13:53:36.621Z"
+}

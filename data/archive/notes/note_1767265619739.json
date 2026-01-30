@@ -1,0 +1,10 @@
+{
+  "id": "note_1767265619739",
+  "timestamp": "2026-01-01T11:06:59.739Z",
+  "thought": "Spent weeks building custom sub-agents for Claude Code. They're collecting dust now.Auto-delegation just works—spins up research agents on its own, manages context automatically.One weird quirk though: Claude started dumping plans into random .md files I never asked for. Now it reads THOSE instead of my actual docs. Gotta type \"read from my docs\" every single time 😅",
+  "category": "tech",
+  "tags": [
+    "post"
+  ],
+  "linkedPostId": null
+}

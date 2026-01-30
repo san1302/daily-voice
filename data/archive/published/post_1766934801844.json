@@ -1,0 +1,39 @@
+{
+  "noteId": "note_1766934707256",
+  "thought": " nowadays, I feel that insurance policies are way too expensive than before policy. Bazar is too overrated.",
+  "content": {
+    "twitter": "[\"Insurance premiums up 40% in 3 years. Called my insurer directly last week—got a renewal quote 12% lower than PolicyBazaar showed. Same policy. Same coverage. Different price.\", \"PolicyBazaar earns commission on every sale. Their 'best recommendations' = whoever pays them the highest cut. You're not the customer. You're the product.\", \"Anyone else tried calling insurers directly? What'd you find?\"]"
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1766934801844",
+  "timestamp": "2025-12-28T15:13:21.844Z",
+  "status": "published",
+  "updatedAt": "2025-12-28T15:13:41.221Z",
+  "published": {
+    "twitter": {
+      "success": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": [
+          {
+            "id": "2005296089390522412",
+            "url": "https://twitter.com/sanchit_verse/status/2005296089390522412",
+            "text": "[\"Insurance premiums up 40% in 3 years. Called my insurer directly last week—got a renewal quote 12% lower than PolicyBazaar showed. Same policy. Same coverage. Different price.\", \"PolicyBazaar earns commission on every sale.",
+            "position": 1
+          },
+          {
+            "id": "2005296098148270495",
+            "url": "https://twitter.com/sanchit_verse/status/2005296098148270495",
+            "text": "Their 'best recommendations' = whoever pays them the highest cut. You're not the customer. You're the product.\", \"Anyone else tried calling insurers directly? What'd you find?\"]",
+            "position": 2
+          }
+        ],
+        "threadUrl": "https://twitter.com/sanchit_verse/status/2005296089390522412"
+      },
+      "publishedAt": "2025-12-28T15:13:41.221Z"
+    }
+  }
+}

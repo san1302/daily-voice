@@ -1,0 +1,35 @@
+{
+  "noteId": "note_1766862170076",
+  "thought": "am not sure but the biggest hurdle that i have been facing with Claude code was managing context window. I think in latest releases , they have improved a lot. TO manage the  the  window better, i had to  create multiple  sub agents and delegate task to them whihc i  think no w    claude  code is doing by iteself . that has ma help ed in managing the context window better in the sessions ,.",
+  "content": {
+    "twitter": [
+      "Context window management was my biggest pain point with Claude Code. I'd hit the limit mid-task and watch my AI forget everything we'd discussed. Frustrating as hell.",
+      "My workaround? I built a whole system of sub-agents. Delegated chunks of work to separate contexts, then stitched results together manually. It worked, but felt like I was fighting the tool instead of using it.",
+      "Then something shifted. Recent Claude Code updates seem to handle this automatically now. The tool creates its own sub-agents, manages context internally, delegates without me micromanaging every token.",
+      "Sessions feel longer. More coherent. Less \"wait, what were we building again?\" moments. Still not sure if it's perfect, but the improvement is noticeable.",
+      "Anyone else notice this? Or am I just imagining things because I stopped overloading single sessions?"
+    ]
+  },
+  "platforms": [
+    "twitter"
+  ],
+  "id": "post_1766862186371",
+  "timestamp": "2025-12-27T19:03:06.371Z",
+  "status": "draft",
+  "updatedAt": "2025-12-27T19:03:47.875Z",
+  "partialPublish": {
+    "twitter": {
+      "success": false,
+      "partial": true,
+      "platform": "twitter",
+      "type": "thread",
+      "data": {
+        "tweets": []
+      },
+      "error": "Thread failed at tweet 1 of 5.\nSuccessfully posted: 0 tweet(s).\nError: Request failed with code 429\n\nThe 0 published tweet(s) will remain on Twitter. You can manually delete them or continue the thread.",
+      "failedAt": 1,
+      "totalTweets": 5,
+      "publishedAt": "2025-12-27T19:03:47.875Z"
+    }
+  }
+}

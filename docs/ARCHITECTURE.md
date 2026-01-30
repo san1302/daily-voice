@@ -96,22 +96,23 @@ Sources → Discovery Engine → Ranked Digest → User Selection
                    Learning Tracker (feeds back to ranking)
 ```
 
-## MVP Scope (Phase 1)
+## Current Implementation
 
-**Simplified version for initial build:**
-- Single discovery source (HackerNews)
-- Manual topic selection from digest
-- Basic note capture (text input)
-- AI-assisted post generation
-- Manual posting (copy-paste)
-- Simple tracking (what picked, what posted)
+**What's Working:**
+- Multi-source discovery (7 sources: HackerNews, Dev.to, GitHub, Lobsters, Hashnode, FreeCodeCamp, Daily.dev)
+- Interactive topic selection from digest
+- Note capture with categorization
+- AI-assisted post generation (Claude API)
+- Humanization system (avoids AI detection)
+- Fact-checking (validates claims before posting)
+- Twitter publishing (automated - single tweets and threads)
+- Draft management (save, edit, publish later)
 
-**NOT in MVP:**
-- Auto-posting
-- Multiple sources
-- Advanced learning algorithm
+**Coming Soon:**
+- LinkedIn publishing
+- Mobile app (PWA)
 - Engagement tracking
-- Category filtering
+- Scheduled posting
 
 ## Future Enhancements
 - Voice note capture for thoughts

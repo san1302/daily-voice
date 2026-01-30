@@ -1,0 +1,10 @@
+{
+  "id": "note_1767264650112",
+  "timestamp": "2026-01-01T10:50:50.112Z",
+  "thought": "[\"Claude Code's auto-delegation is legit. Ask for something complex, it spins up research or plan sub-agents automatically. My custom sub-agents are collecting dust now.\", \"Context window management is what sells it. Claude decides when to delegate vs handle directly, keeps the main context clean. Opus 4.5 made this smoother—fewer tokens, longer sessions.\", \"One quirk: Claude started dumping plans into random .md files I never asked for. Now it reads those instead of my actual docs. Gotta type \\\"read from my docs\\\" every time 😅\", \"Still the best terminal coding experience I've had. Anyone else finding auto-delegation kills the need for custom setups?\"]",
+  "category": "tech",
+  "tags": [
+    "post"
+  ],
+  "linkedPostId": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "note_1766557217835",
+  "timestamp": "2025-12-24T06:20:17.835Z",
+  "thought": "React Server Components are overhyped. They only make sense for content-heavy sites.",
+  "category": "tech",
+  "tags": [
+    "react",
+    "opinion",
+    "ssr"
+  ],
+  "linkedPostId": null
+}
