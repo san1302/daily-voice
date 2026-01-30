@@ -15,6 +15,7 @@ import Anthropic from '@anthropic-ai/sdk';
 import { getTemplatesAsInspiration, getPlatformGuidelines } from './templates.js';
 import { getHumanizationPrompt, validateHumanFeel } from './humanize.js';
 import { getHistory } from './storage.js';
+import { optimizeThread } from './thread-optimizer.js';
 
 // Initialize Claude API client
 let anthropic;
@@ -217,30 +218,21 @@ async function generateForPlatform(thought, platform, options = {}) {
     // Extract content
     let rawContent = response.content[0].text.trim();
 
-    // For Twitter: Try to parse as JSON array (thread format)
+    // For Twitter: Use thread optimizer to parse and validate
     let content;
     let isThread = false;
+    let optimizationMetadata = {};
 
     if (platform === 'twitter') {
-      // Check if Claude returned a JSON array for a thread
-      if (rawContent.startsWith('[') && rawContent.endsWith(']')) {
-        try {
-          const parsedContent = JSON.parse(rawContent);
-          if (Array.isArray(parsedContent) && parsedContent.every(t => typeof t === 'string')) {
-            content = parsedContent; // It's a thread array
-            isThread = true;
-          } else {
-            // Malformed JSON, fall back to string
-            content = rawContent;
-          }
-        } catch (error) {
-          // JSON parse failed, treat as single tweet string
-          content = rawContent;
-        }
-      } else {
-        // Single tweet (string format)
-        content = rawContent;
-      }
+      const optimized = optimizeThread(rawContent, {
+        minTweetLength: 100,
+        maxTweetLength: 280,
+        autoCompress: true
+      });
+      
+      content = optimized.content;
+      isThread = optimized.isThread;
+      optimizationMetadata = optimized.metadata;
     } else {
       // LinkedIn always uses string format
       content = rawContent;
@@ -254,11 +246,12 @@ async function generateForPlatform(thought, platform, options = {}) {
     return {
       content,
       validation,
-      isThread, // NEW: Flag to indicate if it's a thread
+      isThread,
       metadata: {
         model: response.model,
         usage: response.usage,
-        tweetCount: isThread ? content.length : 1 // NEW: Track thread length
+        tweetCount: isThread ? content.length : 1,
+        optimization: optimizationMetadata // Include optimization details
       }
     };
   } catch (error) {
@@ -331,6 +324,18 @@ export async function refinePost(draft, feedback, platform, options = {}) {
   const systemPrompt = await buildSystemPrompt(platform);
   const humanizationRules = getHumanizationPrompt(platform);
 
+  // Detect if the input draft is a thread (JSON array)
+  const isThreadDraft = Array.isArray(draft) ||
+    (typeof draft === 'string' && draft.trim().startsWith('[') && draft.trim().endsWith(']'));
+
+  // Add format instruction for Twitter threads
+  const formatInstruction = isThreadDraft && platform === 'twitter'
+    ? `\n\nIMPORTANT FORMAT REQUIREMENT: The draft is a Twitter thread (JSON array of tweets). You MUST return your revision in the EXACT same format as a JSON array:
+["revised tweet 1", "revised tweet 2", ...]
+
+Do NOT return plain text with paragraph breaks. Return a valid JSON array of tweet strings.`
+    : '';
+
   const userPrompt = `Here is the current draft:
 
 "${draft}"
@@ -341,7 +346,7 @@ Revise the post based on this feedback while:
 1. Maintaining the human feel (no AI tells)
 2. Keeping the core message
 3. Following platform guidelines
-4. Staying true to the user's voice
+4. Staying true to the user's voice${formatInstruction}
 
 ${humanizationRules}
 
@@ -361,16 +366,42 @@ Return ONLY the revised post, no explanations.`;
       ]
     });
 
-    const content = response.content[0].text.trim();
-    const validation = validateHumanFeel(content, platform);
+    const refinedContent = response.content[0].text.trim();
+
+    // For Twitter: Use thread optimizer to parse and validate
+    let content;
+    let isThread = false;
+    let optimizationMetadata = {};
+
+    if (platform === 'twitter') {
+      const optimized = optimizeThread(refinedContent, {
+        minTweetLength: 100,
+        maxTweetLength: 280,
+        autoCompress: true
+      });
+      
+      content = optimized.content;
+      isThread = optimized.isThread;
+      optimizationMetadata = optimized.metadata;
+    } else {
+      // LinkedIn always uses string format
+      content = refinedContent;
+    }
+
+    const validation = validateHumanFeel(
+      Array.isArray(content) ? content.join(' ') : content,
+      platform
+    );
 
     return {
       content,
+      isThread,
       validation,
       metadata: {
         model: response.model,
         usage: response.usage,
-        refinedFrom: draft
+        refinedFrom: draft,
+        optimization: optimizationMetadata
       }
     };
   } catch (error) {
