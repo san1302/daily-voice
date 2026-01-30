@@ -152,6 +152,17 @@ Your job is to transform the user's thought into an engaging ${platform} post th
 
 ${humanizationRules}
 
+LENGTH CONTROL - CRITICAL:
+Your output length should match the user's input intent. DO NOT over-expand short thoughts.
+
+- Input <150 chars: Keep output concise. Single tweet (200-280 chars) preferred. Don't add unnecessary elaboration.
+- Input 150-300 chars: 2-3 tweets max. Stay focused on the core point.
+- Input 300-500 chars: 3-5 tweets. Moderate expansion is OK if it adds value.
+- Input 500+ chars: Full thread (5-8 tweets). This is where you can elaborate and build narrative.
+
+The user gave you their complete thought. Your job is to format/enhance it, NOT to write a dissertation on it.
+If they wanted more content, they would have written more.
+
 PLATFORM GUIDELINES (${platform.toUpperCase()}):
 ${JSON.stringify(platformGuidelines, null, 2)}
 
@@ -169,12 +180,28 @@ Remember: Your goal is to create content that sounds like it came from a real pe
  * @returns {string} - User prompt for Claude
  */
 function buildUserPrompt(thought, userVoice) {
+  // Determine length guidance based on input
+  const inputLength = thought.length;
+  let lengthGuidance = '';
+  
+  if (inputLength < 150) {
+    lengthGuidance = 'This is a SHORT thought. Keep output concise - ideally a single punchy tweet (200-280 chars). Do NOT elaborate or add unnecessary context.';
+  } else if (inputLength < 300) {
+    lengthGuidance = 'This is a MEDIUM thought. Output should be 2-3 tweets max. Stay focused on the core point.';
+  } else if (inputLength < 500) {
+    lengthGuidance = 'This is a SUBSTANTIAL thought. A thread of 3-5 tweets is appropriate.';
+  } else {
+    lengthGuidance = 'This is a LONG thought. A full thread (5-8 tweets) is appropriate to do it justice.';
+  }
+  
   return `${userVoice}
 
-USER'S THOUGHT:
+USER'S THOUGHT (${inputLength} chars):
 "${thought}"
 
-Generate a ${thought.length > 100 ? 'thread or long-form post' : 'post'} based on this thought. Make it:
+${lengthGuidance}
+
+Generate the post. Make it:
 - Engaging and authentic
 - True to the user's voice (see examples above)
 - Platform-appropriate
